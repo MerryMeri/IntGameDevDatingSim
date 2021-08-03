@@ -6,30 +6,41 @@ public class TextController : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public string dialogueText;
+    string dialogueText;
     public TextBehavior dialogue;
+    public TextImport script;
     bool isActivated;
+    List<string> splitScript;
+    int index;
     void Start()
     {
         isActivated = false;
+        splitScript = script.splitScript;
+        index = 0;
+        dialogueText = splitScript[index];
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)){
-            if (isActivated == false) {
+        if (isActivated == false) {
                 isActivated = !isActivated;
                 dialogue.Show(dialogueText);
-            }
-            else {
-                if (dialogue.isAtEnd() == true){
-                    isActivated = !isActivated;
-                    dialogue.Close();
+        }
+        if (Input.GetMouseButtonDown(0)){
+            if (dialogue.isAtEnd() == true){
+                isActivated = !isActivated;
+                dialogue.Close();
+                if (index != splitScript.Count - 1) {
+                    index += 1;
+                    dialogueText = splitScript[index];
                 }
                 else {
-                    dialogue.SpeedUp();
+                    dialogueText = "The End.";
                 }
+            }
+            else {
+                dialogue.SpeedUp();
             }
         }
     }
