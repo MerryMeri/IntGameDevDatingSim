@@ -27,7 +27,7 @@ public class TextController : MonoBehaviour
                 isActivated = !isActivated;
                 dialogue.Show(dialogueText);
         }
-        if (Input.GetMouseButtonDown(0)){
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown("space")){
             if (dialogue.isAtEnd() == true){
                 isActivated = !isActivated;
                 dialogue.Close();
