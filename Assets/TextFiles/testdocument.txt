@@ -1,0 +1,6 @@
+Meri:Hi there!
+JD:How are you?
+Oldie:I hope you're doing well.
+Berry:Me too!
+Meri:This is a test to see if the sprite disappears.
+Glazed:Get ready for class!
