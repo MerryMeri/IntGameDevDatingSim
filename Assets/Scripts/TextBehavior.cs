@@ -5,6 +5,7 @@ using TMPro;
 
 public class TextBehavior : MonoBehaviour
 {
+    public TMP_Text displayName;
     public TMP_Text text;
     private string currentText;
     float timeBetweenChars = 0.02f;
@@ -17,9 +18,15 @@ public class TextBehavior : MonoBehaviour
         color2.a = 0f;
         text.color = color2;
     }
-    public void Show(string newText){
+    public void Show(string newText, string newName){
         currentText = newText;
         text.color = color1;
+        if (newName == "None"){
+            displayName.text = "";
+        }
+        else {
+            displayName.text = newName;
+        }
         StartCoroutine(displayText());
     }
     public void Close(){
