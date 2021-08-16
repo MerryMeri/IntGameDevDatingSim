@@ -1,6 +1,29 @@
-Meri:Hi there!
-JD:How are you?
-Oldie:I hope you're doing well.
-Berry:Me too!
-Meri:This is a test to see if the sprite disappears.
-Glazed:Get ready for class!
+Glazed:Alright, settle down.
+Glazed:We have a new transfer student joining the class today.
+Glazed:They’ll need a research partner for the studies you’ll be conducting this semester.
+Glazed:Does anyone not have a partner yet?
+JD:...
+Glazed:Oh! 
+Glazed:Jelly Donut, you don’t have a partner yet do you?
+JD:...No.
+Glazed:So you can pair up with [name]!
+Glazed:Okay then, let’s get started.
+JD:...
+[name]:...
+JD:...
+JD:Hey.
+decisionBranch
+Who are you?
+Hi, I'm [name]!
+endDecision
+startBranch1
+JD:I’m J.D.
+backToMain
+startBranch2
+JD:I know. The professor just said that.
+JD:I’m J.D.
+backToMain
+mainContinue
+JD:So you’re a transfer student?
+JD:That’s nice.
+JD:...

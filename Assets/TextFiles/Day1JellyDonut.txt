@@ -1,0 +1,80 @@
+Glazed:Alright, settle down.
+Glazed:We have a new transfer student joining the class today.
+Glazed:They’ll need a research partner for the studies you’ll be conducting this semester.
+Glazed:Does anyone not have a partner yet?
+JD:...
+Glazed:Oh! 
+Glazed:Jelly Donut, you don’t have a partner yet do you?
+JD:...No.
+Glazed:So you can pair up with [name]!
+Glazed:Okay then, let’s get started.
+JD:...
+[name]:...
+JD:...
+JD:Hey.
+decisionBranch
+Who are you?
+Hi, I'm [name]!
+endDecision
+startBranch1
+JD:I’m J.D.
+backToMain
+startBranch2
+JD:I know. The professor just said that.
+JD:I’m J.D.
+backToMain
+mainContinue
+JD:So you’re a transfer student?
+JD:That’s nice.
+JD:...
+decisionBranch
+Are you a Psychology major?
+Are you excited about the class?
+endDecision
+startBranch1
+JD:Not exactly.
+JD:I’m studying Social Sciences.
+backToMain
+startBranch2
+JD:Yeah I guess.
+backToMain
+mainContinue
+JD:I chose this class because we get to conduct a qualitative research study as our final. 
+decisionBranch
+Interesting.
+Qualitative Research?
+endDecision
+startBranch1
+JD:Yeah.
+backToMain
+startBranch2
+JD:It’s a form of research design that collects non-numerical data.
+JD:Like interview responses or observations of participants' experiences. 
+JD:It’s very useful for investigating donuts’ attitudes and behaviors in human terms, because participants get to describe their experiences as opposed to being represented only by quantifiable demographics and statistics. 
+backToMain
+mainContinue
+JD:Qualitative research doesn’t tend to get the respect it deserves in the scientific community. 
+JD:Donuts are so intent on obtaining unbiased and definitive results.
+JD:“Yes the hypothesis is true,” or “No, it isn’t.”
+JD:Some think the process of using participants' own accounts leaves too much possibility for results to vary or be inconsistent, because of all the factors that impact how donuts will respond to interview questions differently under different circumstances.
+JD:Even among researchers that specialize in qualitative studies, practicing emotional distance between researcher and participant, so as to avoid altering the results of the study, is common.
+JD:But if you’re studying donuts, or for the purpose of benefiting donuts, which is very often the case, the idea of maintaining such a psychological distance from your research and participants just seems illogical to me.
+JD:I mean, if you’re treating your interviewees as data points, that lack of compassion will be just as likely to produce biased results as treating them like donuts.
+JD:I don’t know, that’s what I think at least.
+JD:But what do you care? 
+JD:This is just an intro class. 
+JD:You’re probably dying for me to shut up. 
+decisionBranch
+You make an interesting point.
+You’re surprisingly talkative.
+endDecision
+startBranch1
+JD:...
+backToMain
+startBranch2
+JD:O.K...
+backToMain
+mainContinue
+JD:Forget it.
+JD:Let’s just get this over with.
+(After class, I headed off to work.)

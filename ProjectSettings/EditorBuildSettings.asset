@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/StartScene.unity
+    path: Assets/Scenes/StartScene.unity
     guid: abdf74de5e9030c4c8eca10088572cbf
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Day 1 Test.unity
+    path: Assets/Scenes/Day 1 Jelly Donut.unity
     guid: 6a97d6c88904bb940b3ddb9cba4c588a
   m_configObjects: {}
