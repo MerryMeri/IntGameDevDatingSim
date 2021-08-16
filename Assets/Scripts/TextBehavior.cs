@@ -2,13 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class TextBehavior : MonoBehaviour
 {
     public TMP_Text displayName;
     public TMP_Text text;
+    public Sprite boxWithName;
+    public Sprite monologueBox;
+    public TMP_FontAsset nonItalics;
+    public TMP_FontAsset withItalics;
     private string currentText;
     float timeBetweenChars = 0.02f;
+    Image textbox;
     Color color1 = Color.white;
     Color color2 = Color.white;
     int alphaIndex = 0;
@@ -17,15 +23,20 @@ public class TextBehavior : MonoBehaviour
     {
         color2.a = 0f;
         text.color = color2;
+        textbox = gameObject.GetComponent<Image>();
     }
     public void Show(string newText, string newName){
         currentText = newText;
         text.color = color1;
         if (newName == "None"){
             displayName.text = "";
+            textbox.sprite = monologueBox;
+            text.font = withItalics;
         }
         else {
             displayName.text = newName;
+            textbox.sprite = boxWithName;
+            text.font = nonItalics;
         }
         StartCoroutine(displayText());
     }

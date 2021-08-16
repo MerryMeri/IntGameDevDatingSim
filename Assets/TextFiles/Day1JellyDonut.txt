@@ -77,4 +77,4 @@ backToMain
 mainContinue
 JD:Forget it.
 JD:Let’s just get this over with.
-(After class, I headed off to work.)
+After class, I headed off to work.

@@ -1,0 +1,73 @@
+Okay, day one at the new job.
+I was so nervous I got here a little too early.
+Though I suppose being early is better than late.
+But I don’t know who’s supposed to be training me.
+I guess I can just stand here awkwardly until they find me like a lost puppy.
+That’s probably a terrible impression to give off on my first day.
+I know!
+I’ll flag down one of the waiters and ask them for help!
+Okay, waiter, waiter...
+Where are all the waiters?!
+Come to think of it, there’s not really any customers here either.
+Maybe the employees are back in the kitchen area.
+I guess I could have a look.
+I walked over to the kitchen door and stuck my head inside.
+I hope this isn’t some kind of health code violation.
+[name]:Hello? Anyone here?
+[name]:...
+Alright, I’m goin’ in!
+[name]:Hi, is anyone here? 
+[name]:I’m the new employee.
+There’s no one back here either?
+Berry:Hello?
+Someone emerged from the walk-in freezer.
+Berry:Oh! 
+Berry:Hi, can I help you?
+[name]:Yeah, I just transferred over from another branch and I’m supposed to start training today.
+Berry:Oh you must be [name]!
+Berry:I’m Strawberry Sprinkled Donut, I’m the interim-manager.
+Berry:Nice to meet you!
+Berry:You used to be at the Batter County branch right?
+[name]:Yeah!
+[name]:I moved to be closer to school.
+Berry:Oh, you’re a student too?
+Berry:Where do you go?
+[name]:Fried Sweets University.
+Berry:No way!
+Berry:That’s where I go!
+[name]:Really?
+Berry:Yeah! 
+Berry:I’m getting a masters in education.
+[name]:On top of managing a restaurant...
+decisionBranch
+How do you have time?
+That’s really impressive!
+endDecision
+startBranch1
+Berry:Haha, it can be difficult at times but I get by!
+backToMain
+startBranch2
+Berry:Aw, you’re so sweet!
+Berry:Usually I don’t have too much hands-on work from day to day, but it’s been a bit tough lately.
+backToMain
+mainContinue
+Berry:We lost a couple of employees and the owner’s been kind of hard to get a hold of lately.
+Berry:Planning some other business venture I think.
+Berry:Since we’re low on staff right now, I've been taking care of pretty much everything myself.
+Berry:But now that you’re here it should make things easier.
+decisionBranch
+I’ll do my best!
+If I must.
+endDecision
+startBranch1
+Berry:That’s the spirit!
+Berry:I’ve got a good feeling about you [name].
+backToMain
+startBranch2
+Berry:Come on!
+Berry:That’s no attitude to have on your first day.
+backToMain
+mainContinue
+Berry:Alright, I’ll show you the ropes.
+Strawberry Sprinkled Donut trained me how to run the restaurant.
+After work, I went back to my apartment to finish moving in.
