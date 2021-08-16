@@ -33,81 +33,81 @@ EditorBuildSettings:
     path: Assets/Scenes/Day 2 Old Fashioned Donut.unity
     guid: cbecd6c79cdcc4746bd1785486714a70
   - enabled: 1
-    path: Assets/Day 3 Choice.unity
+    path: Assets/Scenes/Day 3 Choice.unity
     guid: df79d0730f5ec7945b43410e530595e1
   - enabled: 1
-    path: Assets/Day 3 Jelly Donut.unity
+    path: Assets/Scenes/Day 3 Jelly Donut.unity
     guid: ae6a975aadc17504187060b63bedc252
   - enabled: 1
-    path: Assets/Day 3 Strawberry Sprinkled Donut.unity
+    path: Assets/Scenes/Day 3 Strawberry Sprinkled Donut.unity
     guid: 2c222c5fc2541b343b644ba7e081f7c6
   - enabled: 1
-    path: Assets/Day 3 Old Fashioned Donut.unity
+    path: Assets/Scenes/Day 3 Old Fashioned Donut.unity
     guid: ebb6456770fd26c4e93dd5aca4fd836d
   - enabled: 1
-    path: Assets/Day 4 Choice.unity
+    path: Assets/Scenes/Day 4 Choice.unity
     guid: 9108871bc800bb04f8c12c095e4f952b
   - enabled: 1
-    path: Assets/Day 4 Jelly Donut.unity
+    path: Assets/Scenes/Day 4 Jelly Donut.unity
     guid: 7a36194e75d0ce740be2df8677920af0
   - enabled: 1
-    path: Assets/Day 4 Strawberry Sprinkled Donut.unity
+    path: Assets/Scenes/Day 4 Strawberry Sprinkled Donut.unity
     guid: 265e6ba89138d0242a4b73f7240e06f1
   - enabled: 1
-    path: Assets/Day 4 Old Fashioned Donut.unity
+    path: Assets/Scenes/Day 4 Old Fashioned Donut.unity
     guid: f29c2b0dd81751844a9f88a09405319d
   - enabled: 1
-    path: Assets/Day 5 Choice.unity
+    path: Assets/Scenes/Day 5 Choice.unity
     guid: d0e5f7c264c794a4bb5849fe69c9c2b8
   - enabled: 1
-    path: Assets/Day 5 Jelly Donut.unity
+    path: Assets/Scenes/Day 5 Jelly Donut.unity
     guid: a633c975f4ab6e24d9a0a7af730ead84
   - enabled: 1
-    path: Assets/Day 5 Strawberry Sprinkled Donut.unity
+    path: Assets/Scenes/Day 5 Strawberry Sprinkled Donut.unity
     guid: d7fa2c32a8ff45f418ba53c7cce1b29d
   - enabled: 1
-    path: Assets/Day 5 Old Fashioned Donut.unity
+    path: Assets/Scenes/Day 5 Old Fashioned Donut.unity
     guid: f1e0fb61bfbd6794ba608560d303d1a1
   - enabled: 1
-    path: Assets/Day 6 Choice.unity
+    path: Assets/Scenes/Day 6 Choice.unity
     guid: a535811cf5b4944449818d26e6730db5
   - enabled: 1
-    path: Assets/Day 6 Jelly Donut Berry Version.unity
+    path: Assets/Scenes/Day 6 Jelly Donut Berry Version.unity
     guid: cf3c1e427b47f9046af031ccabf5e020
   - enabled: 1
-    path: Assets/Day 6 Jelly Donut Oldie Version.unity
+    path: Assets/Scenes/Day 6 Jelly Donut Oldie Version.unity
     guid: 05a3d1bff92a78c43b9eaecb57272eb6
   - enabled: 1
-    path: Assets/Day 6 Strawberry Donut JD Version.unity
+    path: Assets/Scenes/Day 6 Strawberry Donut JD Version.unity
     guid: 10d67c46c8f36314ea626c5b2a3adbb6
   - enabled: 1
-    path: Assets/Day 6 Strawberry Donut Oldie Version.unity
+    path: Assets/Scenes/Day 6 Strawberry Donut Oldie Version.unity
     guid: 7183e2152d3263549b15e070cfd23838
   - enabled: 1
-    path: Assets/Day 6 Old Donut JD Version.unity
+    path: Assets/Scenes/Day 6 Old Donut JD Version.unity
     guid: 95643ef1c3e1ed445ae547238683fc3e
   - enabled: 1
-    path: Assets/Day 6 Old Donut Berry Version.unity
+    path: Assets/Scenes/Day 6 Old Donut Berry Version.unity
     guid: bf9e97cceb6c64b469425465d0e704af
   - enabled: 1
-    path: Assets/Day 7 Choice.unity
+    path: Assets/Scenes/Day 7 Choice.unity
     guid: b18c3d20840b5a647a7ed3313d821a9e
   - enabled: 1
-    path: Assets/Day 7 Jelly Donut.unity
+    path: Assets/Scenes/Day 7 Jelly Donut.unity
     guid: 806ba86c389254a4e89bd40fed09a211
   - enabled: 1
-    path: Assets/Day 7 Strawberry Sprinkled Donut.unity
+    path: Assets/Scenes/Day 7 Strawberry Sprinkled Donut.unity
     guid: d744ed63f31bb674a9472b757bc0f56e
   - enabled: 1
-    path: Assets/Day 7 Old Fashioned Donut.unity
+    path: Assets/Scenes/Day 7 Old Fashioned Donut.unity
     guid: ae2e752a33284bd4b8bdadfd5f6f3a43
   - enabled: 1
-    path: Assets/Win Scene Jelly Donut.unity
+    path: Assets/Scenes/Win Scene Jelly Donut.unity
     guid: 64e148c051f2ed24a9e22d9758443ea6
   - enabled: 1
-    path: Assets/Win Scene Strawberry Sprinkled Donut.unity
+    path: Assets/Scenes/Win Scene Strawberry Sprinkled Donut.unity
     guid: 1e78d8ff2173c3243a34d456c380c621
   - enabled: 1
-    path: Assets/Win Scene Old Fashioned Donut.unity
+    path: Assets/Scenes/Win Scene Old Fashioned Donut.unity
     guid: 77c9061acbc619b4bb7d0840c40a040f
   m_configObjects: {}
