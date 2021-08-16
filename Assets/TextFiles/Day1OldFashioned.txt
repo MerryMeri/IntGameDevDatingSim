@@ -1,0 +1,121 @@
+Uggh.
+So many boxes.
+Why did I bring so many boxes?
+I should’ve asked someone for help.
+Okay, a few more steps.
+This is fine.
+Oh god I’m dropping it.
+No, I got this!
+I can make it!
+[name]:Oops.
+The box I was carrying slipped out of my grasp and began tumbling down the stairs behind me. (*reuse metal clattering sound effect that we have*)
+The box finally crashed into the door at the bottom of the stairs and I ran down after it.
+Oh god that was so loud.
+I hope no one was home.
+As I clammered to collect the scattered contents of the box, the apartment door in front of me opened.
+???:What is going on?!
+???:I’m trying to work.
+This is my nightmare.
+[name]:Ah, hi!
+[name]:I’m so sorry.
+[name]:I was just trying to move in and the box just kind of slipped out of my hand.
+???:Oh.
+???:Well okay then.
+[name]:Sorry to bother you.
+[name]I’ll be more careful.
+???:Do you have a lot left to carry?
+[name]:Huh?
+[name]:Oh, um, a bit.
+???:I’ll help you.
+decisionBranch
+That’s not necessary.
+Wow, really?
+endDecision
+startBranch1
+[name]:I wouldn’t want you to interrupt your work anymore.
+[name]:I can handle it.
+???:It’s fine, I’m not on the clock or anything.
+???:Besides, if you just keep dropping things outside the door I don’t know how much I’d be able to focus anyway.
+???:This is less work for both of us.
+[name]:Ah.
+[name]:You know, I’m not incompetent.
+[name]:It was really just an accident.
+???:I don’t think that.
+???:I just think you’re making extra work for yourself.
+[name]:How so?
+backToMain
+startBranch2
+[name]:That’s so nice of you.
+[name]:I was just thinking that I wished I had asked someone to help me.
+[name]:But I know what a pain it is to move, and I didn’t want to subject any of my friends to that so-
+backToMain
+mainContinue
+The stranger went back into their apartment without saying anything and closed the door.
+[name]:Um...
+The stranger suddenly poked their head out of the door.
+???:Wait here for a second.
+The stranger went back into their apartment, and came out a second later holding a bunch of fabric belts.
+[name]:What’re those?
+???:Just watch.
+The stranger took two of the belts and laid them on the floor parallel to each other.
+Then they picked up the box and placed it on top of the belts.
+They picked up both ends of the belts in each hand, and lifted the box using the belts like it was nothing.
+[name]:Oh, cool!
+???:These are moving straps.
+???:See?
+???:Work smart, not hard.
+[name]:Yeah okay...
+[name]:Thanks for your help.
+[name]:Um, sorry, what’s your name?
+Oldie:Oh, I’m Old Fashioned Donut, but everyone just calls me Oldie.
+[name]:Nice to meet you.
+Oldie:Okay, let’s go get the rest of your boxes.
+[name]:Right.
+Oldie:Are you a student?
+[name]:Ah, yeah!
+[name]:How’d you know?
+Oldie:Your shirt says “Fried Sweets University”.
+[name]:Oh yeah, I forgot.
+[name]:Are you a student too?
+Oldie:Not anymore.
+Oldie:But I went to the same school you’re going to.
+[name]:Oh really?
+[name]:I thought we might be around the same age.
+Oldie:We probably are, I just graduated early.
+[name]:Ah, cool.
+[name]:So you work now?
+Oldie:Yeah, I’m a freelance writer for magazines and things like that.
+Oldie:I write novels too.
+decisionBranch
+Impressive!
+That’s nice.
+endDecision
+startBranch1
+[name]:Fresh out of college and you’re already being published?
+[name]:That’s awesome.
+Oldie:I’m not especially talented.
+Oldie:I just work hard.
+backToMain
+startBranch2
+Oldie:Yeah, it is.
+Oldie:I like getting to see the end product of my work.
+backToMain
+mainContinue
+Oldie:I could let you read something of mine some time.
+Oldie:If you’re interested.
+decisionBranch
+Sure, that’d be great!
+Eh, maybe.
+endDecision
+startBranch1
+Oldie:Oh, okay.
+Oldie:Next time I see you then.
+backToMain
+startBranch2
+Oldie:If you’re not interested you don’t have to.
+backToMain
+mainContinue
+Oldie:I think that’s the last box.
+[name]:I can take it from here.
+[name]:Thanks.
+I said goodbye to Old Fashioned Donut, and went into my apartment to unpack.

@@ -14,14 +14,15 @@ public class TextController : MonoBehaviour
     public Sprite Oldie;
     public Sprite Berry;
     public Sprite Glazed;
+    public Sprite Mystery;
     public int nextScene;
     string dialogueText;
     string currentName;
     public TextBehavior dialogue;
     public TextImport script;
-    public Button decisionButton1;
-    public Button decisionButton2;
-    public Button decisionButton3;
+    public GameObject decisionButton1;
+    public GameObject decisionButton2;
+    public GameObject decisionButton3;
     bool isDecisionHappening;
     bool isActivated;
     List<string> splitScript;
@@ -33,9 +34,9 @@ public class TextController : MonoBehaviour
         splitScript = script.splitScript;
         index = 0;
         dialogueText = ProcessDialogue(splitScript[index]);
-        decisionButton1.interactable = false;
-        decisionButton2.interactable = false;
-        decisionButton3.interactable = false;
+        decisionButton1.SetActive(false);
+        decisionButton2.SetActive(false);
+        decisionButton3.SetActive(false);
         isDecisionHappening = false;
     }
 
@@ -129,7 +130,10 @@ public class TextController : MonoBehaviour
                 else if (currentName == "Glazed") {
                     currentDonut.sprite = Glazed;
                 }
-                else {
+                else if (currentName == "???") {
+                    currentDonut.sprite = Mystery;
+                }
+                else if (currentName != PlayerPrefs.GetString("playerName")) {
                     currentDonut.sprite = null;
                 }
             }
@@ -142,64 +146,41 @@ public class TextController : MonoBehaviour
 
     void MakeDecision(int decisionCount) {
         isDecisionHappening = true;
-        decisionButton1.interactable = true;
-        decisionButton2.interactable = true;
-        decisionButton1.onClick.AddListener(delegate {TaskOnClick1(decisionCount); });
-        decisionButton2.onClick.AddListener(delegate {TaskOnClick2(decisionCount); });
+        decisionButton1.SetActive(true);
+        decisionButton2.SetActive(true);
+        decisionButton1.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(delegate {TaskOnClick(decisionCount, 1); });
+        decisionButton2.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(delegate {TaskOnClick(decisionCount, 2); });
         if (decisionCount == 3) {
-            decisionButton3.interactable = true;
-            decisionButton3.onClick.AddListener(delegate {TaskOnClick3(decisionCount); });
+            decisionButton3.SetActive(true);
+            decisionButton3.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(delegate {TaskOnClick(decisionCount, 3); });
         }
     }
 
-    void TaskOnClick1(int decisionCount) {
+    void TaskOnClick(int decisionCount, int choice) {
         isDecisionHappening = false;
-        decisionButton1.interactable = false;
-        decisionButton2.interactable = false;
-        decisionButton1.onClick.RemoveAllListeners();
-        decisionButton2.onClick.RemoveAllListeners();
+        decisionButton1.GetComponent<UnityEngine.UI.Button>().onClick.RemoveAllListeners();
+        decisionButton2.GetComponent<UnityEngine.UI.Button>().onClick.RemoveAllListeners();
+        decisionButton1.SetActive(false);
+        decisionButton2.SetActive(false);
         if (decisionCount == 3) {
-            decisionButton3.interactable = false;
-            decisionButton3.onClick.RemoveAllListeners();
+            decisionButton3.GetComponent<UnityEngine.UI.Button>().onClick.RemoveAllListeners();
+            decisionButton3.SetActive(false);
         }
-        while (!splitScript[index].Contains("startBranch1")) {
-            index += 1;
+        if (choice == 1) {
+            while (!splitScript[index].Contains("startBranch1")) {
+                index += 1;
+            }
+        } else if (choice == 2) {
+            while (!splitScript[index].Contains("startBranch2")) {
+                index += 1;
+            }
+        }
+        else {
+            while (!splitScript[index].Contains("startBranch3")) {
+                index += 1;
+            }
         }
         index += 1;
         dialogueText = ProcessDialogue(splitScript[index]); 
-    }
-
-    void TaskOnClick2(int decisionCount) {
-        isDecisionHappening = false;
-        decisionButton1.interactable = false;
-        decisionButton2.interactable = false;
-        decisionButton1.onClick.RemoveAllListeners();
-        decisionButton2.onClick.RemoveAllListeners();
-        if (decisionCount == 3) {
-            decisionButton3.interactable = false;
-            decisionButton3.onClick.RemoveAllListeners();
-        }
-        while (!splitScript[index].Contains("startBranch2")) {
-            index += 1;
-        }
-        index += 1;
-        dialogueText = ProcessDialogue(splitScript[index]);
-    }
-
-    void TaskOnClick3(int decisionCount) {
-        isDecisionHappening = false;
-        decisionButton1.interactable = false;
-        decisionButton2.interactable = false;
-        decisionButton1.onClick.RemoveAllListeners();
-        decisionButton2.onClick.RemoveAllListeners();
-        if (decisionCount == 3) {
-            decisionButton3.interactable = false;
-            decisionButton3.onClick.RemoveAllListeners();
-        }
-        while (!splitScript[index].Contains("startBranch3")) {
-            index += 1;
-        }
-        index += 1;
-        dialogueText = ProcessDialogue(splitScript[index]);
     }
 }
