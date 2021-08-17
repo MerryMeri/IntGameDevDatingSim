@@ -1,0 +1,44 @@
+[name]:What are we doing here again?
+JD:Professor Glazed said we’re getting some kind of award for “distinguished achievement”. 
+JD:I’m not really sure what that means, especially because our study wasn’t actually published anywhere. 
+JD:But I figure we see whatever this is about and then go out for ice cream.
+[name]:Ooh yay!
+[name]:Sitting through boring ceremonies is a lot easier when you know there’ll be snacks after.
+Glazed:Hey you two!
+Glazed:Sorry to call you down here on a Saturday.
+Glazed:I just wanted to let you know that I absolutely loved your research paper!
+Glazed"Really great work!
+JD:Oh wow, thank you professor.
+decisionBranch
+It was all Jelly Donut.
+It was all me.
+endDecision
+startBranch1
+JD:Flattery won't get you extra ice cream.
+backToMain
+startBranch2
+JD:Hey!
+[name]:Just kidding!
+backToMain
+mainContinue
+Glazed:Well, either way.
+Glazed:I was going to give you a little plastic trophy I got for the occasion, but I found it broken on the floor of the supply closet.
+[name]:Oh...
+JD:Oh yeah that’s rough.
+Glazed:Well anyway, congrats!
+Glazed:So, if you could do me a favor and clean out the supply closet before you leave, I'd really appreciate it! 
+Glazed:Good luck!
+Professor Glazed swiftly left the classroom.
+[name]:Did they know we broke it?!
+JD:It could be. 
+JD:But I’m not going back in there.
+[name]:What? 
+[name]:We have to! 
+[name]:We broke it.
+JD:This one’s all you! 
+JD:But I’ll cheer you on from outside the door.
+[name]:No way. 
+[name]:I'm getting a lamp because you’re gonna hold the dust pail.
+J.D. and I bickered for a while while trying to clean up the supply closet.
+We ended up breaking several other small objects by accident, decided to call it quits, and got some ice cream. 
+THE END.

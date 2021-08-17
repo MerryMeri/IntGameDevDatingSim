@@ -1,0 +1,29 @@
+???:Welcome everyone, to the first weekly meeting of writers united.
+???:Today we will be doing a read through of Crumb Cake Donut and Old Fashioned Donut’s first collaborative piece, “The Adventures of Strawberry and the Talking Door”.
+Oldie:Thanks for coming with me.
+[name]:Of course!
+[name]:Wouldn't miss it.
+[name]:Plus I live here so, can’t really get more convenient than this.
+[name]:So how’d Crumb Cake Donut convince you to work on a radio play together?
+Oldie:I actually asked them.
+[name]:Are you kidding?
+Oldie:Haha, no I’m serious.
+Oldie:I figured if I’m going to start writing new stuff again, why be a snob about it?
+[name]:Now I’m really impressed.
+Oldie:So here’s your script.
+[name]:Thanks.
+[name]:...
+Oldie:You can start whenever.
+[name]:Oh!
+[name]:I’m reading it?
+Oldie:Is that okay?
+[name]:Eh, why not?
+Oldie:Okay, you have the first line.
+[name]:Right!
+[name]:Ahem.
+[name]:“It began on a day like any other.”
+[name]:“My close friend and companion Talking Door,”
+[name]:“was regaling me with stories of their youth when I first saw it.”
+[name]:“To my horror, Talking Door’s welcome mat had been stolen.”
+[name]:“Thus, our investigation began.”
+THE END

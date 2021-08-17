@@ -1,0 +1,78 @@
+[name]:Can I look now?
+Berry:No wait!
+Berry:Don’t move yet.
+Berry:I’m almost done.
+[name]:I hope you got my good side.
+Berry:They’re all good sides.
+[name]:Don’t make me blush, you’ll have to repaint my face.
+Berry:Worth it.
+Berry:Alright!
+Berry:I’m done!
+Berry:Come take a look.
+[name]:Wow!
+[name]:That’s me!
+[name]:Can I keep it?
+Berry:After my class.
+Berry:We’re doing watercolors in Portraits 1 right now, so I’m gonna use it as an example.
+[name]:So this is what it feels like to be a star.
+[name]:Step aside, Mona Lisa.
+Berry:I don’t know if it’s that good, but you’re definitely a star.
+[name]:It’s excellent!
+[name]:Now all we have to do is stage a mysterious theft and reappearance.
+[name]:Then it’ll be a sensation.
+Berry:I think that only works when you steal something from the Louvre.
+Berry:From here it doesn’t have quite the same impact.
+Berry:But I appreciate your enthusiasm.
+[name]:Ah, well.
+[name]:I guess I’ll just have to brag to everyone I know until you get famous.
+Berry:Alright then.
+Berry:Let me just clean up here, and I’ll treat my number one fan to dinner.
+[name]:I’ll help!
+Berry:Oh, hold on.
+Berry:My dad’s calling me.
+[name]:Are you gonna be okay?
+Berry:Yeah, don’t worry.
+Strawberry Sprinkled Donut answered the phone.
+Berry:Hello?
+Berry:...
+Berry:Yeah I know.
+Berry:Blueberry Cake said she’d handle it.
+Berry:...
+Berry:Uh-huh.
+Berry:Don’t worry about it.
+Berry:...
+Berry:Okay, I gotta go.
+Berry:Uh-huh, okay byeee.
+[name]:That was fast.
+[name]:Everything okay?
+Berry:Yeah.
+Berry:I got my sister to start picking up some of the slack at home.
+Berry:She’s become pretty reliable.
+Berry:I’m proud of her.
+decisionBranch
+She must believe in you too.
+You set a good example.
+endDecision
+startBranch1
+Berry:I don’t know about that.
+But it is nice not feeling like I have to take on everything alone.
+backToMain
+startBranch2
+Berry:Nah, she chose to do it on her own.
+Berry:But I’m glad she’s taking on more responsibility.
+backToMain
+mainContinue
+Berry:Anyway, let’s get going.
+Berry:I kind of want breakfast food.
+Berry:Is that crazy?
+[name]:You’ve gotten too used to diners.
+Berry:Aw, come on.
+Berry:You’re bacon my heart!
+[name]:No!
+[name]:I’m leaving you here.
+Berry:Donut give up on me!
+Berry:I’m just so eggcited for dinner.
+[name]:Bye!
+[name]:I’m leaving!
+I ran away as Strawberry Sprinkled Donut regaled me with an endless string of breakfast puns.
+THE END
