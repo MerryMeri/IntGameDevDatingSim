@@ -1,0 +1,94 @@
+Glazed:Good morning everyone! 
+Glazed:Today you’ll begin outlining your research proposals for the studies you’ll conduct this semester. 
+Glazed:Of course every pair’s proposal will be different, 
+Glazed:but I’ll be here to help guide you through the process and answer any questions you might have, okay? 
+Glazed:Any questions? No? 
+Glazed:Then let’s begin. 
+Glazed:Jelly Donut, could you help me hand out-
+Glazed:Oh, this isn’t right. 
+Glazed:I brought the wrong worksheets. 
+Glazed:Okay then, Jelly Donut, could you and your partner go to the faculty office and get a stack of “Research Proposal” worksheets? 
+Glazed:They should be in the supply closet next to my desk.
+JD:I can get them myself.
+Glazed:They might be buried in there. 
+Glazed:It’d be faster to have two donuts look.
+JD:*sigh* Sure.
+JD:God, why is it so dark in here?
+JD:I was at least expecting there to be a lamp.
+JD:. . .
+JD:Whatever. 
+JD:I’m gonna look over here.
+JD:You can do whatever you want, 
+JD:I’m sure I’ll find it eventually.
+decisionBranch
+I’ll wait then.
+I’ll help!
+endDecision
+startBranch1
+JD:Doesn’t matter to me.
+backToMain
+startBranch2
+JD:Knock yourself out.
+backToMain
+mainContinue
+JD:. . .
+decisionBranch
+Did I do something to upset you?
+Are you liking the class so far?
+endDecision
+startBranch1
+JD:What?! 
+JD:No. 
+JD:Why would you ask me that?
+JD:. . .
+JD:Look, 
+JD:I hardly know you. 
+JD:And like I said, 
+JD:I don’t care what you do, 
+JD:so don’t take it personally.
+backToMain
+startBranch2
+JD:Are you trying to get to know me or something?
+JD:No offense, but I don’t really have time for that.
+JD:Just because we’re partners doesn’t mean we have to be friends. 
+backToMain
+mainContinue
+JD:You know what, 
+JD:could you help me lift this box? 
+JD:The one under it says “Proposals”, 
+JD:so that seems promising.
+JD:I just wanna get out of here already.
+JD:. . . //(paper shuffling sound)
+*CLATTER* //(loud clatter sound)
+JD:Ah! What was that?
+JD:Oh, something just fell off the shelf. 
+JD:Hahaha . . .
+JD:. . . //(paper shuffling sound)
+JD:Okay, this box is finished proposals. 
+JD:We need the blank ones.
+*THUD* //(loud thud sound)
+JD:AH!!
+JD:Don’t drop the box so suddenly! 
+JD:What’s your problem?
+decisionBranch
+Are you afraid of the dark?
+Sorry, I didn’t do it on purpose.
+endDecision
+startBranch1
+JD:What?! 
+JD:Don’t be ridiculous, 
+JD:it just took me by surprise.
+JD:I don’t have to defend myself, 
+JD:at least I don’t go around throwing other donuts’ stuff on the floor!
+backToMain
+startBranch2
+JD:You should be! 
+JD:You almost gave me a heart attack. 
+JD:Well not really. 
+JD:But at the least you should be more considerate of other donuts’ stuff.
+backToMain
+mainContinue
+JD:Oh, here they are! 
+JD:Thank god. 
+JD:Alright, I’m outta here.
+J.D. walked back to class a few paces ahead of me.

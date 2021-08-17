@@ -6,52 +6,52 @@ There’s nothing I can do.
 I can’t find my keys.
 I’m so tired. . .
 What should I do?
-OLDIE:Whatcha doing?
+Oldie:Whatcha doing?
 [name]:Oh!
 [name]:Hi.
 [name]:Nothing much. . .
 [name]:just hangin out.
-OLDIE:?
+Oldie:?
 [name]:I don’t have my key.
-OLDIE:You forgot your keys?
-OLDIE:Aren’t you an adult?
+Oldie:You forgot your keys?
+Oldie:Aren’t you an adult?
 [name]:Hey!
 [name]:Losing your key is like an adult’s best event.
 [name]:Followed by drinking and being depressed.
-OLDIE:And then the 100 meter backstroke,
-OLDIE:because you have to retrace your steps to find it.
+Oldie:And then the 100 meter backstroke,
+Oldie:because you have to retrace your steps to find it.
 [name]:I see you’re not a comedy writer.
 [name]:One mystery solved.
-OLDIE:I’m not a mystery writer either.
+Oldie:I’m not a mystery writer either.
 [name]:Too bad.
 [name]:Maybe you could’ve found my keys.
-OLDIE:They’re probably in your apartment.
+Oldie:They’re probably in your apartment.
 [name]:You’re not a detective, what do you know?
-OLDIE:Come on.
+Oldie:Come on.
 [name]:Come where?
-OLDIE:You can sit in my place until the super comes to let you in.
-OLDIE:You called the super right?
+Oldie:You can sit in my place until the super comes to let you in.
+Oldie:You called the super right?
 [name]:Uh no, not yet.
 [name]:Anyway, I can wait out here.
-OLDIE:You’re just gonna sit out here?
-OLDIE:I mean, it’s up to you.
-OLDIE:But Crumb Cake Donut in 3C might ask you to read their radio play.
-OLDIE:So, you’ve been warned.
+Oldie:You’re just gonna sit out here?
+Oldie:I mean, it’s up to you.
+Oldie:But Crumb Cake Donut in 3C might ask you to read their radio play.
+Oldie:So, you’ve been warned.
 [name]:More writers live here?
-OLDIE:If you call that writing, sure.
+Oldie:If you call that writing, sure.
 [name]:You’re totally jealous.
 [name]:Bet you wish you could write a radio play.
-OLDIE:Yeah, I hope all those donuts in their cars will one day have the sounds of my mediocrity as a backdrop to their morning commute.
+Oldie:Yeah, I hope all those donuts in their cars will one day have the sounds of my mediocrity as a backdrop to their morning commute.
 [name]:Now I’m even more convinced.
 [name]:Someone in print media dunking on radio?
 [name]:1900 wants it’s obsolete argument back.
-OLDIE:The 80s called, they want their overused joke back.
+Oldie:The 80s called, they want their overused joke back.
 [name]:We can’t give it back.
 [name]:That would be a bootstrap paradox.
-OLDIE:Okay just shut up then.
+Oldie:Okay just shut up then.
 [name]:Late-night Oldie is sassy.
-OLDIE:I’m not sassy, I’m just tired.
-OLDIE:I stayed up working to meet my deadline.
+Oldie:I’m not sassy, I’m just tired.
+Oldie:I stayed up working to meet my deadline.
 decisionBranch
 That sounds tough. 
 That’s admirable.
@@ -62,49 +62,49 @@ startBranch1
 [name]:I know it’s not easy.
 [name]:One time I got so hopped up on caffeine my vision got blurry.
 [name]:Not fun.
-OLDIE:I’ve done college,
-OLDIE:and it was nothing compared to this.
-OLDIE:At least those classes were for my benefit mostly.
-OLDIE:If I don’t finish my work on time now, I’m afraid my editor will murder me.
+Oldie:I’ve done college,
+Oldie:and it was nothing compared to this.
+Oldie:At least those classes were for my benefit mostly.
+Oldie:If I don’t finish my work on time now, I’m afraid my editor will murder me.
 [name]:Really?
-OLDIE:Not really, but kind of.
+Oldie:Not really, but kind of.
 backToMain
 startBranch2
-OLDIE:In what way?
-OLDIE:Because it took me so long to do that I almost didn’t finish?
-OLDIE:Or that I had to work under even more stressful conditions than usual?
+Oldie:In what way?
+Oldie:Because it took me so long to do that I almost didn’t finish?
+Oldie:Or that I had to work under even more stressful conditions than usual?
 [name]:Okay, no sorry.
 [name]:I just meant it’s a tough thing to do, so good on you for getting through it.
 backToMain
 mainContinue
 [name]:You know, you’ve had a long day already.
 [name]:I really don’t need to come in.
-OLDIE:I said it’s fine.
+Oldie:I said it’s fine.
 I waited as Old Fashioned Donut rifled through their bag for a key.
 . . .
 . . .
 Old Fashioned Donut buried their face in their hands.
 [name]:What’s up?
-OLDIE:. . .
+Oldie:. . .
 Old Fashioned Donut mumbling incomprehensibly.
-OLDIE:idounabmakee.
+Oldie:idounabmakee.
 Old Fashioned Donut was still hiding their face.
 [name]:What?
-OLDIE:I don’t have my key. . .
+Oldie:I don’t have my key. . .
 decisionBranch
 Hahahahafgfhdjsh
 That’s too bad.
 endDecision
 startBranch1
-OLDIE:Yeah, I get it.
-OLDIE:Don’t hurt yourself.
+Oldie:Yeah, I get it.
+Oldie:Don’t hurt yourself.
 [name]:Hahahahaha.
-OLDIE:I didn’t know you were so evil.
+Oldie:I didn’t know you were so evil.
 [name]:I’m not laughing at you.
 [name]:Hahahah.
 [name]:We’re just both idiots.
-OLDIE:Speak for yourself,
-OLDIE:I’m sleep deprived.
+Oldie:Speak for yourself,
+Oldie:I’m sleep deprived.
 [name]:Yes,
 [name]:a Sleep Deprived Idiot.
 [name]:And I’m your co-star,
@@ -113,8 +113,8 @@ OLDIE:I’m sleep deprived.
 [name]:cause I don’t remember.
 [name]:*wink*
 [name]:This episode we contemplate the mystery of the missing keys.
-OLDIE:. . .
-OLDIE:Are you drunk?
+Oldie:. . .
+Oldie:Are you drunk?
 [name]:No, I’m just fun.
 backToMain
 startBranch2
@@ -125,17 +125,17 @@ startBranch2
 [name]:I do snore.
 [name]:But, I promise that if I get up to pee in the middle of the night, I won’t wake you up. 
 [name]:I’ll just step over you.
-OLDIE:Oh really, you’d do that for me?
+Oldie:Oh really, you’d do that for me?
 [name]:Yup!
-OLDIE:So considerate.
+Oldie:So considerate.
 [name]:I try.
-OLDIE:Are you serious?
+Oldie:Are you serious?
 [name]:No, I’m just trying to lighten the mood.
-OLDIE:. . .
+Oldie:. . .
 [name]:I forgot mine too, it’s okay.
 backToMain
 mainContinue
 Old Fashioned Donut took our their phone and started dialing.
 [name]:Who’re you calling?
-OLDIE:The super.
+Oldie:The super.
 Old Fashioned Donut and I sat on the stairs, waiting to be rescued by the super.

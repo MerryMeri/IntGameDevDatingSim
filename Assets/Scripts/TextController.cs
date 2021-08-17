@@ -27,7 +27,8 @@ public class TextController : MonoBehaviour
     bool isActivated;
     List<string> splitScript;
     int index;
-
+    int depth;
+    List<int> choiceTree;
     void Start()
     {
         isActivated = false;
@@ -38,6 +39,8 @@ public class TextController : MonoBehaviour
         decisionButton2.SetActive(false);
         decisionButton3.SetActive(false);
         isDecisionHappening = false;
+        depth = 0;
+        choiceTree = new List<int>();
     }
 
     // Update is called once per frame
@@ -75,9 +78,6 @@ public class TextController : MonoBehaviour
         bool foundDialogue = false;
         while (foundDialogue == false) {
             foundDialogue = true;
-            if (inputLine.Contains("[name]")){
-                inputLine = inputLine.Replace("[name]", PlayerPrefs.GetString("playerName"));
-            }
             if (inputLine.Contains("decisionBranch")) {
                 currentDonut.sprite = null;
                 List<string> decisions = new List<string>();
@@ -107,11 +107,16 @@ public class TextController : MonoBehaviour
                 }
             }
             if (inputLine.Contains("backToMain")) {
+                depth = 0;
+                choiceTree = new List<int>();
                 while (!splitScript[index].Contains("mainContinue")) {
                     index += 1;
                 }
                 index += 1;
                 inputLine = splitScript[index];
+            }
+            if (inputLine.Contains("[name]")){
+                inputLine = inputLine.Replace("[name]", PlayerPrefs.GetString("playerName"));
             }
             if (inputLine.Contains(":")){
                 List<string> splitLine = new List<string>();
@@ -166,19 +171,43 @@ public class TextController : MonoBehaviour
             decisionButton3.GetComponent<UnityEngine.UI.Button>().onClick.RemoveAllListeners();
             decisionButton3.SetActive(false);
         }
+        depth += 1;
         if (choice == 1) {
-            while (!splitScript[index].Contains("startBranch1")) {
-                index += 1;
-            }
-        } else if (choice == 2) {
-            while (!splitScript[index].Contains("startBranch2")) {
-                index += 1;
-            }
+            choiceTree.Add(1);
+        } 
+        else if (choice == 2) {
+            choiceTree.Add(2);
         }
         else {
-            while (!splitScript[index].Contains("startBranch3")) {
-                index += 1;
-            }
+            choiceTree.Add(3);
+        }
+        bool branchFound = false;
+        while (branchFound == false) {
+            index += 1;
+            string currLine = splitScript[index];
+            if (currLine.Contains("startBranch")) {
+                currLine = currLine.Replace("startBranch", "");
+                List<string> fullBranch = new List<string>();
+                fullBranch.AddRange(currLine.Split("."[0]));
+                int countInt = 0;
+                foreach (string c in fullBranch) {
+                    countInt += 1;
+                }
+                if (depth == countInt){
+                    bool isCorrect = true;
+                    countInt = 0;
+                    foreach (string c in fullBranch) {
+                        int tempInt = int.Parse(c);
+                        if (tempInt != choiceTree[countInt]) {
+                            isCorrect = false;
+                        }
+                        countInt++;
+                    }
+                    if (isCorrect == true) {
+                        branchFound = true;
+                    }
+                }
+            } 
         }
         index += 1;
         dialogueText = ProcessDialogue(splitScript[index]); 
