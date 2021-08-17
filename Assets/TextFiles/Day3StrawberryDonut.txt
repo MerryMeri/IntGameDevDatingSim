@@ -1,0 +1,89 @@
+[name]:Did you enjoy your meal?
+CUSTOMER:It was great, thanks.
+[name]:Great. 
+[name]:So, it’ll be $80.73.
+CUSTOMER:Sure. 
+CUSTOMER:Here you go.
+The customer pulled a card out of their wallet and handed it to me.
+I swiped the card through the reader and finished the transaction.
+[name]:Okay, here’s your receipt.
+[name]:Have a nice day!
+CUSTOMER:Wait, you swiped it already?
+[name]:Yeah.
+CUSTOMER:I needed you to split it between two cards.
+[name]:But the transaction went through okay.
+CUSTOMER:But my accounts gonna be overdrawn now, 
+CUSTOMER:I didn’t have enough in there!
+[name]:I’m sorry.
+CUSTOMER:I wish you would’ve waited.
+decisionBranch
+But you didn’t say you were paying with two cards. 
+I didn’t mean to.
+endDecision
+startBranch1
+CUSTOMER:I didn’t realize you were going to rush me!
+backToMain
+startBranch2
+CUSTOMER:Are you an idiot?
+backToMain
+mainContinue
+CUSTOMER:Now what the hell am I supposed to do?
+[name]:I can try to cancel it.
+CUSTOMER:You’ve screwed up enough.
+CUSTOMER:Where’s your manager?
+[name]:Um. . .
+BERRY:Hey, what’s going on?
+BERRY:Can I help you?
+CUSTOMER:Your employee messed up my payment and you need to fix it.
+BERRY:I’m sure it was just a misunderstanding.
+BERRY:I’ll see what I can do.
+CUSTOMER:If I don’t get that money back in my account, I’m never coming here again.
+CUSTOMER:Do you understand?
+BERRY:How did you want to pay?
+CUSTOMER:I wanted to split it between two cards.
+BERRY:Okay.
+BERRY:I just credited half the price of your bill onto your card.
+BERRY:May I use the other card?
+CUSTOMER:You put my money back on there?
+BERRY:$40.36, back on the card.
+CUSTOMER:Fine, good.
+CUSTOMER:Here.
+The customer passed another card to Strawberry Sprinkled Donut,
+who completed the transaction and then passed back the card with a new receipt.
+CUSTOMER:Finally.
+CUSTOMER:Your clerk is useless by the way.
+BERRY:There’s no need for that.
+CUSTOMER:There was no need for it to get screwed up in the first pla-
+BERRY:Have a nice rest of your day.
+The customer stopped short, exhaled, then left the store.
+[name]:I’m so sorry.
+BERRY:What? 
+BERRY:Don’t be, you didn’t do anything wrong.
+[name]:But I ruined that whole thing, 
+[name]:and probably lost a customer.
+BERRY:We don’t need them back.
+BERRY:And it was an honest mistake.
+[name]:I shouldn’t have contradicted them, 
+[name]:I feel like that made it worse.
+BERRY:No, it’s not you.
+BERRY:When Donuts act like that, they aren’t really interested in listening.
+BERRY:They really just care about getting their point across.
+BERRY:I find it's best to treat them like a child having a tantrum.
+BERRY:They can scream themselves out, 
+BERRY:but in the end they’re just shouting their anger into the void.
+BERRY:But you didn’t do anything wrong, so don’t worry about it.
+decisionBranch
+Thank you. 
+You managed that really well. 	
+endDecision
+startBranch1
+BERRY:No problem, it’s my job!
+backToMain
+startBranch2
+BERRY:That’s why I get a special name tag!
+backToMain
+mainContinue	
+BERRY:Now come on, let’s get back to work.
+BERRY:That must’ve been stressful, so I’ll take over the register for a while.
+BERRY:You can organize stuff in the back to take it easy for a bit, okay?
+I finished my shift at the diner and went home.

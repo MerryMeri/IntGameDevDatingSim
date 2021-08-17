@@ -1,0 +1,137 @@
+BERRY:Hey good work today, Player Name!
+BERRY:You did a great job on the pastry display.
+[name]:Oh thanks!
+BERRY:I’ll lock up, you can head out!
+[name]:Are you sure?
+BERRY:Yeah, I’ve gotta wait for the bus anyway.
+[name]:Don’t you usually drive?
+BERRY:I take the bus on Sundays because my dad needs the car.
+decisionBranch
+Your dad doesn’t have his own car? 
+That’s nice of you. 
+endDecision
+startBranch1
+BERRY:No.
+BERRY:He’s a bit older and doesn’t need to use it as much,
+BERRY:so we share one.
+backToMain
+startBranch2
+BERRY:It’s just what I gotta do.
+BERRY:It doesn’t make sense to pay for two cars when we can get by with one.
+backToMain
+mainContinue
+[name]:Oh okay.
+[name]:I actually take the bus too.
+BERRY:Oh!
+BERRY:I didn’t know.
+BERRY:This should be fun then!
+BERRY:Oh, here it is. //(bus exhaust sound effect)
+decisionBranch
+It’s nice to have company. -->
+	
+	STRAWBERRY SPRINKLED DONUT
+	I know what you mean.
+	I like to listen to music when I commute usually,
+	but it’s nice to have someone to talk to.
+	And we can practice our commuter small talk!
+	“This weather, huh?”
+
+		PLAYER
+		It’s beautiful out. -->
+
+			STRAWBERRY SPRINKLED DONUT
+			I know right?
+			It’s nice when the night is kind of still and dewy.
+			It reminds me of summer.
+
+		I like the rain better. -->
+			
+			STRAWBERRY SPRINKLED DONUT
+			I like rain too!
+			It’s nice to have an excuse to just stay inside and be comfy.
+			Plus it makes for a kind of cozy atmosphere I think.
+	
+We should get to know each other better. -->
+
+	STRAWBERRY SPRINKLED DONUT
+	Yeah!
+	As long as we don’t talk about work.
+	If I have to look at another empty ketchup bottle,
+	I’ll be seeing red.
+	Seeing red!
+	Get it?
+
+	PLAYER
+	You’re a comedic genius. -->
+
+		STRAWBERRY SPRINKLED DONUT
+		Don’t sass me Player Name.
+		You’re talking to the donut that signs the checks.
+
+	Laugh Genuinely. -->
+
+		STRAWBERRY SPRINKLED DONUT
+		“Laugh Genuinely”?
+		Why would I laugh at my own joke?
+		Or did you just say what you were thinking?
+		Either way, not exactly the response I was hoping for,
+		but that’s fine!
+
+BERRY:So how are you liking school?
+decisionBranch
+It’s been good!
+It’s a little stressful.
+endDecision
+startBranch1
+[name]:I like my classes,
+[name]:the students and professors are really nice,
+[name]:and I’m learning a lot I think.
+[name]:I definitely like it better than my old school.
+backToMain
+startBranch2
+BERRY:Yeah, it can be like that.
+BERRY:Especially since you’re a transfer student.
+BERRY:It must be difficult to complete degree requirements when you’re already halfway through.
+BERRY:And then there’s the headache of which of your old school’s credits the new school will even take.
+BERRY:I don’t envy you.
+backToMain
+mainContinue
+BERRY:You know,
+BERRY:I think it's really great that you decided to change schools.
+BERRY:I’ve known donuts that even though they were unhappy with their job or school,
+BERRY:the thought of changing it was so overwhelming that they ended up staying stuck.
+BERRY:Not to say that I think change is easy or anything, 
+BERRY:it's obviously not.
+BERRY:But I think it’s inspiring to see someone follow their heart.
+decisionBranch
+Thank you.
+It’s no big deal.
+endDecision
+startBranch1
+BERRY:Of course!
+backToMain
+startBranch2
+BERRY:If you say so. 
+I think it’s pretty impressive.
+backToMain
+BERRY:So what made you decide to come here?
+decisionBranch
+The academics.
+The student life.
+endDecision	
+startBranch1
+BERRY:Ah right, of course.
+BERRY:That’s what drew me to the graduate program.
+BERRY:It’s challenging, 
+BERRY:but I think that’s what I needed.
+backToMain
+startBranch2
+BERRY:Have you been to the student center yet?
+BERRY:They’re always holding concerts there.
+BERRY:It’s usually small student groups,
+BERRY:but they’re pretty good!
+backToMain
+mainContinue
+BERRY:Oh! This is my stop.
+BERRY:It was great talking to you!
+Strawberry Sprinkled Donut got off, and I took the bus home.

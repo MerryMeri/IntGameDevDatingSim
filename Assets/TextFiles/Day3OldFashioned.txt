@@ -1,0 +1,213 @@
+Well I think that’s all the cleaning I had to do.
+My homework’s done too.
+I guess I can just chill out then.
+*KNOCK*KNOCK* //(knocking sound effect)
+Oh.
+Someone’s at the door?
+OLDIE:Are you doing anything right now?
+[name]:Not really.
+[name]:What’s up?
+OLDIE:Can I ask you to help me out with something?
+OLDIE:I was just working on my story for this week, and I could use a second opinion.
+[name]:You want my help?
+[name]:I don’t really have any experience writing.
+OLDIE:It doesn’t matter.
+OLDIE:I just want your opinion on some ideas for the plot.
+[name]:Okay sure.
+OLDIE:Okay.
+Oldie looked at the legal pad they were holding, and turned to a page filled with scrawled writing.
+OLDIE:So I’m going to give you one of my scenarios, 
+OLDIE:and I want you to pick which way you think the story should go, okay?
+OLDIE:Just pick whatever you think is the most interesting.
+OLDIE:Okay,	
+OLDIE:“You come to a door and try to open it.”
+OLDIE:Now, what do you think is a more interesting development?
+decisionBranch
+“The door’s actually a portal to another dimension.” -->
+	
+	OLD FASHIONED DONUT
+	Okay.
+	“In that dimension. . .”
+
+	PLAYER
+	“All matter is fruit. Earth is a giant Kiwi.” -->
+		
+		PLAYER
+		Am I also fruit?
+			
+		OLD FASHIONED DONUT
+		Are you?
+			
+		PLAYER
+		“You instantly become fruit.” -->
+
+			OLD FASHIONED DONUT
+			“You’re fruit now.”
+			“The end.”
+
+			PLAYER
+			Aw.
+
+		“You run around fruit world.” -->
+	
+			OLD FASHIONED DONUT
+			“Because the whole world is fruit,”
+			“you feel overwhelmed deciding what to eat.”
+			“You starve.”
+
+			PLAYER
+			I definitely didn’t expect that.
+
+	“You have a pet dog.” -->
+
+		PLAYER
+		Did we really need to go to another dimension for that?
+
+		OLD FASHIONED DONUT
+		“Yes because your dog is. . .”
+
+		PLAYER
+		“Snoopy” -->
+
+			PLAYER
+			I want my dog to be more talented and popular than me.
+			Okay wait, we really didn’t need another dimension for this.
+
+		“Clifford the Big Red Dog.” -->
+
+			PLAYER
+			I want my dog to be the size of my house.
+			And live next to me in an even bigger house.
+
+“The door, and all the other furniture come to life and speak to you.” -->
+		
+	OLD FASHIONED DONUT
+	“What do they say?”
+
+	PLAYER
+	“Oh my god, am I a talking door?” -->
+				
+		OLD FASHIONED DONUT	
+		“The door has an existential crisis.”
+		“What do you do?”
+
+		PLAYER
+		“Comfort them.” -->
+						
+			OLD FASHIONED DONUT
+			“You form a beautiful friendship built on mutual respect and trust.”
+
+			PLAYER
+			Wow!
+
+		“Walk away.” -->
+						
+			OLD FASHIONED DONUT
+			“You pretend you never heard them,”
+			“until you convinced yourself you hadn’t.”
+			“They haunt your dreams.”
+
+			PLAYER
+			Oh no. . .
+
+	“We’re aliens disguised as furniture.” -->
+			
+		OLD FASHIONED DONUT
+		Okay
+		“What’s your next move?”
+	
+			PLAYER
+			Call NASA.” -->
+				
+				OLD FASHIONED DONUT
+				“They ignore you.”
+				“In fact you can’t be sure whether they’re ignoring you or if you dialed the wrong number.”
+				“Your phone is broken.”
+
+				PLAYER
+				Wait, the aliens weren’t even in that part!
+
+				OLD FASHIONED DONUT
+				Not every idea is a winner.
+
+		“You remember you’re playing a video game.” -->
+				
+				OLD FASHIONED DONUT
+				“It’s a game about romancing sentient furniture.”
+				But I guess they’re all secretly aliens?
+					
+				PLAYER
+				What a twist.
+	
+mainContinue
+OLDIE:Okay.
+OLDIE:You’ve laid out the scenario.
+OLDIE:You know who you are.
+OLDIE:Now, how does that make you feel?
+[name]:What? 
+OLDIE:I’m trying to come up with some fresh ideas by getting into the head of a character.
+OLDIE:So, can you tell me what you’re thinking?
+[name]:What genre is this again?
+OLDIE:For this magazine it’s romance.
+OLDIE:But I’ve been getting kind of bored with it.
+OLDIE:I thought I might be able to keep it fresh by adding some kind of twist.
+[name]:Oh!
+[name]:Well it was definitely unexpected.
+[name]:But I’m not sure if it translates well to a romance story.
+OLDIE:Well first just tell me your character’s thoughts.
+OLDIE:What are you feeling right now?
+Old Fashioned Donut flipped to a fresh notepad page and looked at me expectantly.
+decisionBranch
+I feel confused.
+I feel conflicted.
+endDecision
+startBranch1
+OLDIE:Okay.
+[name]:Because I don’t understand. . .
+OLDIE:Uh-huh?
+[name]:The question.
+backToMain
+startBranch2
+OLDIE:Ooh, that’s good.
+OLDIE:Go on.
+[name]:Um,
+[name]:I can’t decide. . .
+OLDIE:Okay good good.
+OLDIE:You can’t decide. . .?
+[name]:What to have for lunch.
+OLDIE:Are you serious right now?
+[name]:I’m sorry.
+[name]:Let me try again.
+OLDIE:No, forget it.
+OLDIE:I think I might be overthinking this.
+[name]:Why don’t you just pull from your own experiences?
+OLDIE:There’s nothing there.
+OLDIE:I’m married to my work.
+[name]:But if you’ve written other romance stories, you must be getting those ideas from somewhere.
+OLDIE:I really just make everything up.
+OLDIE:But I don’t want my stories to feel hollow.
+OLDIE:That's why I thought maybe I should get another perspective.
+OLDIE:What do you think I should write about?
+decisionBranch
+You should write about everyday life.
+You should write about a fantastical journey. 
+endDecision
+startBranch1
+[name]:I think the drama of everyday life is really exciting to watch.
+[name]:It can be funny and relatable but also really touching.
+backToMain
+startBranch2
+[name]:It could be really interesting to make something super original and out there!
+[name]:You could create your own world and lore, and explore life’s big questions.
+backToMain
+mainContinue
+OLDIE:Hm.
+OLDIE:I could try that.
+OLDIE:Thanks for helping me sort this stuff out.
+OLDIE:You have pretty good ideas.
+[name]:No problem!
+[name]:It was fun.
+OLDIE:I should get back to writing.
+OLDIE:I’ll see you around.
+[name]:Later.
+Old Fashioned Donut went back to their apartment.
