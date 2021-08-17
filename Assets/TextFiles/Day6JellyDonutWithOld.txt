@@ -1,0 +1,177 @@
+[name]:It was nice of the professor to let us use the classroom for our interviews.
+JD:Yeah. 
+JD:It definitely beats having to meet them at the coffee shop in terms of privacy. 
+JD:And it’s cheaper because we don't have to buy another drink every 20 minutes to keep the table.
+[name]:True. 
+[name]:But I do love those little mini muffins they have.
+JD:I thought of that.
+J.D. unveiled a tray of homemade cookies.
+[name]:Oh my god.
+JD:I thought the sugar would help donuts open up.
+I looked over J.D.’s impressive spread of cookies and reached out to grab. . .
+decisionBranch
+A Rainbow Cookie 
+A Lemon Cookie 
+A Chocolate Chip Cookie
+endDecision
+startBranch1
+[name]:This cookie is really complex!
+[name]:How did you have time to make this?
+JD:It’s nothing.
+JD:It's just a hobby.
+backToMain
+startBranch2
+[name]:This is excellent.
+[name]:But if you really wanted donuts to open up you should've brought a bottle of something.
+[name]:Haha, next time.
+backToMain
+startBranch3
+[name]:This is delicious!
+[name]:I think this is your best idea yet.
+JD:Well if being a researcher doesn’t work out, I plan on becoming the world’s most successful and mysterious candy maker.
+[name]:Oh?
+JD:But then when I get too old to run my magical factory, 
+JD:I’ll send out invitations to 5 lucky children from all over the world for a job interview, 
+JD:and then have them fight to the death.
+[name]:You had me until the ending there.
+JD:You can’t say that’s not exactly what that book was about.
+backToMain
+mainContinue
+[name]:So who are we meeting with today?
+JD:Someone named Old Fashioned Donut.
+[name]:! //(surprise sound effect)
+JD:It doesn’t say they’re a student, 
+JD:but since we only recruited from within the university, I don’t know how that could be right. 
+[name]:Old Fashioned Donut graduated early so they could pursue their career as a writer.
+JD:Oh, you know them?
+[name]:Is that a conflict of interest?
+JD:We might have to declare it as one.
+JD:But since we’re students interviewing other students, its inevitable we might know some of them,
+JD:so I think it’ll be okay.
+*KNOCK*KNOCK*KNOCK* //(knocking sound effect)
+JD:Oh, I guess they’re here.
+[name]:Oh! Okay! 
+[name]:This’ll be great!
+*KNOCK*KNOCK*KNOCK* //(knocking sound effect)
+JD:I’ll let them in.
+It will be great.
+. . .
+So why do I feel so uneasy?
+OLDIE:Hey.
+[name]:Hi!
+[name]:What are you doing here?
+OLDIE:This is for a research project right?
+JD:Yeah, you’re in the right place.
+OLDIE:So you’re taking psych?
+OLDIE:That suits you.
+[name]:Oh!
+[name]:Haha, really?
+OLDIE:You just seem really mature and self-aware.
+decisionBranch
+No, I’m not all that. -->
+You think so? -->
+endDecision	
+startBranch1
+[name]:I’m just being myself.
+OLDIE:Donuts like that are really hard to come by.
+OLDIE:It’s special, don’t diminish it.
+backToMain
+startBranch2
+[name]:I would describe you that way, but me?
+[name]:I don’t know.
+OLDIE:Well then if anyone would know, it's me.
+backToMain
+mainContinue
+JD:Cookie?
+OLDIE:No thanks.
+OLDIE:I don’t eat anything I haven’t cooked myself.
+JD:So did you fill out the release form?
+OLDIE:Huh?
+OLDIE:Oh yeah.
+Old Fashioned Donut opened his bag and started to look through it.
+He pulled out a color-coded accordion folder and opened the red tab.
+He pulled out a paper folder labeled “For Professor Glazed Donut”.
+Then he opened the folder and produced the release form.
+But. . .
+J.D. looks annoyed.
+JD:What is this?
+OLDIE:It's the form.
+JD:It’s laminated?
+OLDIE:It’s better for organization.
+JD:Actually I think it’ll probably just make it stick out from all the others.
+OLDIE:Then it’ll be easier to find.
+[name]:Okay, why don’t we get started?
+JD:Yeah, fine.
+[name]:So how did you hear about the study? 
+OLDIE:I took psych with your professor when I went here.
+OLDIE:They asked me if I’d be interested in participating in the study and I said yes.
+OLDIE:Glazed hired me to assist with a couple of research projects back in the day, so I thought this was my chance to give back.
+decisionBranch
+That’s so nice of you! -->
+We really appreciate it! -->
+endDecision
+startBranch1
+OLDIE:It seemed like the thing to do.
+OLDIE:I owe my success to donuts like Glazed who gave me a chance when I was first starting my career.
+JD:What exactly is it you do?
+OLDIE:I’m a romance writer.
+OLDIE:My book “So Goes Love” actually just got nominated for an award.
+JD:Congrats.
+backToMain
+startBranch2
+[name]:You have no idea how tough the recruitment process was.
+[name]:I guess there aren’t that many donuts willing to put their emotions on public display.
+[name]:Even though the study is anonymous.
+OLDIE:Most donuts are insecure.
+JD:. . .
+backToMain
+mainContinue
+JD:Let’s get to the next question.
+JD:“How do you show someone that you care about them?”
+OLDIE:That’s it?
+JD:It?
+OLDIE:Seems pretty straightforward. 
+OLDIE:You tell them.
+JD:Tell them what?
+OLDIE:That you care about them.
+JD:That’s what you would do?
+OLDIE:There’s no point in talking around it.
+OLDIE:That just seems kind of cowardly.
+JD:Cowardly?!
+OLDIE:Yeah.
+OLDIE:I think if you want something, you have to be willing to lay it on the line.
+JD:Maybe some donuts think actions are more important.
+OLDIE:Aren’t you asking for my opinion?
+JD:. . .
+OLDIE:Oh. 
+OLDIE:I see what’s going on.
+[name]:What are you talking about?
+OLDIE:Jelly Donut likes you, but they feel threatened by me because they’re too scared to tell you how they feel.
+[name]:! //(surprise sound effect)
+JD:! //(surprise sound effect)
+JD:Are you insane?
+OLDIE:Maybe that was too direct.
+OLDIE:But it was just exhausting to watch.
+JD:Who even are you?
+OLDIE:Old Fashioned Donut.
+JD:This is crap.
+JD:I’m leaving.
+[name]:No, J.D. don’t leave!
+decisionBrach
+It was just a joke! 
+Don’t worry, I don’t believe it. 
+endDecision
+startBranch1
+JD:Hilarious. 
+JD:Hope you two have a good laugh.
+OLDIE:I wasn’t joking.
+backToMain
+startBranch2
+JD:Something that ridiculous isn’t even worth responding to.
+JD:Have fun with your interview.
+backToMain
+mainContinue
+[name]:Please come back!
+I chased J.D. out into the hallway, but they were already gone.
+
+

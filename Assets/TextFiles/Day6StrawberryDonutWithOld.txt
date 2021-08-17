@@ -1,0 +1,320 @@
+BERRY:Hey, are you having fun?
+BERRY:It’s nice to get the staff together after work every now and then, right?
+decisionBranch
+Yeah it is. 
+I’m a little bored.
+endDecision
+startBranch1
+[name]:It’s fun getting to know everyone better.
+backToMain
+startBranch2
+BERRY:Oh that’s too bad.
+BERRY:I can see how this might feel like more of an obligation.
+backToMain
+mainContinue
+BERRY:Maybe we should play some kind of game.
+BERRY:Like an icebreaker.
+[name]:Sure.
+[name]:What kind of game were you thinking?
+BERRY:How about we draw pictures and the other person has to guess what it is?
+BERRY:I have a notebook and pen in my bag.
+[name]:Oh that sounds fun!
+BERRY:Great!
+BERRY:Okay, I’ll go.
+Strawberry Sprinkled Donut started drawing a couple of lines onto the paper.
+BERRY:Start guessing!
+[name]:Oh okay!
+[name]:Well I think it looks kind of like. . .
+decisionBranch
+A dog -->
+A pancake breakfast -->
+Me -->
+endDecision
+startBranch1
+BERRY:Yeah! It’s a dog!
+BERRY:How did you get that so quickly?
+[name]:Well I saw the little face and ears and figured it was some cute animal, so I went with a popular choice.
+BERRY:Sound strategy.
+BERRY:I’ll have to try something a little harder for the next one.
+backToMain
+startBranch2
+BERRY:Does it really look like that?
+BERRY:That’s not what I was going for, but it sounds delicious!
+BERRY:. . .
+Strawberry Sprinkled Donut’s expression turned grim.
+[name]:What’s wrong?!
+BERRY:. . . I’m hungry.
+BERRY:Anyway, it was actually supposed to be a dog.
+backToMain
+startBranch3
+BERRY:Whaat? Are you kidding?
+BERRY:Don’t be silly!
+BERRY:If it were you I would’ve put in a little more effort.
+BERRY:I didn’t draw any powdered sugar at all.
+BERRY:I think I’d need some colored pencils for that.
+BERRY:Wait, just give me five minutes, I’ll fix it!
+[name]:That’s okay, don’t worry about it!
+[name]:If it wasn’t me in the first place, don’t make yourself crazy.
+BERRY:Anyway, it was actually supposed to be a dog.
+backToMain
+mainContinue
+BERRY:Okay, enough messing around.
+BERRY:This one’s for all the leftover soft pretzels at the diner.
+BERRY:Ready?!
+Strawberry Sprinkled Donut looks deadly serious.
+decisionBranch
+O-okay!
+I’m scared! 
+endDecision
+startBranch1
+BERRY:Yes! Let’s go!
+BERRY:Extreme Pictionary, no holds barred!
+[name]:What does that mean?
+BERRY:It means I’m going to destroy you, and then eat a bunch of pretzels.
+backToMain
+startBranch2
+BERRY:There’s no need to be scared!
+BERRY:I haven’t even started drawing yet.
+[name]:Oh, haha. 
+[name]:You’re right. 
+[name]:Okay you can start!
+BERRY:Now you should be scared.
+*shudder*
+backToMain
+mainContinue
+Strawberry Sprinkled Donut started drawing lines, circles and x’s all over the paper.
+[name]:Are you playing tic-tac-toe?
+BERRY:No!
+BERRY:But you’re kind of close.
+[name]:How can I be close?
+BERRY:Just keep looking!
+BERRY:Look!
+Strawberry Sprinkled Donut drew a picture of a basketball hoop and a ball.
+[name]:It’s basketball!
+BERRY:Nooo, but it’s like that.
+[name]:Wait, is the tic-tac-toe supposed to be like a play?
+[name]:Like a basketball strategy?
+[name]:That’s pretty smart!
+BERRY:No, it's just tic-tac-toe.
+BERRY:Don’t read too much into it.
+Strawberry Sprinkled Donut drew a picture of a deck of cards.
+BERRY:Okay, I’m gonna give you one more guess.
+[name]:Okay, is it. . .
+decisionBranch
+Things that are boring? 
+Games? 
+Gambling?
+endDecision
+startBranch1
+BERRY:You think basketball is boring?
+[name]:No, I’m just terrible at it so it’s hard for me to enjoy.
+[name]:It’s exciting to watch though.
+BERRY:Aw, maybe if you learned to play you’d like it more.
+BERRY:I used to play back in high school.
+[name]:Really?
+BERRY:I wasn’t like on a team or anything.
+BERRY:We just played on the weekends sometimes.
+BERRY:Me and a few friends.
+BERRY:We should play sometime!
+BERRY:But anyway, I was actually trying to draw different kinds of games.
+backToMain
+startBranch2
+BERRY:Yes!
+BERRY:It was games!
+BERRY:Wow, you did such a good job.
+BERRY:I tried to throw you off by drawing stuff from different mediums, but you totally got it.
+backToMain
+startBranch3
+BERRY:Gambling? 
+[name]:Yeah. 
+[name]:Like poker, or betting on a basketball game?
+BERRY:Do you bet on tic-tac-toe?
+[name]:I thought maybe all the weird marks were like keeping track of bets or something.
+BERRY:You’ve never gambled a day in your life, have you?
+BERRY:Anyway, I was actually trying to draw different kinds of games.
+backToMain
+mainContinue
+[name]:That was pretty fun!
+BERRY:You should try to draw one too.
+[name]:Okay, I’ll try.
+I took the paper from Strawberry Sprinkled Donut and started to draw.
+???:Hey.
+When I looked up from the paper, I saw the stranger’s voice belonged to Old Fashioned Donut.
+OLDIE:How’s it going?
+OLDIE:What are you doing here?
+[name]:I’m just here with some friends from work.
+[name]:What are you doing here?
+[name]:Isn’t your deadline coming up soon?
+OLDIE:Of course you remembered that.
+OLDIE:I was suffering a bit of writer’s block, so I decided to get out of the house to clear my head.
+OLDIE:It’s all part of the process.
+Strawberry Sprinkled Donut shifted uncomfortably.
+[name]:Oh! Sorry.
+[name]:This is my friend from work, Strawberry Sprinkled Donut.
+OLDIE:Nice to meet you.
+OLDIE:If I’d known you had a job,
+OLDIE:I wouldn’t have asked you to help out with my writing so often.
+OLDIE:I don’t know how you make time for all of it.
+decisionBranch
+I told you I have a job. (lie) 
+I must’ve forgotten to mention it. 
+endDecision
+startBranch1
+OLDIE:No, I don’t think you did.
+OLDIE:I would’ve remembered.
+[name]:Oh, really?
+[name]:I guess I was mistaken.
+[name]:I was sure I mentioned it.
+BERRY:Um don’t worry about it, it’s not important.
+backToMain
+startBranch2
+[name]:I guess it just never came up.
+BERRY:That’s fine, it doesn’t matter.
+backToMain
+mainContinue
+BERRY:So how do you know each other?
+[name]:We live in the same apartment complex.
+OLDIE:I write stories for a weekly magazine.
+OLDIE:And since Player Name and I get along so well, I sometimes have them help me out.
+BERRY:Oh, that sounds like a lot of fun!
+OLDIE:I enjoy it. 
+OLDIE:Though considering it’s a job, it still has its challenges.
+BERRY:No, of course.
+BERRY:I didn’t mean to say that it didn’t.
+OLDIE:Don’t worry about it.
+OLDIE:Who am I to complain?
+OLDIE:Working in food service must be exhausting.
+BERRY:Yeah.
+BERRY:I’m actually the manager.
+OLDIE:Oh!
+OLDIE:I’m sorry, you’re just so young.
+OLDIE:I hope I haven’t said anything that could get [name] in trouble.
+[name]:No, it’s not like that.
+[name]:Strawberry Sprinkled Donut is just the interim manager.
+BERRY:!
+[name]:I mean-
+[name]:We’re friends.
+OLDIE:Oh I see.
+OLDIE:That’s nice that you’re close with your employees.
+BERRY:Y-yeah.
+[name]:Anyway, we were just playing a game.
+[name]:Do you wanna play with us?
+OLDIE:I don’t know, 
+OLDIE:I was hoping to get more work done while I was here.
+Old Fashioned Donut held up a notebook and a pen.
+[name]:Oh okay.
+OLDIE:But you know, if you don’t mind I could use some help coming up with ideas.
+BERRY:How can we help?
+OLDIE:Have you heard of the game “One Word Story”?
+OLDIE:I use it sometimes when I get stuck, but it works better with more people.
+OLDIE:We try to tell a story by each contributing one word at a time.
+decisionBranch
+Let’s try it! -->
+I don’t know. . . -->
+endDecision
+startBranch1
+BERRY:Yeah, okay.
+BERRY:I’ll do my best.
+backToMain
+startBranch2
+BERRY:No, we should do it.
+BERRY:I don’t mind helping out.
+backToMain
+mainContinue
+OLDIE:Great.
+OLDIE:I’ll start then.
+OLDIE:In 
+[name]:the 
+BERRY:spring 
+OLDIE:I 
+[name]:lost 
+BERRY:my 
+OLDIE:job.
+[name]:It 
+BERRY:was 
+OLDIE:very 
+[name]:sad.
+BERRY:Then 
+OLDIE:I 
+[name]:tried 
+BERRY:to 
+OLDIE:get 
+[name]:a 
+BERRY:dog,
+OLDIE:but 
+[name]:then 
+BERRY:my 
+OLDIE:mom 
+[name]:got 
+BERRY:mad.
+OLDIE:It doesn’t really have to rhyme, you know.
+OLDIE:We’re not writing a song.
+BERRY:Oh sorry.
+BERRY:I guess I just liked the way it sounded.
+OLDIE:Let’s try again and focus on content this time.
+OLDIE:Avoid unnecessary fillers or adjectives.
+BERRY:Okay. . .
+OLDIE:Last 
+[name]:year, 
+BERRY:I 
+OLDIE:fell 
+[name]:in 
+BERRY:love.
+OLDIE:But 
+[name]:then 
+BERRY:I 
+OLDIE:moved 
+[name]:away.
+BERRY:I 
+OLDIE:thought 
+[name]:we’d 
+BERRY:never 
+OLDIE:speak 
+[name]:again,
+BERRY:till 
+OLDIE:I 
+[name]:saw 
+BERRY:you 
+OLDIE:that 
+[name]:day.
+[name]:Oops, I made it rhyme that time.
+[name]:I didn’t mean to though.
+OLDIE:No, that was really good.
+OLDIE:I thought the twist at the end was great.
+OLDIE:I think I’ll be able to use that in my story.
+OLDIE:You really have a knack for this.
+[name]:Well it wasn’t all me.
+???:Hey, Strawberry Sprinkled Donut!
+BERRY:Yeah?
+???:Come here for a second!
+BERRY:Um-
+OLDIE:Are you leaving?
+OLDIE:Thanks a lot for your help.
+OLDIE:I can credit you if you like.
+OLDIE:What was your name again?
+BERRY:Um, that’s not necessary.
+BERRY:I’m glad I could help.
+Strawberry Sprinkled Donut stood up to leave.
+decisionBranch
+Wait, don’t leave. -->
+Are you sure you have to go? -->
+endDecision
+startBranch1
+BERRY:What are you worried about?
+BERRY:I’m not going home or anything.
+BERRY:I’ll see you later.
+backToMain
+startBranch2
+BERRY:Yeah, I should really catch up with the others.
+BERRY:And you two seem like you have a good thing going here.
+BERRY:I don’t want to mess with the creative flow.
+backToMain
+mainContinue
+BERRY:Anyway, good luck with your work.
+OLDIE:Thanks.
+[name]:Let’s hang out later!
+Though I was sure I said it loudly
+Strawberry Sprinkled Donut made no indication that they’d heard me.
+They walked over to another table full of our co-workers, and we didn’t talk for the rest of the night.
+
+

@@ -1,0 +1,82 @@
+I arrived at the library lobby and looked around for J.D.
+. . .
+I wonder why they’re not here?
+They said to meet in the lobby at 12.
+. . .Right?
+Maybe I should look in the psychology section.
+As I finished climbing the stairs to the second floor,
+I spotted J.D. grabbing a book from a nearby shelf.
+[name]:Hey!
+JD:Oh,
+JD:you’re here.
+[name]:I thought we were meeting in the lobby?
+JD:I waited there.
+JD:I figured you weren’t gonna show.
+[name]:How long did you wait?
+JD:A minute.
+[name]:That’s not waiting, that’s like you blinked three times and called it a day.
+JD:More like 15 times.
+[name]:Why did you think I wouldn’t show?
+JD:How should I know?
+JD:Your priorities are your own.
+JD:Can’t expect everyone to care as much about the class as I do.
+[name]:That's pretty self-righteous.
+JD:I don’t mean to be.
+JD:I’m just saying, it’s reasonable or even expected that donuts have better things to do on a Saturday than to come here.
+[name]:But you don’t?
+JD:Nope.
+JD:You can go if you want.
+[name]:So staying means I have no life, and leaving means I don’t care?!
+JD:No!
+JD:I mean,
+JD:I didn’t mean that.
+JD:I’m just being an idiot.
+JD:. . .
+JD:I’m sorry.
+JD:Thank you for coming.
+decisionBranch
+It’s fine.
+You’re not an idiot.
+endDecision
+startBranch1
+JD:No, it’s not.
+JD:I really meant it more about myself.
+JD:I’m the one being weird,
+JD:I shouldn’t criticize anyone else.
+[name]:It’s okay to care about a class.
+JD:It’s not that.
+backToMain
+startBranch2
+JD:. . .
+[name]:I say stupid stuff all the time.
+[name]:I appreciate that you apologized.
+backToMain
+mainContinue
+JD:I was trying to say that you don’t have to waste the day here with me, but I called you a jerk instead.
+[name]:It’s really okay.
+[name]:And there’s no need to assume the worst.
+decisionBranch
+I like you. 
+You seem nice enough. 
+endDecision
+startBranch1
+JD:. . .
+JD:Really?
+JD:Why?
+[name]:Come on!
+[name]:You have good ideas, and I can tell you’re passionate about what you do.
+backToMain
+startBranch2
+JD:You don’t have to say that.
+JD:I know I come off as. . .
+JD:Well, I shouldn’t be praised for messing up.
+backToMain
+mainContinue
+[name]:You should be more confident.
+JD:We don’t have to talk about this anymore.
+JD:Since you’re here we should get to work.
+[name]:Alright, sounds good.
+JD:And um. . .
+JD:thank you.
+I think I’m starting to understand J.D. a little bit better.
+I finished up at the library and went home.

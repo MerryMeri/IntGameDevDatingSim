@@ -1,0 +1,170 @@
+[name]:Why are we recruiting here?
+JD:Well, we know we have to focus on college students because that’s who we have at our disposal.
+[name]:Okay sure, but why here here?
+[name]:This is a thoroughfare.
+[name]:Donuts are running to class, not stopping to have a chat.
+[name]:There’s nowhere to sit!
+JD:Well the dining hall’s closed today, so that’s out.
+[name]:Okay.
+JD:And we can’t use the library because they kicked us out.
+[name]:What?
+[name]:They didn’t kick us out.
+[name]:They suggested we try out here because it’s crowded and other donuts wouldn’t mind us being loud.
+[name]:. . .Oh, they kicked us out.
+JD:Mhm.
+JD:You’re a real glass half full type.
+[name]:What about the student center?
+[name]:Donuts hang around there all day.
+JD:Ugh, I don’t wanna go there.
+[name]:Why not?
+JD:I just don’t want to. Do I have to explain?
+decisionBranch
+Are you okay?
+It would help.
+endDecision
+startBranch1
+JD:I’m fine,
+JD:I’m good.
+JD:Why do you ask?
+[name]:I just thought, after the other day-
+JD:I don't wanna talk about it.
+JD:Let's just stay on task.
+backToMain
+startBranch2
+JD:It’s just crowded,
+JD:and there’s a million donuts, 
+JD:and a bunch of clubs are probably meeting there right now.
+[name]:Isn’t that exactly what we want?
+backToMain
+mainContinue
+JD:Fine, whatever.
+JD:Let’s go to the student center.
+JD:But you can do the heavy lifting.
+[name]:Oh look, the music club’s performing.
+[name]:I bet we could get some donuts from there.
+JD:Okay, you can.
+JD:I’ll wait over here.
+[name]:What are you gonna do?
+JD:I’ll um, hang a flyer on the bulletin board.
+[name]:Okay, that’s a good idea.
+[name]:This place is really lively!
+[name]:Why don’t you like it here again?
+JD:. . .
+[name]:The lounge piano is free.
+[name]:I love that thing.
+[name]:We could sing a song about the wonder of qualitative research.
+[name]:That’d turn a few heads.
+JD:Are you even taking this seriously?
+[name]:I am.
+[name]:I’m brainstorming, and trying to keep us motivated.
+[anem]:What about you?
+JD:What?
+JD:I’m helping.
+[name]:What’s going on?
+[name]:You just seem a little. . .
+JD:Perturbed?
+[name]:Yeah, or upset?
+JD:I’m not upset!
+[name]:. . ?
+JD:It’s really nothing.
+[name]:I doubt that.
+JD:Do you really wanna know?
+decisionBranch
+Nah, nevermind. 
+Yes, of course. 
+endDecision
+startBranch1
+JD:Then why did you ask?
+[name]:I’m joking!
+[name]:Please tell me.
+backToMain
+startBranch2
+JD:Okay.
+JD:But I’m telling you, it’s stupid.
+backToMain
+mainContinue
+JD:This place reminds me of my ex.
+[name]:Oh, I see.
+[name]:Who were they?
+JD:Their name was Cruller.
+JD:We dated for the first five months of sophomore year.
+[name]:What happened?
+JD:They were going to study abroad in the spring and decided to end things.
+decisionBranch
+Was it mutual? 
+That must have been tough. 
+endDecision
+startBranch1
+JD:I guess the short answer is no.
+backToMain
+startBranch2
+JD:Yeah, I was pretty beat up about it.
+backToMain
+mainContinue
+JD:We said we were gonna try to do the long distance thing, 
+JD:but after a few weeks they just sort of faded out of existence.
+[name]:They ghosted you?
+JD:It was more like a haunting.
+[name]:Oof.
+JD:There was no closure, so it felt kind of impossible to let go.
+JD:I kept thinking I was seeing them everywhere.
+JD:Our old table in the cafeteria, the park we used to visit sometimes. . .
+[name]:and here?
+JD:Yeah. 
+JD:We used to hang out here a lot.
+JD:Pretty pathetic, huh?
+decisionBranch
+Yeah, you’re a mess. -->
+No, it’s okay. -->
+endDecision
+startBranch1
+JD:That’s what I thought.
+[name]:I just mean, why get so stuck in the past?
+JD:It’s not like I don’t want to move on.
+backToMain
+startBranch2
+[name]:I mean it’s not that crazy.
+[name]:They still go to school here, don’t they?
+JD:I mean, probably?
+JD:I haven’t spoken to them since.
+backToMain
+mainContinue
+JD:I’m fine.
+JD:There’s no point in avoiding this place forever.
+JD:I just have to get over it.
+decisionBranch
+We should do something fun.
+Maybe you should think on it. 
+endDecision
+startBranch1
+[name]:If it were me, I probably would’ve spent a lot of time agonizing over it.
+[name]:But after a certain point you’re just beating yourself up.
+JD:You're right, this is fun.
+JD:I feel better, let's stop now.
+[name]:Let me finish!
+[name]:I was saying, don't underestimate the power of distraction.
+[name]:Maybe you just need to remember how fun it is here.
+[name]:Make new memories!
+JD:Yeah, I think that’s a good idea.
+JD:But what should we do?
+[name]:I could play the 2 songs I know on piano repeatedly until you’re so annoyed you forget all about Cruller!
+JD:Hahah.
+JD:I actually play a little piano.
+[name]:Oh! 
+[name]:Well then, after you.
+J.D. and I spent the rest of the afternoon at the piano.
+startBranch2
+JD:What do you mean?
+[name]:Well,
+[name]:if you haven’t been together for a while and you’re still upset about it, maybe you should try to figure out why?
+[name]:If you ignore whatever it is that’s upsetting you about it, you’re probably gonna continue feeling that upsetment in the back of your head.
+[name]:If you take the time to really process it, maybe it’ll become easier to deal with.
+JD:That makes sense.
+JD:But I just don’t know how to think about it anymore.
+JD:I feel like I’m all thought out.
+[name]:I’ll talk about it with you if you want.
+[name]:Maybe an outside perspective could be helpful.
+JD:Hm. . .
+JD:Alright. 
+JD:But please stop me if I’m boring you to death.
+J.D. and I spent the rest of the afternoon talking.
