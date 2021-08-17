@@ -1,0 +1,156 @@
+OLDIE:Here’s your tea.
+[name]:Thanks.
+OLDIE:You should drink it while it’s still hot.
+[name]:I don’t want to burn myself.
+OLDIE:If you wait too long, you’ll miss out on half the experience.
+[name]:Well thanks for having me over.
+[name]:I’ve never had finger sandwiches before.
+[name]:You even cut off the crusts.
+OLDIE:Of course I cut off the crusts.
+OLDIE:Are you kidding?
+OLDIE:Weren’t you impressed by the shapes?
+[name]:Shapes?
+OLDIE:Half of them are leaves, the others are flowers.
+OLDIE:So’s the one you’re eating!
+[name]:Oh.
+decisionBranch
+That’s fun. 
+Wow! 
+endDecision
+startBranch1
+[name]:They're nice.
+[name]:But does the shape really make a difference?
+OLDIE:Obviously it adds to the experience.
+backToMain
+startBranch2
+[name]:I see it now.
+[name]:How cute!
+[name]:The shape really. . .shapes my whole experience.
+OLDIE:That’s what I’m saying.
+backToMain
+mainContinue
+OLDIE:Anyway, you’re welcome.
+OLDIE:But I do have ulterior motives.
+OLDIE:The magazine recently held a popularity poll and I was the winner.
+OLDIE:A lot of the votes were mailed with fan letters, so I was hoping you could help me answer them.
+[name]:Oh!
+[name]:So they liked the new direction you decided to take the story in?
+OLDIE:No.
+OLDIE:They didn’t end up publishing that one.
+OLDIE:This was based on my work from last year.
+[name]:Oh sorry.
+decisionBranch
+That must’ve been disappointing. 
+But this is still good news. 
+endDecision
+startBranch1		
+OLDIE:I’m not that upset about it.
+OLDIE:I guess it was too much to expect them to be okay with a big change like that.
+OLDIE:They can’t print something they don’t think will sell.
+backToMain
+startBranch2
+OLDIE:I’m glad to be popular.
+OLDIE:But I’m being praised now for something I wrote so long ago that I feel completely disconnected from it.
+OLDIE:It doesn’t really feel like I even wrote it.
+OLDIE:Meanwhile my current stuff is being ignored.
+OLDIE:I guess it’s bittersweet.
+backToMain
+mainContinue
+OLDIE:So I have all these letters.
+OLDIE:All you need to do is skim them and write a little thanks, and then I’ll sign them.
+[name]:Okay, that’s easy enough.
+[name]:What should I do if they ask a question?
+OLDIE:Just let me know and I’ll answer it.
+[name]:Sounds good.
+[name]:Let’s see.
+[name]:Here’s one.
+[name]:“Old Fashioned Donut,”
+[name]:“I’ve been a huge fan of your work for a while now”
+[name]:“Sending lots of love and support.”
+[name]:“- Chocolate Frosted Donut”
+[name]:Wow!
+[name]:So sweet.
+[name]:Are they all like this?
+OLDIE:Most likely not.
+[name]:Why so negative?
+OLDIE:I don’t know.
+OLDIE:It can go either way.
+OLDIE:Listen to this.
+OLDIE:“Dear Old Fashioned Donut,”
+OLDIE:“I used to like some of your early stuff”
+OLDIE:“But all of your writing these days feels kind of hollow.”
+OLDIE:“I don’t see any heart in it at all.”
+OLDIE:“I hope to see you turn things around soon.”
+OLDIE:“Best,”
+OLDIE:“A concerned fan”
+[name]:Did they seriously sign it like that?
+OLDIE:Look!
+[name]:Okay yeah, that’s kind of rough.
+[name]:But you shouldn’t let a couple bad reviews keep you down.
+[name]:Your stuff is obviously popular for a reason.
+[name]:Even this person said they were a fan.
+OLDIE:Did you hear all the other words?
+OLDIE:They’re disappointed.
+OLDIE:They didn’t even try to hide it.
+OLDIE:I honestly would’ve preferred that they just told me I suck.
+OLDIE:Then at least I could write it off.
+OLDIE:But this is so specific, how can they not be right?
+[name]:Come on!
+[name]:You’re the writer.
+[name]:You don’t have to rethink your whole story because of a couple of comments.
+[name]:Everyone has their own tastes.
+OLDIE:I can’t just ignore them either.
+OLDIE:The stories are for them.
+OLDIE:If they’re unhappy and I ignore it, then what’s even the point?
+[name]:Maybe if you take the good and the bad, then you can see both what’s working in the story and what’s not?
+[name]:Let’s try it.
+[name]:Okay, this letter says,
+[name]:“Old Fashioned Donut,”
+[name]:“I appreciate the way that your stories communicate your characters’ feelings,”
+[name]:“but the endings are always hit or miss for me.”
+[name]:“At times they can feel a bit sappy and unoriginal.”
+[name]:“I’d like to see you write something more exciting and unexpected.”
+[name]:“I was also wondering, where do you get your inspiration to write?”
+[name]:“Sincerely,”
+[name]:“Boston Kreme”
+OLDIE:Okay so the endings are sappy and unoriginal.
+OLDIE:And they think my writing is boring and predictable.
+[name]:Wait, they didn’t say that last part.
+OLDIE:But that’s basically what they said.
+[name]:They also said they like the way you write your characters!
+[name]:That’s good!
+OLDIE:They said they “appreciate” it.
+OLDIE:That’s like a step below “like”.
+[name]:You don’t have to take it that literally.
+OLDIE:So what then?
+OLDIE:Am I suppose to take it literally, or do I extrapolate?
+[name]:Maybe you can use what they say as more of a clue to point you at how to critique your own work. 
+[name]:And then you can draw your own conclusions.
+[name]:So instead of, “It’s boring, make it exciting”,
+[name]:be like, “the end is uninteresting, I wonder why that is?”
+[name]:And then you can find a solution.
+OLDIE:Hmph.
+OLDIE:Maybe.
+OLDIE:What was their question again?
+[name]:“Where do you get your inspiration to write?”
+OLDIE:I should probably say something like, “It’s all thanks to my loving fans”, right?
+decisionBranch
+Just be honest.
+Keep it simple.
+endDecision
+startBranch1
+[name]:If you make something up like that it might feel kind of fake.
+OLDIE:But I don’t really know how to answer.
+backToMain
+startBranch2
+[name]:Talk about how you got started writing.
+[name]:I think people would enjoy hearing that.
+OLDIE:I don’t think it’s really that interesting.
+backToMain
+mainContinue
+[name]:Don't overthink it.
+[name]:It’s a fan letter, they probably want to hear what you really think.
+[name]:Be yourself and the answer will come naturally.
+OLDIE:Okay I’ll try.
+Old Fashioned Donut and I continued to answer fan letters.
+

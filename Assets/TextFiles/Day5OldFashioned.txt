@@ -1,0 +1,144 @@
+*KNOCK*KNOCK*KNOCK* //(knocking sound effect)
+[name]:Hey Old Fashioned Donut.
+[name]:I haven’t seen you around in a while, so I just wanted to check in and say hi.
+[name]:How’s your writing going?
+OLDIE:. . .
+No response?
+[name]:Um, I got this new electric tea kettle.
+[name]:I thought maybe we could try it out.
+OLDIE:. . .
+[name]:Anyway,
+[name]:if you’re busy I can come back another time.
+I heard Old Fashioned Donut shift and then speak from behind the apartment door.
+OLDIE:What are you doing here in the middle of the day?
+OLDIE:Don’t you have class?
+[name]:It’s Fried Day.
+[name]:I have off.
+OLDIE:Well I’m busy.
+OLDIE:I don’t have time to play with you today.
+[name]:You don’t have to make it sound like you’re my babysitter.
+[name]:I was just worried about you.
+[name]:But if you’re in a mood I’ll just stay out of your way.
+OLDIE:If you’re going to use that kettle, make sure you set it to the right temperature and time.
+OLDIE:Don’t just go with the presets, it’ll ruin it.
+OLDIE:You know what, forget it.
+[name]:Did something happen?
+OLDIE:Everythings fine.
+OLDIE:I’m just busy.
+decisionBranch
+Okay. I’ll leave you alone. 
+Are you sure? 
+endDecision
+startBranch1
+OLDIE:. . . 
+I started to walk back to my apartment, then I heard Old Fashioned Donut’s door open behind me.
+OLDIE:Just wait a second.
+OLDIE:Please.
+backToMain
+startBranch2
+OLDIE:. . .
+OLDIE:No.
+Old Fashioned Donut opened the door just enough that I could see their face.
+They look distraught.	
+Can I come in?
+backToMain
+mainContinue
+OLDIE:You can come in.
+OLDIE:Don’t linger in the hallway.
+[name]:So what’s up?
+OLDIE:. . .
+Old Fashioned Donut handed me a folded piece of paper and flopped onto the couch.
+I looked at the paper and started to read.
+[name]:“Thank you for your submission to Bagel Publishing.”
+[name]:“We have reviewed your novel, and we are unable to offer you a contract at this time.”
+[name]:“Please-”
+OLDIE: You don’t have to read it outloud, you know.
+[name]:Sorry.
+[name]:. . .
+[name]:I didn’t know you were trying to get a new novel published.
+OLDIE:Well, no one wants it, so it’s basically as if I haven’t.
+OLDIE:The only thing that’s changed is that now I feel even crappier.
+OLDIE:Wooo.
+[name]:So one publisher turned it down.
+[name]:There are a million others.
+OLDIE:That was the seventh one.
+OLDIE:There’s a stack of more rejections over there.
+[name]:Well, did they give you a reason at least?
+OLDIE:They’re not obligated to.
+OLDIE:But I did get a couple.
+OLDIE:It’s all about how the work is flat and underdeveloped.
+OLDIE:They can’t “see my voice” in the work.
+OLDIE:But I don’t understand that, because I was just trying to write from the character’s perspective.
+OLDIE:I don’t know what I’m going to do.
+OLDIE:I should probably just stop.
+[name]:You can’t stop!
+decisionBranch
+I think you’re doing great. 
+I think you’re really brave.
+endDecision 
+startBranch1
+[name]:You’re independent and industrious, and you work so hard at everything you do.
+[name]:You should have more confidence in yourself.
+backToMain
+startBranch2
+[name]:You put everything you have into your work everyday.
+[name]:And even when you have to deal a lot of conflicting voices telling you what to do, you just keep trying harder.
+backToMain
+mainContinue
+[name]:There’s no way you’ll be able to create anything if you’re coming from a place of fear.
+[name]:Sure criticism is important, but I think it’s also important to hold onto the faith that you have stories worth telling.
+OLDIE:Yeah right.
+OLDIE:I pushed myself so hard, 
+OLDIE:finished school early,
+OLDIE:threw away my chance to have any real experiences, because I told myself I was working toward the future.
+OLDIE:But the way things are now, it feels like it was all a waste.
+OLDIE:I can’t write anymore.
+OLDIE:My life is completely uninteresting, I have nothing new to say, and I have no idea what I’m even doing!
+OLDIE:. . .
+OLDIE:I feel like such a fraud.
+[name]:You’re not a fraud.
+OLDIE:Pfff.
+OLDIE:You know what the stupidest part is?
+OLDIE:I don’t even feel like I’m enjoying myself anymore.
+OLDIE:I used to be so excited to write.
+OLDIE:I could just be myself and live out all the adventures I wished I was having.
+OLDIE:Now I feel like I’m always killing myself with work just to end up disappointing everybody.
+[name]:I think I understand what you’re saying.
+[name]:So before anyone had expectations for you, you felt freer to express yourself.
+[name]:And now that you’re a professional, you’re getting too bogged down and it’s stopping you from being honest.
+[name]:I think you should just let yourself be vulnerable.
+OLDIE:What do you mean?
+[name]:Just like, you don’t have to put up such a front all the time.
+[name]:There’s no such thing as perfection, and even if there were, there’s nothing interesting about it.
+[name]:I mean, I don’t read that often, but I know I’m more interested in flaws, and gaps in characters' personalities.
+[name]:I want to see the struggle.
+OLDIE:But the stories I write aren’t about me.
+[name]:But the emotions must come from somewhere real, right?
+[name]:That’s all you!
+OLDIE:Yeah.
+OLDIE:Yeah I guess you’re right.
+OLDIE:God, I can’t believe I’m complaining to you like this.
+OLDIE:I’m so embarrassed.
+[name]:Come on.
+[name]:You don’t have to be embarrassed.
+[name]:I want you to succeed.
+[name]:I see how much you care about your work so, as long as you want me to, I’ll do everything I can to help.
+OLDIE:Thank you, [name].
+OLDIE:You’re really something else.
+[name]:It’s nothing.
+OLDIE:You want to stay for some tea?
+[name]:I have the new kettle!
+OLDIE:Let’s just use mine.
+[name]:Aw come on, take a risk!
+OLDIE:You can take a risk.
+OLDIE:I don’t want my nice tea leaves to go to waste.
+[name]:Fine fine, sure.
+[name]:I’ll put on the water.
+I walked over to Old Fashioned Donut’s stove,
+picked up the tea kettle and hid it behind my back.
+[name]:Oh no!
+[name]:The kettle’s missing, guess we’ll have to try the new one!
+OLDIE:What are you doing?
+OLDIE:I see you holding it.
+[name]:Whaat? Nooo.
+Old Fashioned Donut and I jokingly ran around the apartment as I tried to dispose of the  old kettle.
