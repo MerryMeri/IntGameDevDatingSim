@@ -66,7 +66,7 @@ Oldie:So you’re taking psych?
 Oldie:That suits you.
 [name]:Oh!
 [name]:Haha, really?
-Oldie:You just seem really mature and self-aware.
+Oldie:Yeah, you're really mature and self-aware.
 decisionBranch
 No, I’m not all that. -->
 You think so? -->
@@ -99,7 +99,7 @@ Oldie:It's the form.
 JD:It’s laminated?
 Oldie:It’s better for organization.
 JD:Actually I think it’ll probably just make it stick out from all the others.
-Oldie:Then it’ll be easier to find.
+Oldie:Well it’ll be easier to find then.
 [name]:Okay, why don’t we get started?
 JD:Yeah, fine.
 [name]:So how did you hear about the study? 

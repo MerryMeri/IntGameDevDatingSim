@@ -134,8 +134,7 @@ Oldie:You can take a risk.
 Oldie:I don’t want my nice tea leaves to go to waste.
 [name]:Fine fine, sure.
 [name]:I’ll put on the water.
-I walked over to Old Fashioned Donut’s stove,
-picked up the tea kettle and hid it behind my back.
+I walked over to Old Fashioned Donut’s stove, picked up their tea kettle and hid it behind my back.
 [name]:Oh no!
 [name]:The kettle’s missing, guess we’ll have to try the new one!
 Oldie:What are you doing?

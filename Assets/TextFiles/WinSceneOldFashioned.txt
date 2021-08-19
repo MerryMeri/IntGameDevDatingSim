@@ -22,8 +22,7 @@ Oldie:Okay, you have the first line.
 [name]:Right!
 [name]:Ahem.
 [name]:“It began on a day like any other.”
-[name]:“My close friend and companion Talking Door,”
-[name]:“was regaling me with stories of their youth when I first saw it.”
+[name]:“My close friend and companion Talking Door, was regaling me with stories of their youth when I first saw it.”
 [name]:“To my horror, Talking Door’s welcome mat had been stolen.”
 [name]:“Thus, our investigation began.”
 THE END
