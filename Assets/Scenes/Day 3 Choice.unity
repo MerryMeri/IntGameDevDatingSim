@@ -359,8 +359,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -330.09512, y: 205.9237}
-  m_SizeDelta: {x: -706.324, y: -411.8473}
+  m_AnchoredPosition: {x: -320.72083, y: 205.9237}
+  m_SizeDelta: {x: -687.5754, y: -411.8473}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &764613373
 MonoBehaviour:
@@ -1094,6 +1094,7 @@ MonoBehaviour:
   JD_scene: 10
   Berry_scene: 11
   Oldie_scene: 12
+  worthPoints: 1
 --- !u!114 &2066666176
 MonoBehaviour:
   m_ObjectHideFlags: 0

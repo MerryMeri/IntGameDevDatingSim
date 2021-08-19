@@ -77,7 +77,25 @@ public class TextController : MonoBehaviour
     string ProcessDialogue(string inputLine) {
         bool foundDialogue = false;
         while (foundDialogue == false) {
+            Debug.Log(PlayerPrefs.GetInt("OldieAffection"));
             foundDialogue = true;
+            if (inputLine.Contains("affectionPoint")) {
+                if (inputLine.Contains("JD")) {
+                    int affectionPoints = PlayerPrefs.GetInt("JDAffection");
+                    PlayerPrefs.SetInt("JDAffection", affectionPoints + 1);
+                }
+                else if (inputLine.Contains("Berry")) {
+                    int affectionPoints = PlayerPrefs.GetInt("BerryAffection");
+                    PlayerPrefs.SetInt("BerryAffection", affectionPoints + 1);
+                } 
+                else {
+                    int affectionPoints = PlayerPrefs.GetInt("OldieAffection");
+                    PlayerPrefs.SetInt("OldieAffection", affectionPoints + 1);
+                }
+                index += 1;
+                inputLine = splitScript[index];
+                
+            }
             if (inputLine.Contains("decisionBranch")) {
                 currentDonut.sprite = null;
                 List<string> decisions = new List<string>();

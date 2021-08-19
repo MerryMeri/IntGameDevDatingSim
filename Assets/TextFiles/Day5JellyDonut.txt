@@ -114,8 +114,8 @@ JD:Yeah.
 JD:We used to hang out here a lot.
 JD:Pretty pathetic, huh?
 decisionBranch
-Yeah, you’re a mess. -->
-No, it’s okay. -->
+Yeah, you’re a mess.
+No, it’s okay.
 endDecision
 startBranch1
 JD:That’s what I thought.

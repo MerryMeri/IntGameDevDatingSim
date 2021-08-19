@@ -19,6 +19,10 @@ public class NameEntry : MonoBehaviour
     void TaskOnClick() {
         getName = textEntry.text;
         PlayerPrefs.SetString("playerName", textEntry.text);
+        PlayerPrefs.SetInt("JDAffection", 0);
+        PlayerPrefs.SetInt("BerryAffection", 0);
+        PlayerPrefs.SetInt("OldieAffection", 0);
+        PlayerPrefs.SetInt("JDQuestion", 0);
         SceneManager.LoadScene(1);
     }
 }

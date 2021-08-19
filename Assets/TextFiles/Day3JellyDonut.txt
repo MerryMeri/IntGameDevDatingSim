@@ -166,6 +166,13 @@ What are you most afraid of?
 What is your strongest regret?
 endDecision
 mainContinue
+startBranch1
+backToMain
+startBranch2
+backToMain
+startBranch3
+backToMain
+mainContinue
 JD:Um. . .
 JD:I don’t really know how to answer that right now.
 [name]:Aw, come on!

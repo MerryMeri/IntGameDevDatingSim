@@ -1,8 +1,8 @@
-OLDIE:I can’t thank you enough for putting this all together.
+Oldie:I can’t thank you enough for putting this all together.
 [name]:Please, it was easy.
 [name]:Apparently students can reserve the space for pretty much whatever they want.
 [name]:When I told them it was a book reading for an alum, they okayed it right away.
-OLDIE:Do you think anyone will show up?
+Oldie:Do you think anyone will show up?
 decisionBranch
 Of course. 
 Probably. 
@@ -17,14 +17,14 @@ startBranch2
 [name]:I told everyone in my classes about it too, so I'm sure at least some donuts will come.
 backToMain
 mainContinue
-OLDIE:I’m starting to feel a little stressed about this.
+Oldie:I’m starting to feel a little stressed about this.
 [name]:That’s normal.
 [name]:Just, take a breath.
-OLDIE:I think I’m gonna take a walk.
-OLDIE:I don’t want to stand here and wait for donuts to file in.
+Oldie:I think I’m gonna take a walk.
+Oldie:I don’t want to stand here and wait for donuts to file in.
 [name]:Do you want me to come with you?
-OLDIE:No, I just have to clear my head.
-OLDIE:Can you keep watch here?
+Oldie:No, I just have to clear my head.
+Oldie:Can you keep watch here?
 [name]:Sure, no problem.
 [name]:See you in a bit.
 . . .
@@ -42,7 +42,7 @@ JD:I thought I’d come check out this book thing.
 [name]:That’s great!
 [name]:Are you familiar with the author?
 [name]:Old Fashioned Donut?
-BERRY:Not really.
+JD:Not really.
 JD:I just heard it was supposed to be some romance writer’s first try at a sci-fi epic.
 JD:It sounded kind of funny.
 [name]:Funny?
@@ -57,7 +57,7 @@ JD:I’d rather go into it with an open mind.
 [name]:Yeah right.
 JD:I mean it.
 JD:Cringe comedy isn't really my thing.
-OLDIE:Hi.
+Oldie:Hi.
 [name]:Oh, Old Fashioned Donut!
 [name]:You’re back.
 Oh god, Old Fashioned Donut looks kind of mad.
@@ -75,54 +75,54 @@ JD:No.
 JD:But that’s okay, I didn’t really give you a chance.
 backToMain
 startBranch2
-OLDIE:Right.
-OLDIE:Sorry to interrupt.
+Oldie:Right.
+Oldie:Sorry to interrupt.
 [name]:No, no. I’m glad you’re back.
 backToMain
 mainContinue
 [name]:How was your walk?
-OLDIE:Really great.
+Oldie:Really great.
 [name]:Cool, cool.
 [name]:Okay.
 [name]:So. . . we should probably get started soon.
 JD:I’ll go take a seat.
 JD:Good luck.
-OLDIE:. . .
+Oldie:. . .
 [name]:Thanks for coming!
 As more donuts started to come in, Old Fashioned Donut’s expression became more hardened.)
-OLDIE:Excuse me everyone.
-OLDIE:Thank you for coming.
-OLDIE:My name is Old Fashioned Donut, and today I’ll be reading an excerpt from my book “Electric Oblivion”.
+Oldie:Excuse me everyone.
+Oldie:Thank you for coming.
+Oldie:My name is Old Fashioned Donut, and today I’ll be reading an excerpt from my book “Electric Oblivion”.
 Old Fashioned Donut read from their manuscript passionately.
 As they finished, I thought I saw a rattled look in their eyes.
-OLDIE:Thank you.
-OLDIE:I’ll now take a few questions from the group.
+Oldie:Thank you.
+Oldie:I’ll now take a few questions from the group.
 Old Fashioned Donut answered some questions about the story and their prior work.
 Then Jelly Donut raised their hand.
-OLDIE:Yes, you.
-OLDIE:What’s your question?
+Oldie:Yes, you.
+Oldie:What’s your question?
 JD:Considering all your work so far has been in romance, what made you decide to start writing sci-fi?
-OLDIE:You know,
-OLDIE:just because I’ve seen success in a particular genre, that doesn’t necessarily mean that’s where my talents end, 
-OLDIE:or even where my passion lies.
+Oldie:You know,
+Oldie:just because I’ve seen success in a particular genre, that doesn’t necessarily mean that’s where my talents end, 
+Oldie:or even where my passion lies.
 JD:Are you saying you’re not interested in writing romance?
-OLDIE:I just don’t like the idea of being pigeon holed because of my previous work.
-OLDIE:That being said, I’m excited to explore something more new and inventive with my writing.
-OLDIE:Thank you.
+Oldie:I just don’t like the idea of being pigeon holed because of my previous work.
+Oldie:That being said, I’m excited to explore something more new and inventive with my writing.
+Oldie:Thank you.
 JD:Sorry, but didn’t you say you were still writing romance stories for a magazine?
 JD:How can you write something you’re not interested in?
-OLDIE:I think romance is perfectly interesting.
-OLDIE:That’s enough questions for today, thank you everyone.
+Oldie:I think romance is perfectly interesting.
+Oldie:That’s enough questions for today, thank you everyone.
 Old Fashioned Donut hurried off the makeshift stage and made for the door.
 [name]:Wait, are you leaving?
-OLDIE:I forgot. . .
-OLDIE:I have to pick up my dry-cleaning.
+Oldie:I forgot. . .
+Oldie:I have to pick up my dry-cleaning.
 [name]:I thought it went really great!
-OLDIE:Haha.
-OLDIE:Yeah.
-OLDIE:It was SUPER fantastic.
-OLDIE:. . .
-OLDIE:I gotta go.
+Oldie:Haha.
+Oldie:Yeah.
+Oldie:It was SUPER fantastic.
+Oldie:. . .
+Oldie:I gotta go.
 decisionBranch
 Please don’t leave. 
 Don’t feel bad. 
@@ -131,16 +131,16 @@ startBranch1
 [name]:You did a really great job.
 [name]:No matter what anyone else says.
 [name]:We should celebrate!
-OLDIE:I’m not really in the mood.
+Oldie:I’m not really in the mood.
 backToMain
 startBranch2
 [name]:Try not to take it to heart.
 [name]:I'm sure J.D. didn't mean anything by it.
-OLDIE:Imagine it was you.
-OLDIE:Would you take it to heart?
+Oldie:Imagine it was you.
+Oldie:Would you take it to heart?
 [name]:. . .
-OLDIE:Whatever. 
-OLDIE:Goodbye.
+Oldie:Whatever. 
+Oldie:Goodbye.
 backToMain
 Old Fashioned Donut left the student center without me.
 Before following them, I went to talk to Jelly Donut.
@@ -155,5 +155,3 @@ JD:I’m sorry.
 [name]:Forget it.
 [name]:Thanks for coming.
 I tried to call Old Fashioned Donut on my way home, but got no response.
-
-		

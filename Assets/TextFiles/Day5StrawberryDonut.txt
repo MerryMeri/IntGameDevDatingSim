@@ -1,16 +1,16 @@
 Okay, that’s the last table I needed to clear.
 But it’s getting kind of busy in here.
-Where’s Strawberry Sprinkled Donut?
+Where’s StrawBerry Sprinkled Donut?
 Maybe I should check in the back.
 I saw the storeroom’s slightly open door and called out.
-[name]:Hey Strawberry Sprinkled Donut?
+[name]:Hey StrawBerry Sprinkled Donut?
 [name]:Things are getting kind of-
-BERRY:Because I don’t have time for this!
-BERRY:If you called me just to yell, I’m hanging up.
+Berry:Because I don’t have time for this!
+Berry:If you called me just to yell, I’m hanging up.
 Oh no.
 What’s going on?
-BERRY:I don’t know what you expect me to do.
-BERRY:If she refuses to do it, then nothing I say is gonna mean anything.
+Berry:I don’t know what you expect me to do.
+Berry:If she refuses to do it, then nothing I say is gonna mean anything.
 This sounds really private, I should leave.
 I turned quickly to leave, but-
 *CRASH*
@@ -18,31 +18,31 @@ In my haste, I knocked a plate off the counter and it shattered onto the floor.
 Oh crap!
 I can’t leave this here like this.
 Gotta clean it up quick!
-BERRY:So you just want her to get pissed at me so you don’t have to deal with it?
-BERRY:Because how is that my responsibility?
-BERRY:. . .
-BERRY:You know what? 
-BERRY:It’s not even worth it.
-BERRY:I’ll just do it, okay?
-BERRY:Will that make this stop?
-BERRY:. . .
-BERRY:Because I’m exhausted!
-BERRY:If we’re at the point that it’s more tiring to argue over who does the chores than it is to actually do them, then I’ll just do it!
-BERRY:. . .
-BERRY:I don’t want to talk about it anymore.
-BERRY:I have to go.
-BERRY:. . .
-BERRY:Sure, love you, bye.
+Berry:So you just want her to get pissed at me so you don’t have to deal with it?
+Berry:Because how is that my responsibility?
+Berry:. . .
+Berry:You know what? 
+Berry:It’s not even worth it.
+Berry:I’ll just do it, okay?
+Berry:Will that make this stop?
+Berry:. . .
+Berry:Because I’m exhausted!
+Berry:If we’re at the point that it’s more tiring to argue over who does the chores than it is to actually do them, then I’ll just do it!
+Berry:. . .
+Berry:I don’t want to talk about it anymore.
+Berry:I have to go.
+Berry:. . .
+Berry:Sure, love you, bye.
 Oh no, they’re coming!
 Maybe I should pretend I didn’t hear.
-Strawberry Sprinkled Donut came out from the storeroom looking shaken and annoyed.
-BERRY:Oh!
-BERRY:Hi Player Name.
-BERRY:How’s everything going out there?
+StrawBerry Sprinkled Donut came out from the storeroom looking shaken and annoyed.
+Berry:Oh!
+Berry:Hi [name].
+Berry:How’s everything going out there?
 [name]:Everythings fine!
 [name]:It’s just getting a little busy, so I came to get you.
-BERRY:Oh. . .
-Strawberry Sprinkled Donut looked at me critically,
+Berry:Oh. . .
+StrawBerry Sprinkled Donut looked at me critically,
 as if trying to assess whether I’d heard anything just from my expression.
 I should probably say something.
 decisionBranch
@@ -50,107 +50,107 @@ I accidentally broke a plate.
 Are you okay? 
 endDecision
 startBranch1
-BERRY:No offense, but I can tell that you’re deflecting.
+Berry:No offense, but I can tell that you’re deflecting.
 [name]:What?
-BERRY:You don’t have to pretend, it’s fine.
+Berry:You don’t have to pretend, it’s fine.
 backToMain
 startBranch2
-BERRY:You’re not even gonna pretend you didn’t hear?
-BERRY:I guess that’s better than lying.
+Berry:You’re not even gonna pretend you didn’t hear?
+Berry:I guess that’s better than lying.
 backToMain
 mainContinue
 [name]:I am so sorry.
 [name]:I really didn’t mean to hear, but I dropped a plate on the floor and I thought it would be worse if I just left it lying there.
-BERRY:I believe you.
-BERRY:It’s just petty, family stuff.
-BERRY:I’m sorry you had to hear any of it.
-BERRY:I tell them not to call me at work but. . .
+Berry:I believe you.
+Berry:It’s just petty, family stuff.
+Berry:I’m sorry you had to hear any of it.
+Berry:I tell them not to call me at work but. . .
 decisionBranch
 We don’t have to talk about it. -->
 It must be hard. -->
 endDecision
 startBranch1
-BERRY:It’s okay.
-BERRY:I’m not embarrassed.
-BERRY:Everyone has their own problems, right?
+Berry:It’s okay.
+Berry:I’m not embarrassed.
+Berry:Everyone has their own problems, right?
 backToMain
 startBranch2
-BERRY:It’s just my lot, you know?
-BERRY:I do what I have to to make the best of things.
-BERRY:And it’s really not as bad as it might’ve sounded.
+Berry:It’s just my lot, you know?
+Berry:I do what I have to to make the best of things.
+Berry:And it’s really not as bad as it might’ve sounded.
 backToMain
 mainContinue
-BERRY:I’m really okay with how things are.
-BERRY:It’s better for me to be working hard and a little tired, because then I at least feel like I’m doing something. 
+Berry:I’m really okay with how things are.
+Berry:It’s better for me to be working hard and a little tired, because then I at least feel like I’m doing something. 
 decisionBranch
 I see what you mean. 
 I don’t understand. 
 endDecision
 startBranch1
-BERRY:Really?
-BERRY:That’s kind of nice to hear.
-BERRY:I don’t get to talk about it too often.
+Berry:Really?
+Berry:That’s kind of nice to hear.
+Berry:I don’t get to talk about it too often.
 backToMain
 startBranch2
-BERRY:It’s like,
-BERRY:I have all this responsibility that I never really asked for, but at least I have some control over the future.
+Berry:It’s like,
+Berry:I have all this responsibility that I never really asked for, but at least I have some control over the future.
 backToMain
 mainContinue
-BERRY:It is what it is, so I just keep moving forward.
+Berry:It is what it is, so I just keep moving forward.
 [name]:And you’re okay with that?
-BERRY:Well I guess sometimes I can feel a little stuck.
-BERRY:Like, I don’t want my relationship with my family to define my entire life.
-BERRY:I want “fulfillment” and “balance” just like everybody else so, for now I just do what I have to and hope I’ll get there someday.
-BERRY:Anyway, thanks for listening.
-BERRY:You’re a really nice donut.
+Berry:Well I guess sometimes I can feel a little stuck.
+Berry:Like, I don’t want my relationship with my family to define my entire life.
+Berry:I want “fulfillment” and “balance” just like everybody else so, for now I just do what I have to and hope I’ll get there someday.
+Berry:Anyway, thanks for listening.
+Berry:You’re a really nice donut.
 CUSTOMER:Excuse me? 
 CUSTOMER:Is anybody working here?
-BERRY:. . .
+Berry:. . .
 [name]:Uh-
-BERRY:Wait.
+Berry:Wait.
 [name]:What?
-BERRY:Sorry, we’re just about to close!
+Berry:Sorry, we’re just about to close!
 CUSTOMER:Really? It’s the middle of the day.
 [name]:I thought we were supposed to be open for another 3 hours?
-Then Strawberry Sprinkled Donut said something only I could hear.
-BERRY:I’m calling a holiday.
+Then StrawBerry Sprinkled Donut said something only I could hear.
+Berry:I’m calling a holiday.
 [name]:Can you do that?
-BERRY:I’m the manager!
-BERRY:What, am I gonna fire myself?
+Berry:I’m the manager!
+Berry:What, am I gonna fire myself?
 CUSTOMER:Hello?
-Strawberry Sprinkled Donut strode toward the entrance to the dining area and went through the door.
+StrawBerry Sprinkled Donut strode toward the entrance to the dining area and went through the door.
 Looking over the crowd of new customers, they stood up on a chair behind the counter.
-BERRY:Excuse me!
-BERRY:So sorry about the inconvenience everyone. 
-BERRY:It’s Fried Day, so we’ll be closing early.
+Berry:Excuse me!
+Berry:So sorry about the inconvenience everyone. 
+Berry:It’s Fried Day, so we’ll be closing early.
 The crowd groaned with hungry angst and general confusion.
-BERRY:So sorry everyone!
-BERRY:Thank you for your understanding.
-As the last of the bewildered customers filed out, I turned to Strawberry Sprinkled Donut.
+Berry:So sorry everyone!
+Berry:Thank you for your understanding.
+As the last of the bewildered customers filed out, I turned to StrawBerry Sprinkled Donut.
 What was that about?
-BERRY:I don’t know.
-BERRY:I guess I felt like doing something impulsive.
+Berry:I don’t know.
+Berry:I guess I felt like doing something impulsive.
 decisionBranch
 That was kinda crazy. 
 That was awesome. 
 endDecision
 startBranch1
-BERRY:If it was, so be it.
-BERRY:I have no regrets.
+Berry:If it was, so be it.
+Berry:I have no regrets.
 backToMain
 startBranch2
-BERRY:You think?
-BERRY:It felt pretty awesome doing it.
+Berry:You think?
+Berry:It felt pretty awesome doing it.
 backToMain
 mainContinue
-BERRY:So, I’ll finish cleaning up here and you can head home.
-BERRY:I’ll make sure you get paid for the full shift.
-BERRY:Happy Fried Day!
+Berry:So, I’ll finish cleaning up here and you can head home.
+Berry:I’ll make sure you get paid for the full shift.
+Berry:Happy Fried Day!
 [name]:No, I’ll stay and help!
 [name]:I’m getting paid anyway.
-Strawberry Sprinkled Donut smiled.
-BERRY:You’re a good donut.
-BERRY:Alright then!
-BERRY:I’ll order us some food as thanks.
+StrawBerry Sprinkled Donut smiled.
+Berry:You’re a good donut.
+Berry:Alright then!
+Berry:I’ll order us some food as thanks.
 [name]:I’ll start mopping!
-Strawberry Sprinkled Donut and I spent the night cleaning and eating takeout.
+StrawBerry Sprinkled Donut and I spent the night cleaning and eating takeout.
