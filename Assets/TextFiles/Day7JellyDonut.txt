@@ -23,6 +23,7 @@ startBranch2
 JD:I appreciate that.
 JD:Though I don’t know I deserve it.
 backToMain
+mainContinue
 JD:Do you remember when we were trying to design our survey, and you asked me a question I refused to answer?
 [name]:Hm, I’m not sure.
 JD:You asked, 
@@ -61,7 +62,7 @@ JD:I guess what I’m trying to say is, thank you.
 JD:For being so nice to me.
 JD:Getting to know you let me see what’s it’s like to feel support and belonging, and everything else I was missing out on.
 decisionBranch
-I’m really happy for you. -->
+I’m really happy for you.
 It was nothing.
 endDecision
 startBranch1

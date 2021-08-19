@@ -1,0 +1,109 @@
+I haven’t seen Strawberry Sprinkled Donut during my last several shifts.
+I hope everythings okay.
+Berry:Oh, [name].
+Berry:I didn’t know you were closing tonight.
+[name]:Hey!
+[name]:Yeah, someone asked me to cover their shift.
+Berry:Oh alright.
+[name]:It’s good to see you.
+[name]:I feel like we haven't spoken in a while.
+Berry:Oh yeah, sorry about that.
+Berry:I’ve just been super busy lately.
+[name]:Oh, right.
+[name]:I get that. . .
+[name]:So how’s everything?
+Berry:Pretty normal, you know.
+Berry:I actually got a job offer from one of my undergrad professors.
+[name]:Oh, wow!
+Berry:Yeah, they heard I was doing my masters there,
+Berry:and they wanted me to come be a T.A. for some of their art classes.
+[name]:That’s great!
+Berry:Yeah but if I took it,
+Berry:I wouldn’t have enough time to help out my parents and keep working here.
+Berry:And it pays less than here too, so I’m probably not gonna take it.
+Berry:My dad thinks it’s not worth the worry.
+[name]:What?
+[name]:But. . .
+Berry:What?
+Berry:You have an opinion?
+[name]:I think you should take it.
+Berry:Why?
+decisionBranch
+Because it’s a great opportunity! -->
+Because it’s your dream. -->
+endDecision
+startBranch1
+Berry:I don’t really know about that.
+Berry:I’d just be a teaching assistant.
+Berry:And I’d make less money for probably more work.
+backToMain
+startBranch2
+Berry:My dream?
+Berry:What do you know about my dreams?
+Berry:You’re being kind of presumptuous right now.
+backToMain
+mainContinue
+[name]:I thought you loved being an artist.
+Berry:So what?
+Berry:That doesn’t mean I can be one.
+[name]:But this is your chance.
+[name]:It’s like a professional connection!
+Berry:My chance to do what?
+Berry:Go broke and stress myself out even more while I’m still trying to finish a degree?
+Berry:Woo!
+Berry:Sign me up.
+[name]:Is that what you really think?
+Berry:Excuse me?
+Berry:My job is just a paycheck, it doesn’t mean anything.
+Berry:I don’t care what I do as long as I can get by and take care of my family.
+[name]:You know, you don’t have to please everybody.
+Berry:What does that mean?
+[name]:It means that when you’re in a difficult situation 
+[name]:you’d rather bury your emotions than tell anyone how you feel.
+[name]:And then you end up putting everyone else’s needs before your own.
+Berry:Woah! That's a bit much.
+Berry:What are you even saying?
+[name]:I can see it in the way you act.
+[name]:The way you handle customers, and your family, and now me.
+[name]:It’s like you’re so afraid of fighting anyone that you won’t express yourself at all.
+[name]:You insist that you’re okay with things, when you’re not.
+Berry:I don't know what you’re talking about.
+Berry:Why are you making this so personal?
+Berry:You keep saying crazy things about me that you don’t even know are true.
+Berry:I try to express myself all the time, it’s not my fault that nobody listens.
+[name]:I’m sorry, I shouldn't have overstepped.
+[name]:I just don’t want to see you talk yourself out of doing something that could make you happy.
+Berry:It doesn’t matter how I feel about things if I can’t change them.
+[name]:But people who care about you will want to know how you feel. 
+[name]:And they’ll want to be able to make you happy, and feel okay.
+Berry:What does that mean?
+[name]:I care about you.
+Berry:!
+[name]:And I think that if you want the job, you should take it.
+Berry:. . .
+Berry:Just saying that I should “follow my dreams” doesn’t make it any more feasible.
+Berry:Regardless of how I feel, I have obligations.
+Berry:You should be sensitive to that.
+[name]:I know.
+[name]:I know, you’re right.
+[name]:I’m sorry.
+[name]:I guess I just want you to know that, if this job will make you happy
+[name]:I’ll support you in any way I can.
+Berry:. . .
+Berry:It’s also that. . .
+Berry:I didn’t want to have to quit here either.
+[name]:Really?
+[name]:I didn’t think you were that attached to this place.
+Berry:I’m not, I just. . .
+Berry:I never really liked it here, but for a while now it’s been a lot of fun.
+[name]:It has for me too.
+[name]:. . .
+[name]:You know, whether you take the job or not, 
+[name]:you don’t have to worry about me disappearing out of your life.
+[name]:If you want me around, I’ll be around.
+Berry:. . . 
+Berry:Really?
+[name]:Really.
+Strawberry Sprinkled Donut looked at me through watery eyes and smiled.
+Berry:You’re a good Donut.
+Strawberry Sprinkled Donut and I spent the night dancing to music and joking around as we cleaned the restaurant.

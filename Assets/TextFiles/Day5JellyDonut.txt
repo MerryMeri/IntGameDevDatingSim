@@ -57,7 +57,7 @@ JD:. . .
 JD:Are you even taking this seriously?
 [name]:I am.
 [name]:I’m brainstorming, and trying to keep us motivated.
-[anem]:What about you?
+[name]:What about you?
 JD:What?
 JD:I’m helping.
 [name]:What’s going on?
@@ -152,7 +152,7 @@ JD:Hahah.
 JD:I actually play a little piano.
 [name]:Oh! 
 [name]:Well then, after you.
-J.D. and I spent the rest of the afternoon at the piano.
+backToMain
 startBranch2
 JD:What do you mean?
 [name]:Well,
@@ -167,4 +167,6 @@ JD:I feel like I’m all thought out.
 JD:Hm. . .
 JD:Alright. 
 JD:But please stop me if I’m boring you to death.
-J.D. and I spent the rest of the afternoon talking.
+backToMain
+mainContinue
+J.D. and I spent the rest of the afternoon talking at the piano.

@@ -1,0 +1,68 @@
+*KNOCK*KNOCK*KNOCK*
+Someone’s at the door.
+Oldie:Hey, can we talk?
+[name]:Yeah, come in.
+[name]:How are you doing?
+Oldie:I’m actually feeling a lot better.
+[name]:Oh really?
+[name]:That’s good!
+[name]:What happened?
+[name]:If you don't mind me asking.
+[name]:Did you find a publisher for your book?
+Oldie:Haha, no.
+Oldie:I doubt that’s going to happen anytime soon.
+[name]:Oh, so is it about your short stories?
+Oldie:Kind of!
+Oldie:Apparently the magazine got wind of what happened at my book reading, and now they’re dropping me.
+Oldie:They can’t sell romance stories from a writer who’s sick of romance. 
+[name]:Oh my god!
+[name]:I’m so sorry.
+Oldie:No, don’t be!
+Oldie:It’s a good thing.
+[name]:Why?
+Oldie:I mean, we all knew it wasn’t working out.
+Oldie:Me, the magazine, the fans.
+Oldie:I kind of ran the course of my time there, and now I’m ready to move on.
+Oldie:I announced I’d be stepping away after the next issue.
+[name]:Wow.
+[name]:What did the fans say?
+Oldie:A lot of donuts were pretty upset about it.
+Oldie:But you know, for once I actually feel good.
+Oldie:I don't really mind starting over somewhere else, and now I can branch out without being afraid.
+decisionBranch
+I’m proud of you.
+You’ll do great.
+endDecision
+startBranch1
+Oldie:Come on, I didn’t do anything.
+Oldie:I know I can act like I know better than everyone, and I’m kind of stubborn.
+Oldie:Looking back I don’t even know how you put up with it. . .
+Oldie:I guess what I’m trying to say is,
+Oldie:I couldn’t have gotten to the place that I’m in emotionally if it weren’t for you.
+Oldie:I feel like I’ve become a better person ever since you moved in.
+backToMain
+startBranch2
+You’ll do great. -->
+Oldie:Well we’ll have to see about that.
+Oldie:Either way, I have to say thank you.
+Oldie:In another time and place, a development like this probably would’ve destroyed me.
+Oldie:But I feel a lot stronger ever since we became friends.
+backToMain
+mainContinue
+Oldie:. . .
+Oldie:How’s that for a sappy ending, huh?
+Oldie:It’s kind of my specialty.
+Oldie:Anyway, I’m sorry for storming out of the reading.
+Oldie:I must’ve seemed like such a kid.
+Oldie:I really do appreciate everything you’ve done to help me, you have no idea.
+Oldie:Do you think you can forgive me?
+[name]:Of course.
+Old Fashioned Donut broke out into a big smile.
+Oldie:So can I make it up to you?
+Oldie:I got new cookie cutters for the tea sandwiches.
+Oldie:One’s shaped like a dinosaur and another is a smiley face.
+Oldie:I also picked up a big cheese cake from a bakery.
+Oldie:Oh, and some more tea.
+[name]:Old Fashioned Donut, you know the way to my heart.
+[name]:Now get me a fork.
+Old Fashioned Donut and I enjoyed our tea together.

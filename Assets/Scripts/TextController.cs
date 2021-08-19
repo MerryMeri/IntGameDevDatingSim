@@ -77,8 +77,42 @@ public class TextController : MonoBehaviour
     string ProcessDialogue(string inputLine) {
         bool foundDialogue = false;
         while (foundDialogue == false) {
-            Debug.Log(PlayerPrefs.GetInt("OldieAffection"));
             foundDialogue = true;
+            if (inputLine.Contains("storeQuestion")) {
+                inputLine = inputLine.Replace("storeQuestion", "");
+                PlayerPrefs.SetInt("JDQuestion", int.Parse(inputLine));
+                index += 1;
+                inputLine = splitScript[index];
+            }
+            if (inputLine.Contains("JDQuestion")) {
+                if (PlayerPrefs.GetInt("JDQuestion") == 0) {
+                    PlayerPrefs.SetInt("JDQuestion", Random.Range(1,4));
+                }
+                if (PlayerPrefs.GetInt("JDQuestion") == 1) {
+                    inputLine = "JD:'What do you care about the most?'";
+                }
+                else if (PlayerPrefs.GetInt("JDQuestion") == 2) {
+                    inputLine = "JD:'What are you most afraid of?'";
+                }
+                else {
+                    inputLine = "JD:'What is your strongest regret?'";
+                }
+            }
+            if (inputLine.Contains("JDBranch")) {
+                bool foundPath = false;
+                while (foundPath == false) {
+                    index += 1;
+                    inputLine = splitScript[index];
+                    if (inputLine.Contains("JDPath")) {
+                        inputLine = inputLine.Replace("JDPath", "");
+                        if (int.Parse(inputLine) == PlayerPrefs.GetInt("JDQuestion")) {
+                            foundPath = true;
+                        }
+                    }
+                }
+                index += 1;
+                inputLine = splitScript[index];
+            }
             if (inputLine.Contains("affectionPoint")) {
                 if (inputLine.Contains("JD")) {
                     int affectionPoints = PlayerPrefs.GetInt("JDAffection");
