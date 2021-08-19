@@ -1451,7 +1451,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.87973, y: -126.57756}
+  m_AnchoredPosition: {x: -6.2, y: -125}
   m_SizeDelta: {x: 776.51, y: 174.961}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1228091843
@@ -1564,7 +1564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: {fileID: 860842983}
   text: {fileID: 135832900}
-  boxWithName: {fileID: 21300000, guid: b8ec3aa2fba1b4125a769e43441b1989, type: 3}
+  boxWithName: {fileID: 21300000, guid: a142656da1990414da7daae065c7d140, type: 3}
   monologueBox: {fileID: 21300000, guid: 8102b9eb16da046c29d0f15e8db57a8f, type: 3}
   nonItalics: {fileID: 11400000, guid: 2a124f2bc851bbf4dba9f0b75e47a4c1, type: 2}
   withItalics: {fileID: 11400000, guid: 3e6765937888ba649b51bfc0c9d393a9, type: 2}
@@ -1588,7 +1588,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b8ec3aa2fba1b4125a769e43441b1989, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a142656da1990414da7daae065c7d140, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
