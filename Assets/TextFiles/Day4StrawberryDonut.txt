@@ -1,26 +1,26 @@
-BERRY:Oh good you’re here!
-BERRY:Can you pass me the tape?
-BERRY:It’s behind the counter.
+Berry:Oh good you’re here!
+Berry:Can you pass me the tape?
+Berry:It’s behind the counter.
 [name]:Sure.
 [name]:What’re all the decorations for?
-BERRY:Some company reserved half the restaurant for a retirement party, and they’re paying us to make it look a bit fancy.
+Berry:Some company reserved half the restaurant for a retirement party, and they’re paying us to make it look a bit fancy.
 [name]:Not that this place isn’t nice,
 [name]:but if they were going for fancy, I don’t know if a diner was the right move.
-BERRY:I guess they're trying to get their old employees out the door with as little pomp as possible. 
-BERRY:It’s kind of sad, so I’m trying to make it look extra special with what we have.
+Berry:I guess they're trying to get their old employees out the door with as little pomp as possible. 
+Berry:It’s kind of sad, so I’m trying to make it look extra special with what we have.
 decisionBranch
 It looks nice. 
 Can I help? 
 endDecision
 startBranch1
-BERRY:I don’t know, 
-BERRY:I feel like it’s missing something.
+Berry:I don’t know, 
+Berry:I feel like it’s missing something.
 backToMain
 startBranch2
-BERRY:Thanks, I’d appreciate it!
+Berry:Thanks, I’d appreciate it!
 backToMain
 mainContinue
-BERRY: [name], would you say you have a flair for design?
+Berry: [name], would you say you have a flair for design?
 decisionBranch
 No, I’m pretty unoriginal. 
 Um, I can try? 
@@ -31,109 +31,104 @@ startBranch1
 [name]:But it was just white.
 [name]:And repainting the restaurant probably isn’t practical,
 [name]:so. . .
-[name}nevermind.
+[name]:nevermind.
 backToMain
 startBranch2
 [name]:Oh, maybe I could do that thing where you staple pieces of construction paper together to make a chain?
 [name]:Or is that too reminiscent of elementary school?
-BERRY:Hey, if it looks good I’m not complaining.
+Berry:Hey, if it looks good I’m not complaining.
 backToMain
 startBranch3
 [name]:Every party I had back in high school had special themes coordinated with all the snacks and cutlery. 
 [name]:And I’m a wiz with streamers.
-BERRY:All right then expert, I give you creative license.
-BERRY:Show me your skills.
+Berry:All right then expert, I give you creative license.
+Berry:Show me your skills.
 backToMain
 mainContinue
-BERRY:Why don’t you start by picking the placemats?
-BERRY:We have three different ones.
-BERRY:Red checkerboard with an old-fashioned looking version of the logo,
-BERRY:blue with a twinkly star pattern,
-BERRY:or yellow with a word search and crayons.
-BERRY:That last one is meant for kids, 
-BERRY:but crayons are fun for all ages so, what do you think?
+Berry:Why don’t you start by picking the placemats?
+Berry:We have three different ones.
+Berry:Red checkerboard with an old-fashioned looking version of the logo,
+Berry:blue with a twinkly star pattern,
+Berry:or yellow with a word search and crayons.
+Berry:That last one is meant for kids, 
+Berry:but crayons are fun for all ages so, what do you think?
 [name]:Well. . .
 decisionBranch
-What’s your favorite color? -->
-	
-	STRAWBERRY SPRINKLED DONUT
-	Hm, it’s tough to pick just one.
-	I guess I’m partial to cool colors.
-	While I do like the coziness of warm colors,
-	something about the mystery and drama of cool colors is really alluring.
-
-Which pattern do you like best? -->
-	
-	STRAWBERRY SPRINKLED DONUT
-	I like the star pattern because it reminds me of “The Starry Night”.
-	The dark blue and soft yellow make it feel like you’re gazing into something really deep.
-
-Okay I’ll pick. -->
-
-	PLAYER
-	The red. -->
-
-		STRAWBERRY SPRINKLED DONUT
-		You can’t go wrong with a classic looking logo.
-		And I think the checkerboard goes well with the color of the restaurant.
-	
-	The blue. -->
-	
-		STRAWBERRY SPRINKLED DONUT
-		That’s the one I would’ve picked!
-		I think the yellow and blue complement each other really well,
-		and they liven up the plain color of the table.
-
-	The yellow. -->
-
-		STRAWBERRY SPRINKLED DONUT
-		It’s fun to have adults use kids' placemats.
-		And all the crayons will probably be a good conversation starter.
-		Art’s good for that kind of thing!
-
+What’s your favorite color?
+Which pattern do you like best?
+Okay I’ll pick.
+endDecision
+startBranch1
+Berry:Hm, it’s tough to pick just one.
+Berry:I guess I’m partial to cool colors.
+Berry:While I do like the coziness of warm colors, something about the mystery and drama of cool colors is really alluring.
+backToMain
+startBranch2
+Berry:I like the star pattern because it reminds me of “The Starry Night”.
+Berry:The dark blue and soft yellow make it feel like you’re gazing into something really deep.
+backToMain
+startBranch3
+decisionBranch
+The red. -->
+The blue. -->
+The yellow. -->
+endDecision
+startBranch3.1
+Berry:You can’t go wrong with a classic looking logo.
+Berry:And I think the checkerboard goes well with the color of the restaurant.
+backToMain
+startBranch3.2
+Berry:That’s the one I would’ve picked!
+Berry:I think the yellow and blue complement each other really well, and they liven up the plain color of the table.
+backToMain
+startBranch3.3
+Berry:It’s fun to have adults use kids' placemats.
+Berry:And all the crayons will probably be a good conversation starter.
+Berry:Art’s good for that kind of thing!
+backToMain
 mainContinue
 [name]:You seem to know a lot about art.
-BERRY:I actually used to do a lot of painting back in the day.
-BERRY:My undergrad degree was in visual art.
+Berry:I actually used to do a lot of painting back in the day.
+Berry:My undergrad degree was in visual art.
 [name]:Wow, really?
 [name]:So you’re an artist!
-BERRY:Not really anymore.
-BERRY:I don’t have much time for it now that I’m working and in school.
+Berry:Not really anymore.
+Berry:I don’t have much time for it now that I’m working and in school.
 [name]:Do you miss it?
-BERRY:Of course!
-BERRY:My favorite part of it was probably the feeling of working on a project. 
-BERRY:I could concentrate so hard on it that everything else kind of blurred into the background. 
-BERRY:Sure it could get kind of tiring, 
-BERRY:but when it’s just you and the work, and you’re making something really beautiful, 
-BERRY:all the effort and problem solving that goes into it is really rewarding.
+Berry:Of course!
+Berry:My favorite part of it was probably the feeling of working on a project. 
+Berry:I could concentrate so hard on it that everything else kind of blurred into the background. 
+Berry:Sure it could get kind of tiring, 
+Berry:but when it’s just you and the work, and you’re making something really beautiful, 
+Berry:all the effort and problem solving that goes into it is really rewarding.
 [name]:So why aren’t you studying art now?
-BERRY:Well originally I wanted to, 
-BERRY:but with the way my parents are. . .
-BERRY:it didn’t really seem practical.
+Berry:Well originally I wanted to, 
+Berry:but with the way my parents are. . .
+Berry:it didn’t really seem practical.
 [name]:Your parents?
-BERRY:They’re just getting older and can’t work as much anymore, 
-BERRY:and my younger siblings are still in school, 
-BERRY:so it’s too much financial stress to go into a field with such job insecurity.
-BERRY:And you know, 
-BERRY:as an elementary school teacher I can probably still bring my interest in art into my lessons and stuff. 
-BERRY:Most school projects before middle school are more about tri-fold boards, glue sticks and glitter than actual content anyway.
+Berry:They’re just getting older and can’t work as much anymore, 
+Berry:and my younger siblings are still in school, 
+Berry:so it’s too much financial stress to go into a field with such job insecurity.
+Berry:And you know, 
+Berry:as an elementary school teacher I can probably still bring my interest in art into my lessons and stuff. 
+Berry:Most school projects before middle school are more about tri-fold boards, glue sticks and glitter than actual content anyway.
 decisionBranch
 That’s very selfless.
 You shouldn’t give up on your dream.
 endDecision
 startBranch1
-BERRY:I don’t know,
-BERRY:I don’t really think about it like that.
-BERRY:I’m a very practical person.
-BERRY:As much as I’d like to just do what I want,
-BERRY:sometimes things just can’t work out that way.
+Berry:I don’t know,
+Berry:I don’t really think about it like that.
+Berry:I’m a very practical person.
+Berry:As much as I’d like to just do what I want,
+Berry:sometimes things just can’t work out that way.
 backToMain
 startBranch2
-BERRY:I’m not giving up!
-BERRY:Not everyone is in a situation where they can just do whatever they want.
-BERRY:I have to be able to make money and know that my family’s going to be okay.
+Berry:I’m not giving up!
+Berry:Not everyone is in a situation where they can just do whatever they want.
+Berry:I have to be able to make money and know that my family’s going to be okay.
 backToMain
 mainContinue
-BERRY:Anyway, I’ve gotta get something from the storeroom.
-BERRY:Can you finish hanging the banner?
-Strawberry Sprinkled Donut left the dining area without waiting for a response.
+Berry:Anyway, I’ve gotta get something from the storeroom.
+Berry:Can you finish hanging the banner?
+StrawBerry Sprinkled Donut left the dining area without waiting for a response.

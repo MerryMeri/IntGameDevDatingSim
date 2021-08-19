@@ -12,16 +12,25 @@ public class ChooseScenario : MonoBehaviour
     public int JD_scene;
     public int Berry_scene;
     public int Oldie_scene;
+    public bool worthPoints;
     // Start is called before the first frame update
     void Start()
     {
         JD.onClick.AddListener(delegate {TaskOnClick(JD_scene);} );
         Berry.onClick.AddListener(delegate {TaskOnClick(Berry_scene);} );
         Oldie.onClick.AddListener(delegate {TaskOnClick(Oldie_scene);} );
-        Debug.Log("test");
     }
 
     void TaskOnClick(int sceneNumber) {
+        if (sceneNumber == JD_scene && worthPoints) {
+            PlayerPrefs.SetInt("JDAffection", PlayerPrefs.GetInt("JDAffection") + 1);
+        }
+        else if (sceneNumber == Berry_scene && worthPoints) {
+            PlayerPrefs.SetInt("BerryAffection", PlayerPrefs.GetInt("BerryAffection") + 1);
+        }
+        else if (sceneNumber == Oldie_scene && worthPoints) {
+            PlayerPrefs.SetInt("OldieAffection", PlayerPrefs.GetInt("OldieAffection") + 1);
+        }
         SceneManager.LoadScene(sceneNumber);
     }
 }

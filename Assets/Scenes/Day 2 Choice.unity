@@ -332,6 +332,7 @@ MonoBehaviour:
   JD_scene: 6
   Berry_scene: 7
   Oldie_scene: 8
+  worthPoints: 0
 --- !u!1 &783574461
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,8 +367,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -330.09512, y: 205.9237}
-  m_SizeDelta: {x: -706.324, y: -411.8473}
+  m_AnchoredPosition: {x: -315.36414, y: 205.9237}
+  m_SizeDelta: {x: -676.8621, y: -411.8473}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &783574463
 MonoBehaviour:
