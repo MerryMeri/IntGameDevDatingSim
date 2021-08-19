@@ -118,6 +118,7 @@ I thought it would be a good idea to branch out.
 I didn’t want to take up more of your time. 
 endDecision
 startBranch1
+affectionPointJD
 [name]:Since we didn’t get to sign a lot of donuts up during class time, 
 [name]:I hung up some more flyers around campus in between my classes.
 JD:I guess class wasn’t that productive.
@@ -180,6 +181,7 @@ It’s not your fault.
 It’s my fault. 
 endDecision
 startBranch1
+affectionPointJD
 [name]:I think they don’t like to talk about their family.
 [name]:But you couldn’t have known.
 JD:No. 

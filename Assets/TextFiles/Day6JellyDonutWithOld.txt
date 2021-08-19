@@ -72,6 +72,7 @@ No, I’m not all that. -->
 You think so? -->
 endDecision	
 startBranch1
+affectionPointJD
 [name]:I’m just being myself.
 OLDIE:Donuts like that are really hard to come by.
 OLDIE:It’s special, don’t diminish it.
@@ -119,6 +120,7 @@ OLDIE:My book “So Goes Love” actually just got nominated for an award.
 JD:Congrats.
 backToMain
 startBranch2
+affectionPointJD
 [name]:You have no idea how tough the recruitment process was.
 [name]:I guess there aren’t that many donuts willing to put their emotions on public display.
 [name]:Even though the study is anonymous.

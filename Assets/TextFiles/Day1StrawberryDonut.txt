@@ -44,6 +44,7 @@ How do you have time?
 That’s really impressive!
 endDecision
 startBranch1
+affectionPointBerry
 Berry:Haha, it can be difficult at times but I get by!
 backToMain
 startBranch2
@@ -60,6 +61,7 @@ I’ll do my best!
 If I must.
 endDecision
 startBranch1
+affectionPointBerry
 Berry:That’s the spirit!
 Berry:I’ve got a good feeling about you [name].
 backToMain

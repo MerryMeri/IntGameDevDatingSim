@@ -57,6 +57,7 @@ That sounds tough.
 That’s admirable.
 endDecision
 startBranch1
+affectionPointOldie
 [name]:I’ve pulled a couple of all-nighters in my day.
 [name]:Pretty frequently at my old college actually.
 [name]:I know it’s not easy.
@@ -118,6 +119,7 @@ OLDIE:Are you drunk?
 [name]:No, I’m just fun.
 backToMain
 startBranch2
+affectionPointOldie
 [name]:Well, I hope you don’t mind if I sleep at the top of the stairs.
 [name]:It’s closer to my place.
 [name]:You’re free to sleep at the bottom.

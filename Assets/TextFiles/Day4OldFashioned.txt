@@ -23,6 +23,7 @@ startBranch1
 OLDIE:Obviously it adds to the experience.
 backToMain
 startBranch2
+affectionPointOldie
 [name]:I see it now.
 [name]:How cute!
 [name]:The shape really. . .shapes my whole experience.
@@ -43,10 +44,18 @@ decisionBranch
 That must’ve been disappointing. 
 But this is still good news. 
 endDecision
+<<<<<<< Updated upstream
 startBranch1		
 OLDIE:I’m not that upset about it.
 OLDIE:I guess it was too much to expect them to be okay with a big change like that.
 OLDIE:They can’t print something they don’t think will sell.
+=======
+startBranch1
+affectionPointOldie		
+Oldie:I’m not that upset about it.
+Oldie:I guess it was too much to expect them to be okay with a big change like that.
+Oldie:They can’t print something they don’t think will sell.
+>>>>>>> Stashed changes
 backToMain
 startBranch2
 OLDIE:I’m glad to be popular.

@@ -1,5 +1,11 @@
 [name]:Did you enjoy your meal?
+<<<<<<< Updated upstream
 CUSTOMER:It was great, thanks.
+=======
+affectionPointBerry
+affectionPointBerry
+Customer:It was great, thanks.
+>>>>>>> Stashed changes
 [name]:Great. 
 [name]:So, it’ll be $80.73.
 CUSTOMER:Sure. 

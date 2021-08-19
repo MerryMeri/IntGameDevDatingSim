@@ -8,6 +8,7 @@ Of course.
 Probably. 
 endDecision
 startBranch1
+affectionPointOldie
 [name]:I’m positive.
 [name]:Let’s go into this optimistically.
 [name]:And whether it ends up being 2 donuts or 20 donuts, just give it your all.
@@ -134,6 +135,7 @@ Please don’t leave.
 Don’t feel bad. 
 endDecision
 startBranch1
+affectionPointOldie
 [name]:You did a really great job.
 [name]:No matter what anyone else says.
 [name]:We should celebrate!

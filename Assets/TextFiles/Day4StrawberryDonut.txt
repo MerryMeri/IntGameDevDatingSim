@@ -17,7 +17,12 @@ BERRY:I don’t know,
 BERRY:I feel like it’s missing something.
 backToMain
 startBranch2
+<<<<<<< Updated upstream
 BERRY:Thanks, I’d appreciate it!
+=======
+affectionPointBerry
+Berry:Thanks, I’d appreciate it!
+>>>>>>> Stashed changes
 backToMain
 mainContinue
 BERRY: [name], would you say you have a flair for design?
@@ -122,11 +127,20 @@ That’s very selfless.
 You shouldn’t give up on your dream.
 endDecision
 startBranch1
+<<<<<<< Updated upstream
 BERRY:I don’t know,
 BERRY:I don’t really think about it like that.
 BERRY:I’m a very practical person.
 BERRY:As much as I’d like to just do what I want,
 BERRY:sometimes things just can’t work out that way.
+=======
+affectionPointBerry
+Berry:I don’t know,
+Berry:I don’t really think about it like that.
+Berry:I’m a very practical person.
+Berry:As much as I’d like to just do what I want,
+Berry:sometimes things just can’t work out that way.
+>>>>>>> Stashed changes
 backToMain
 startBranch2
 BERRY:I’m not giving up!

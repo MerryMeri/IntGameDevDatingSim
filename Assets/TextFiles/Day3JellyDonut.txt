@@ -1,5 +1,12 @@
+<<<<<<< Updated upstream
 GLAZED:Alright everyone, quiet please!
 GLAZED:I want you all to work on designing interview questions for the research topics you’ve chosen.
+=======
+Glazed:Alright everyone, quiet please!
+affectionPointJD
+affectionPointJD
+Glazed:I want you all to work on designing interview questions for the research topics you’ve chosen.
+>>>>>>> Stashed changes
 [name]:Research topic? 
 [name]:I completely forgot what we chose!
 JD:What are you talking about?

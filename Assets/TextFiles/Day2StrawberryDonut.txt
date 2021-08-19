@@ -16,8 +16,14 @@ BERRY:He’s a bit older and doesn’t need to use it as much,
 BERRY:so we share one.
 backToMain
 startBranch2
+<<<<<<< Updated upstream
 BERRY:It’s just what I gotta do.
 BERRY:It doesn’t make sense to pay for two cars when we can get by with one.
+=======
+affectionPointBerry
+Berry:It’s just what I gotta do.
+Berry:It doesn’t make sense to pay for two cars when we can get by with one.
+>>>>>>> Stashed changes
 backToMain
 mainContinue
 [name]:Oh okay.
@@ -108,7 +114,12 @@ Thank you.
 It’s no big deal.
 endDecision
 startBranch1
+<<<<<<< Updated upstream
 BERRY:Of course!
+=======
+affectionPointBerry
+Berry:Of course!
+>>>>>>> Stashed changes
 backToMain
 startBranch2
 BERRY:If you say so. 

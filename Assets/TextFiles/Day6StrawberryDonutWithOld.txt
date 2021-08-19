@@ -168,6 +168,7 @@ OLDIE:I would’ve remembered.
 BERRY:Um don’t worry about it, it’s not important.
 backToMain
 startBranch2
+affectionPointBerry
 [name]:I guess it just never came up.
 BERRY:That’s fine, it doesn’t matter.
 backToMain
@@ -217,8 +218,14 @@ BERRY:Yeah, okay.
 BERRY:I’ll do my best.
 backToMain
 startBranch2
+<<<<<<< Updated upstream
 BERRY:No, we should do it.
 BERRY:I don’t mind helping out.
+=======
+affectionPointBerry
+Berry:No, we should do it.
+Berry:I don’t mind helping out.
+>>>>>>> Stashed changes
 backToMain
 mainContinue
 OLDIE:Great.

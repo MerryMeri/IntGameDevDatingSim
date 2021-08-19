@@ -55,8 +55,14 @@ BERRY:No offense, but I can tell that you’re deflecting.
 BERRY:You don’t have to pretend, it’s fine.
 backToMain
 startBranch2
+<<<<<<< Updated upstream
 BERRY:You’re not even gonna pretend you didn’t hear?
 BERRY:I guess that’s better than lying.
+=======
+affectionPointBerry
+Berry:You’re not even gonna pretend you didn’t hear?
+Berry:I guess that’s better than lying.
+>>>>>>> Stashed changes
 backToMain
 mainContinue
 [name]:I am so sorry.
@@ -139,8 +145,14 @@ BERRY:If it was, so be it.
 BERRY:I have no regrets.
 backToMain
 startBranch2
+<<<<<<< Updated upstream
 BERRY:You think?
 BERRY:It felt pretty awesome doing it.
+=======
+affectionPointBerry
+Berry:You think?
+Berry:It felt pretty awesome doing it.
+>>>>>>> Stashed changes
 backToMain
 mainContinue
 BERRY:So, I’ll finish cleaning up here and you can head home.

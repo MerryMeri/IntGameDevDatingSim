@@ -36,8 +36,14 @@ OLDIE:Just wait a second.
 OLDIE:Please.
 backToMain
 startBranch2
+<<<<<<< Updated upstream
 OLDIE:. . .
 OLDIE:No.
+=======
+affectionPointOldie
+Oldie:. . .
+Oldie:No.
+>>>>>>> Stashed changes
 Old Fashioned Donut opened the door just enough that I could see their face.
 They look distraught.	
 Can I come in?
@@ -81,6 +87,7 @@ startBranch1
 [name]:You should have more confidence in yourself.
 backToMain
 startBranch2
+affectionPointOldie
 [name]:You put everything you have into your work everyday.
 [name]:And even when you have to deal a lot of conflicting voices telling you what to do, you just keep trying harder.
 backToMain
