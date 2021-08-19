@@ -1,8 +1,8 @@
-OLDIE:I can’t thank you enough for putting this all together.
+Oldie:I can’t thank you enough for putting this all together.
 [name]:Please, it was easy.
 [name]:Apparently students can reserve the space for pretty much whatever they want.
 [name]:When I told them it was a book reading for an alum, they okayed it right away.
-OLDIE:Do you think anyone will show up?
+Oldie:Do you think anyone will show up?
 decisionBranch
 Of course. 
 Probably. 
@@ -17,14 +17,14 @@ startBranch2
 [name]:I told everyone in my classes about it too, so I'm sure at least some donuts will come.
 backToMain
 mainContinue
-OLDIE:I’m starting to feel a little stressed about this.
+Oldie:I’m starting to feel a little stressed about this.
 [name]:That’s normal.
 [name]:Just, take a breath.
-OLDIE:I think I’m gonna take a walk.
-OLDIE:I don’t want to stand here and wait for donuts to file in.
+Oldie:I think I’m gonna take a walk.
+Oldie:I don’t want to stand here and wait for donuts to file in.
 [name]:Do you want me to come with you?
-OLDIE:No, I just have to clear my head.
-OLDIE:Can you keep watch here?
+Oldie:No, I just have to clear my head.
+Oldie:Can you keep watch here?
 [name]:Sure, no problem.
 [name]:See you in a bit.
 . . .
@@ -32,103 +32,103 @@ I hope this goes well.
 I took a moment to look around the room.
 [name]:!
 Hold on.
-Is that Strawberry Sprinkled Donut?
+Is that StrawBerry Sprinkled Donut?
 [name]:Hey!
-BERRY:Hey!
+Berry:Hey!
 [name]:It’s good to see you!
 [name]:What are you doing here?
-BERRY:I’m here for the book reading!
-BERRY:I’m a huge fan of Old Fashion Donut’s stories.	
-BERRY:But I had no idea they were an alumnus!
+Berry:I’m here for the book reading!
+Berry:I’m a huge fan of Old Fashion Donut’s stories.	
+Berry:But I had no idea they were an alumnus!
 [name]:Oh that’s great!
-BERRY:I’m looking forward to it.
-BERRY:But I have to say, 
-BERRY:I was surprised to hear that their new book is a sci-fi novel.
-BERRY:They’re usually so good with romance, so I guess I was a little let down.
+Berry:I’m looking forward to it.
+Berry:But I have to say, 
+Berry:I was surprised to hear that their new book is a sci-fi novel.
+Berry:They’re usually so good with romance, so I guess I was a little let down.
 [name]:I think trying something new is good!
 [name]:It keeps things fresh.
-BERRY:I can understand that.
-BERRY:Between you and me, I haven’t been loving their most recent stories.
-BERRY:I feel like they really peaked when they released “So Goes Love”, but their writing’s different now.
+Berry:I can understand that.
+Berry:Between you and me, I haven’t been loving their most recent stories.
+Berry:I feel like they really peaked when they released “So Goes Love”, but their writing’s different now.
 [name]:Well, what’s wrong with it?
-BERRY:It just doesn’t feel as impassioned anymore.
-BERRY:It’s a little. . .detached I guess?
-BERRY:Makes me kinda sad.
-BERRY:But, I’m excited for the new book all the same.
-OLDIE:Hi.
+Berry:It just doesn’t feel as impassioned anymore.
+Berry:It’s a little. . .detached I guess?
+Berry:Makes me kinda sad.
+Berry:But, I’m excited for the new book all the same.
+Oldie:Hi.
 [name]:Oh, Old Fashioned Donut!
 [name]:You’re back.
 Oh no, Old Fashioned Donut looks kind of upset.
 Did they hear any of that?
-BERRY:You’re Old Fashioned Donut?!
-BERRY:I’m a big fan, it’s great to meet you.
-OLDIE:Ah, nice to meet you.
-OLDIE:Thanks for your support.
-[name]:Old Fashioned Donut, this is my friend Strawberry Sprinkled Donut.
-BERRY:You two know each other?!
-BERRY:Why didn’t you tell me?
+Berry:You’re Old Fashioned Donut?!
+Berry:I’m a big fan, it’s great to meet you.
+Oldie:Ah, nice to meet you.
+Oldie:Thanks for your support.
+[name]:Old Fashioned Donut, this is my friend StrawBerry Sprinkled Donut.
+Berry:You two know each other?!
+Berry:Why didn’t you tell me?
 decisionBranch
 I didn’t know you were a fan. 
 I was going to. 
 endDecision
 startBranch1
-BERRY:That’s fair.
-BERRY:I guess I don’t talk about it too often.
-BERRY:It’s kind of a guilty pleasure.
-OLDIE:. . .
-BERRY:Not that I think it’s bad or anything!
-BERRY:I mean-
+Berry:That’s fair.
+Berry:I guess I don’t talk about it too often.
+Berry:It’s kind of a guilty pleasure.
+Oldie:. . .
+Berry:Not that I think it’s bad or anything!
+Berry:I mean-
 backToMain
 startBranch2
-BERRY:Well I guess if you didn’t know I liked them, you really wouldn’t have had a reason to.
-BERRY:So it’s okay!
+Berry:Well I guess if you didn’t know I liked them, you really wouldn’t have had a reason to.
+Berry:So it’s okay!
 backToMain
 mainContinue
 [name]:Um, are you ready?
 [name]:We should probably start soon.
-OLDIE:Yup.
-OLDIE:Feelin great.
-BERRY:I’ll get out of your hair.
-BERRY:Good luck with the reading!
-BERRY:I can’t wait!
+Oldie:Yup.
+Oldie:Feelin great.
+Berry:I’ll get out of your hair.
+Berry:Good luck with the reading!
+Berry:I can’t wait!
 [name]:Have fun!
 As more donuts started to come in, Old Fashioned Donut’s expression became more hardened.
-OLDIE:Excuse me everyone.
-OLDIE:Thank you for coming.
-OLDIE:My name is Old Fashioned Donut, and today I’ll be reading an excerpt from my book “Electric Oblivion”.
+Oldie:Excuse me everyone.
+Oldie:Thank you for coming.
+Oldie:My name is Old Fashioned Donut, and today I’ll be reading an excerpt from my book “Electric Oblivion”.
 Old Fashioned Donut read from their manuscript passionately.
 As they finished, I thought I saw a rattled look in their eyes.
-OLDIE:Thank you.
-OLDIE:I’ll now take a few questions from the group.
+Oldie:Thank you.
+Oldie:I’ll now take a few questions from the group.
 Old Fashioned Donut answered some questions about the story and their prior work.
-Then Strawberry Sprinkled Donut raised their hand.
-OLDIE:Yes, you there.
-OLDIE:What’s your question?
-BERRY:Well I’ve been a fan of your work for a while now.
-BERRY:And I always look forward to your releases every week.
-BERRY:I think some fans feel that your writing has had a notable shift in tone over the past few months.
-BERRY:So I guess I was just wondering. . .
-BERRY:How do you feel about the current state of your work?
-OLDIE:As I’ve answered previously, I feel that I’ve reached my limit with romance writing.
-OLDIE:I’m satisfied with my contribution to the genre, and am ready to pursue other avenues.
-OLDIE:Do you have any questions related to this book?
-BERRY:Is that why you’ve made a sudden shift to sci-fi?
-OLDIEI wouldn’t exactly call it sudden.
-OLDIE:These are ideas I’ve had in the works for awhile.
-OLDIE:It takes a lot more time to write a novel than a short story.
-BERRY:Are you just giving up on romance entirely?
-OLDIE:I’m sorry if you’re disappointed, but I have to do what’s best for my art and myself.
-OLDIE:That’s enough questions for today, thank you everyone.
+Then StrawBerry Sprinkled Donut raised their hand.
+Oldie:Yes, you there.
+Oldie:What’s your question?
+Berry:Well I’ve been a fan of your work for a while now.
+Berry:And I always look forward to your releases every week.
+Berry:I think some fans feel that your writing has had a notable shift in tone over the past few months.
+Berry:So I guess I was just wondering. . .
+Berry:How do you feel about the current state of your work?
+Oldie:As I’ve answered previously, I feel that I’ve reached my limit with romance writing.
+Oldie:I’m satisfied with my contribution to the genre, and am ready to pursue other avenues.
+Oldie:Do you have any questions related to this book?
+Berry:Is that why you’ve made a sudden shift to sci-fi?
+OldieI wouldn’t exactly call it sudden.
+Oldie:These are ideas I’ve had in the works for awhile.
+Oldie:It takes a lot more time to write a novel than a short story.
+Berry:Are you just giving up on romance entirely?
+Oldie:I’m sorry if you’re disappointed, but I have to do what’s best for my art and myself.
+Oldie:That’s enough questions for today, thank you everyone.
 Old Fashioned Donut hurried off the makeshift stage and made for the door.
 [name]:Wait, are you leaving?
-OLDIE:I forgot. . .
-OLDIE:I have to pick up my dry-cleaning.
+Oldie:I forgot. . .
+Oldie:I have to pick up my dry-cleaning.
 [name]:I thought it went really great!
-OLDIE:Haha.
-OLDIE:Yeah.
-OLDIE:It was SUPER fantastic.
-OLDIE:. . .
-OLDIE:I gotta go.
+Oldie:Haha.
+Oldie:Yeah.
+Oldie:It was SUPER fantastic.
+Oldie:. . .
+Oldie:I gotta go.
 decisionBranch
 Please don’t leave. 
 Don’t feel bad. 
@@ -137,26 +137,26 @@ startBranch1
 [name]:You did a really great job.
 [name]:No matter what anyone else says.
 [name]:We should celebrate!
-OLDIE:I’m not really in the mood.
+Oldie:I’m not really in the mood.
 backToMain
 startBranch2
 [name]:Try not to take it to heart.
 [name]:Don’t let one fan's opinion crush your spirit.
-OLDIE:Imagine it was you.
-OLDIE:Would you take it to heart?
+Oldie:Imagine it was you.
+Oldie:Would you take it to heart?
 [name]:. . .
-OLDIE:Whatever. 
-OLDIE:Goodbye.
+Oldie:Whatever. 
+Oldie:Goodbye.
 backToMain
 mainContinue
 Old Fashioned Donut left the student center without me.
-Before following them, I went to talk to Strawberry Sprinkled Donut.
+Before following them, I went to talk to StrawBerry Sprinkled Donut.
 [name]:Um, I think that was a little harsh.
-BERRY:I didn’t mean to get them flustered or anything.
-BERRY:I guess I just felt a little hurt.
-BERRY:They sounded a lot more cavalier about the whole thing than I would’ve liked.
+Berry:I didn’t mean to get them flustered or anything.
+Berry:I guess I just felt a little hurt.
+Berry:They sounded a lot more cavalier about the whole thing than I would’ve liked.
 [name]:Maybe it looked that way, but I know personally that it’s been eating them up.
-BERRY:Oh, I didn’t know.
+Berry:Oh, I didn’t know.
 Sorry.
 [name]:Don’t worry about it.
 [name]:Thanks for coming anyway.

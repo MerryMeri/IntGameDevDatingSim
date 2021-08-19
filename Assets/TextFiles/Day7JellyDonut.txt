@@ -1,0 +1,78 @@
+It’s the last day to work on our study discussion before it’s due.
+I don’t know if J.D. is going to come.
+We were getting along so well, I hope what happened didn’t scare them off.
+JD:Hey.
+[name]:Hey.
+JD:How’s it going?
+[name]:Fine, fine! 
+[name]:I haven’t really written much yet, but I’m glad you’re here.
+JD:I wouldn’t leave you to do it yourself.
+JD:. . .
+JD:I’m sorry the interview was such a disaster.
+JD:I’m honestly mortified.
+[name]:It was a stressful situation.
+decisionBranch
+Anyone would’ve had a hard time dealing with it.
+I don’t think any less of you.
+endDecision
+startBranch1
+JD:Maybe. . .
+JD:I don’t know.
+backToMain
+startBranch2
+JD:I appreciate that.
+JD:Though I don’t know I deserve it.
+backToMain
+JD:Do you remember when we were trying to design our survey, and you asked me a question I refused to answer?
+[name]:Hm, I’m not sure.
+JD:You asked, 
+JDQuestion
+[name]:Oh yeah.
+JD:I've been thinking about it a lot since then, and I think I finally have an answer.
+JDBranch
+JDPath1
+JD:What I really care about more than anything is making connections with other donuts.
+JD:I guess that’s what a lot of donuts want.
+JD:But as much as I want that, I make it impossible for myself.
+JD:Whether I’m being abrasive or just refusing to talk at all,
+JD:I constantly prevent donuts from getting to know me because I'm afraid they won’t like me.
+backToMain
+JDPath2
+JD:As tempting as it is to give the easy answer like “the dark”, or “heights”, or “Chuck E. Cheese”, that’s not honest.
+JD:I’m really just terrified of rejection.
+JD:Maybe it’s really obvious, I don’t know.
+JD:But it makes me lash out and push other donuts away before they get the chance to shut me down.
+backToMain
+JDPath3
+JD:I regret a lot of things about my life.
+JD:But the thing that haunts me the most is never opening up to other donuts.
+JD:I can think of a million times i wanted to say something, or reach out to someone, 
+JD:but I stop myself because I think no one will want to hear it.
+backToMain
+mainContinue
+JD:You’re probably wondering why I’m telling you this.
+JD:The truth is, you remind me of my ex.
+JD:Your optimism, your openness, it’s everything I’m not.
+JD:. . .
+JD:But I want to be better.
+JD:I don’t want to live my life making myself miserable and angry because I’m too afraid to be vulnerable.
+JD:I guess what I’m trying to say is, thank you.
+[name]:For what?
+JD:For being so nice to me.
+JD:Getting to know you let me see what’s it’s like to feel support and belonging, and everything else I was missing out on.
+decisionBranch
+I’m really happy for you. -->
+It was nothing.
+endDecision
+startBranch1
+[name]:I’m glad I could be there to help.
+backToMain
+startBranch2
+You don’t have to thank me for that.
+backToMain
+mainContinue
+[name]:You’re my friend, and I’m really glad I met you.
+J.D. gave me a warm smile.
+JD:Now let’s write a boring research paper!
+[name]:Yeah!
+J.D. and I spent the rest of the day hanging out at the library.

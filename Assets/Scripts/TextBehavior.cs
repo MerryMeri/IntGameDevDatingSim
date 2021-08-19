@@ -12,6 +12,7 @@ public class TextBehavior : MonoBehaviour
     public Sprite monologueBox;
     public TMP_FontAsset nonItalics;
     public TMP_FontAsset withItalics;
+    AudioSource sound;
     private string currentText;
     float timeBetweenChars = 0.02f;
     Image textbox;
@@ -24,6 +25,7 @@ public class TextBehavior : MonoBehaviour
         color2.a = 0f;
         text.color = color2;
         textbox = gameObject.GetComponent<Image>();
+        sound = GetComponent<AudioSource>();
     }
     public void Show(string newText, string newName){
         currentText = newText;
@@ -38,6 +40,7 @@ public class TextBehavior : MonoBehaviour
             textbox.sprite = boxWithName;
             text.font = nonItalics;
         }
+        sound.Play();
         StartCoroutine(displayText());
     }
     public void Close(){
@@ -45,6 +48,7 @@ public class TextBehavior : MonoBehaviour
         StopAllCoroutines();
     }
     public bool isAtEnd(){
+        sound.Stop();
         int length = currentText.Length;
         if (alphaIndex == length) {
             return true;
@@ -71,5 +75,6 @@ public class TextBehavior : MonoBehaviour
 
             yield return new WaitForSecondsRealtime(timeBetweenChars);
         }
+        sound.Stop();
     }
 }

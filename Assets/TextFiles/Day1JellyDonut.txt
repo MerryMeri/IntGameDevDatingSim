@@ -20,6 +20,7 @@ startBranch1
 JD:I’m J.D.
 backToMain
 startBranch2
+affectionPointJD
 JD:I know. The professor just said that.
 JD:I’m J.D.
 backToMain
@@ -69,6 +70,7 @@ You make an interesting point.
 You’re surprisingly talkative.
 endDecision
 startBranch1
+affectionPointJD
 JD:...
 backToMain
 startBranch2

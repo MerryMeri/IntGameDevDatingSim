@@ -57,37 +57,37 @@ JD:I’ll let them in.
 It will be great.
 . . .
 So why do I feel so uneasy?
-OLDIE:Hey.
+Oldie:Hey.
 [name]:Hi!
 [name]:What are you doing here?
-OLDIE:This is for a research project right?
+Oldie:This is for a research project right?
 JD:Yeah, you’re in the right place.
-OLDIE:So you’re taking psych?
-OLDIE:That suits you.
+Oldie:So you’re taking psych?
+Oldie:That suits you.
 [name]:Oh!
 [name]:Haha, really?
-OLDIE:You just seem really mature and self-aware.
+Oldie:You just seem really mature and self-aware.
 decisionBranch
 No, I’m not all that. -->
 You think so? -->
 endDecision	
 startBranch1
 [name]:I’m just being myself.
-OLDIE:Donuts like that are really hard to come by.
-OLDIE:It’s special, don’t diminish it.
+Oldie:Donuts like that are really hard to come by.
+Oldie:It’s special, don’t diminish it.
 backToMain
 startBranch2
 [name]:I would describe you that way, but me?
 [name]:I don’t know.
-OLDIE:Well then if anyone would know, it's me.
+Oldie:Well then if anyone would know, it's me.
 backToMain
 mainContinue
 JD:Cookie?
-OLDIE:No thanks.
-OLDIE:I don’t eat anything I haven’t cooked myself.
+Oldie:No thanks.
+Oldie:I don’t eat anything I haven’t cooked myself.
 JD:So did you fill out the release form?
-OLDIE:Huh?
-OLDIE:Oh yeah.
+Oldie:Huh?
+Oldie:Oh yeah.
 Old Fashioned Donut opened his bag and started to look through it.
 He pulled out a color-coded accordion folder and opened the red tab.
 He pulled out a paper folder labeled “For Professor Glazed Donut”.
@@ -95,65 +95,65 @@ Then he opened the folder and produced the release form.
 But. . .
 J.D. looks annoyed.
 JD:What is this?
-OLDIE:It's the form.
+Oldie:It's the form.
 JD:It’s laminated?
-OLDIE:It’s better for organization.
+Oldie:It’s better for organization.
 JD:Actually I think it’ll probably just make it stick out from all the others.
-OLDIE:Then it’ll be easier to find.
+Oldie:Then it’ll be easier to find.
 [name]:Okay, why don’t we get started?
 JD:Yeah, fine.
 [name]:So how did you hear about the study? 
-OLDIE:I took psych with your professor when I went here.
-OLDIE:They asked me if I’d be interested in participating in the study and I said yes.
-OLDIE:Glazed hired me to assist with a couple of research projects back in the day, so I thought this was my chance to give back.
+Oldie:I took psych with your professor when I went here.
+Oldie:They asked me if I’d be interested in participating in the study and I said yes.
+Oldie:Glazed hired me to assist with a couple of research projects back in the day, so I thought this was my chance to give back.
 decisionBranch
 That’s so nice of you! -->
 We really appreciate it! -->
 endDecision
 startBranch1
-OLDIE:It seemed like the thing to do.
-OLDIE:I owe my success to donuts like Glazed who gave me a chance when I was first starting my career.
+Oldie:It seemed like the thing to do.
+Oldie:I owe my success to donuts like Glazed who gave me a chance when I was first starting my career.
 JD:What exactly is it you do?
-OLDIE:I’m a romance writer.
-OLDIE:My book “So Goes Love” actually just got nominated for an award.
+Oldie:I’m a romance writer.
+Oldie:My book “So Goes Love” actually just got nominated for an award.
 JD:Congrats.
 backToMain
 startBranch2
 [name]:You have no idea how tough the recruitment process was.
 [name]:I guess there aren’t that many donuts willing to put their emotions on public display.
 [name]:Even though the study is anonymous.
-OLDIE:Most donuts are insecure.
+Oldie:Most donuts are insecure.
 JD:. . .
 backToMain
 mainContinue
 JD:Let’s get to the next question.
 JD:“How do you show someone that you care about them?”
-OLDIE:That’s it?
+Oldie:That’s it?
 JD:It?
-OLDIE:Seems pretty straightforward. 
-OLDIE:You tell them.
+Oldie:Seems pretty straightforward. 
+Oldie:You tell them.
 JD:Tell them what?
-OLDIE:That you care about them.
+Oldie:That you care about them.
 JD:That’s what you would do?
-OLDIE:There’s no point in talking around it.
-OLDIE:That just seems kind of cowardly.
+Oldie:There’s no point in talking around it.
+Oldie:That just seems kind of cowardly.
 JD:Cowardly?!
-OLDIE:Yeah.
-OLDIE:I think if you want something, you have to be willing to lay it on the line.
+Oldie:Yeah.
+Oldie:I think if you want something, you have to be willing to lay it on the line.
 JD:Maybe some donuts think actions are more important.
-OLDIE:Aren’t you asking for my opinion?
+Oldie:Aren’t you asking for my opinion?
 JD:. . .
-OLDIE:Oh. 
-OLDIE:I see what’s going on.
+Oldie:Oh. 
+Oldie:I see what’s going on.
 [name]:What are you talking about?
-OLDIE:Jelly Donut likes you, but they feel threatened by me because they’re too scared to tell you how they feel.
+Oldie:Jelly Donut likes you, but they feel threatened by me because they’re too scared to tell you how they feel.
 [name]:! //(surprise sound effect)
 JD:! //(surprise sound effect)
 JD:Are you insane?
-OLDIE:Maybe that was too direct.
-OLDIE:But it was just exhausting to watch.
+Oldie:Maybe that was too direct.
+Oldie:But it was just exhausting to watch.
 JD:Who even are you?
-OLDIE:Old Fashioned Donut.
+Oldie:Old Fashioned Donut.
 JD:This is crap.
 JD:I’m leaving.
 [name]:No, J.D. don’t leave!
@@ -164,7 +164,7 @@ endDecision
 startBranch1
 JD:Hilarious. 
 JD:Hope you two have a good laugh.
-OLDIE:I wasn’t joking.
+Oldie:I wasn’t joking.
 backToMain
 startBranch2
 JD:Something that ridiculous isn’t even worth responding to.
@@ -173,5 +173,3 @@ backToMain
 mainContinue
 [name]:Please come back!
 I chased J.D. out into the hallway, but they were already gone.
-
-

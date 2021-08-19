@@ -38,8 +38,8 @@ JD:You can’t say that’s not exactly what that book was about.
 backToMain
 mainContinue
 [name]:So who are we meeting with today?
-JD:A grad student named Strawberry Sprinkled Donut.
-[name]:Did you say Strawberry Sprinkled Donut?!
+JD:A grad student named StrawBerry Sprinkled Donut.
+[name]:Did you say StrawBerry Sprinkled Donut?!
 JD:Yeah, why? Do you know them? 
 [name]:Is that a conflict of interest?
 JD:We might have to declare it as one.
@@ -54,61 +54,61 @@ JD:I’ll let them in.
 It will be great.
 . . .
 So why do I feel so uneasy?
-BERRY:Hi! 
-BERRY:I’m here for the interview.
-BERRY:Am I in the right place?
+Berry:Hi! 
+Berry:I’m here for the interview.
+Berry:Am I in the right place?
 JD:Yup.
-BERRY:Oh good. 
-BERRY:I’ve never been to this building before, 
-BERRY:I was worried I might get lost.
+Berry:Oh good. 
+Berry:I’ve never been to this building before, 
+Berry:I was worried I might get lost.
 JD:We’ll be interviewing you. 
 JD:I’m Jelly Donut, and that’s-
-BERRY:Oh! 
-BERRY:[name], is this your research project? 
-BERRY:I had no idea. 
-BERRY:That's so exciting! 
-BERRY:How come you didn’t mention anything about it?
+Berry:Oh! 
+Berry:[name], is this your research project? 
+Berry:I had no idea. 
+Berry:That's so exciting! 
+Berry:How come you didn’t mention anything about it?
 decisionBranch
 It never came up. 
 I didn’t think of it. 
 endDecision
 startBranch1	
 [name]:I guess we keep so busy at work that it wasn’t really on my mind.
-BERRY:Wow, you’re pretty good at compartmentalizing!
-BERRY:I could use some of that.
+Berry:Wow, you’re pretty good at compartmentalizing!
+Berry:I could use some of that.
 backToMain
 startBranch2
 [name]:Sorry! 
 [name]:I didn’t know you’d be interested in hearing about it.
-BERRY:Whaat? 
-BERRY:Of course I’d wanna hear! 
-BERRY:You must be putting a lot of effort into this. 
-BERRY:I don’t know how you stay so energetic at work on top of it.
+Berry:Whaat? 
+Berry:Of course I’d wanna hear! 
+Berry:You must be putting a lot of effort into this. 
+Berry:I don’t know how you stay so energetic at work on top of it.
 backToMain
 mainContinue
 JD:You two work together?
-BERRY:Yeah! We work at the diner a few minutes from campus.
-BERRY:We have really good pasta there, you should come by sometime!
+Berry:Yeah! We work at the diner a few minutes from campus.
+Berry:We have really good pasta there, you should come by sometime!
 JD:Oh yeah, cool.
-BERRY:Oh yeah!
-BERRY:Here’s the form you asked for by the way.
+Berry:Oh yeah!
+Berry:Here’s the form you asked for by the way.
 JD:Thank you.
 JD:Oh, you forgot to fill out what college you’re in.
-BERRY:Sorry, there wasn’t a box for the graduate school, so I wasn’t sure what to check.
+Berry:Sorry, there wasn’t a box for the graduate school, so I wasn’t sure what to check.
 JD:Oh sorry, I guess we should’ve thought of that.
-BERRY:Don’t worry about it!
+Berry:Don’t worry about it!
 JD:So you’re a grad student?
-BERRY:Yeah! 
-[name]:Strawberry Sprinkled Donut is studying to become an elementary school teacher.
+Berry:Yeah! 
+[name]:StrawBerry Sprinkled Donut is studying to become an elementary school teacher.
 JD:That’s nice. 
 JD:So you like kids?
-BERRY:Of course! 
-BERRY:Kids have a kind of honesty to them that I think is really admirable. 
-BERRY:And they have great ideas too, because they’re less encumbered by expectations.
+Berry:Of course! 
+Berry:Kids have a kind of honesty to them that I think is really admirable. 
+Berry:And they have great ideas too, because they’re less encumbered by expectations.
 JD:Must be nice.
-BERRY:Haha, I know right?
+Berry:Haha, I know right?
 [name]:So how did you hear about the study?
-BERRY:I saw a flyer on one of the cork boards outside my Childhood Development classroom.
+Berry:I saw a flyer on one of the cork boards outside my Childhood Development classroom.
 JD:Oh, I didn’t think we put any there.
 [name]:I put it there.
 JD:Oh, you went on your own?
@@ -130,48 +130,48 @@ backToMain
 mainContinue
 JD:There’s cookies by the way.
 JD:Would you like one?
-BERRY:Ooh, thanks!
+Berry:Ooh, thanks!
 JD:Let’s get to the next question.
 JD:“How do you know you love someone?”
-BERRY:Wow. That’s kind of tough.
-BERRY:Um. . .
-BERRY:Hm.
-BERRY:I think it’s kind of like,
-BERRY:you’re comfortable around them, and you don’t feel afraid that they’re going to hurt you, because they’re always trying to raise you up.
-BERRY:Does that sound too cliche?
+Berry:Wow. That’s kind of tough.
+Berry:Um. . .
+Berry:Hm.
+Berry:I think it’s kind of like,
+Berry:you’re comfortable around them, and you don’t feel afraid that they’re going to hurt you, because they’re always trying to raise you up.
+Berry:Does that sound too cliche?
 JD:There are no wrong answers.
-BERRY:I’ve never had a serious relationship, so it’s a little hard to answer. 
-BERRY:But that’s what I think it’d be like.
+Berry:I’ve never had a serious relationship, so it’s a little hard to answer. 
+Berry:But that’s what I think it’d be like.
 JD:Well it doesn’t just have to be romantic relationships. 
 JD:What about family?
-BERRY:Oh, um. . .it’s. . .
-BERRY:I’m sorry, I can't really think of anything.
-BERRY:I mean, I guess it’s just hard to describe.
-BERRY:I don't know how to explain it.
-BERRY:I guess it's like being needed? 
-BERRY:They look to me for help and advice and stuff.
+Berry:Oh, um. . .it’s. . .
+Berry:I’m sorry, I can't really think of anything.
+Berry:I mean, I guess it’s just hard to describe.
+Berry:I don't know how to explain it.
+Berry:I guess it's like being needed? 
+Berry:They look to me for help and advice and stuff.
 JD:And what do you get out of that?
-BERRY:Well, I guess it feels good to have other donuts value my opinions.
+Berry:Well, I guess it feels good to have other donuts value my opinions.
 JD:Okay so you love them because they make you feel good about yourself?
 JD:That makes sense.
-BERRY:I wouldn't exactly put it like that.
-BERRY:That makes me sound kind of shallow.
+Berry:I wouldn't exactly put it like that.
+Berry:That makes me sound kind of shallow.
 JD:Sorry I was just repeating what you said.
-BERRY:That's not what I said. 
+Berry:That's not what I said. 
 JD:I'm sorry, 
 JD:you said it was hard to explain, so I was just trying to extrapolate.
 JD:It sounds like they depend on you, and you like being depended on.
-BERRY:That’s not how it is.
-BERRY:If you don’t understand my situation, don’t force your perspective onto me.
+Berry:That’s not how it is.
+Berry:If you don’t understand my situation, don’t force your perspective onto me.
 JD:You’re right! 
 JD:I'm sorry, forget I said anything.
-BERRY:. . .
-Strawberry Sprinkled Donut looks like they’re about to cry.
+Berry:. . .
+StrawBerry Sprinkled Donut looks like they’re about to cry.
 [name]:Are you okay?
-BERRY:Oh god, I don’t know why I said that. 
-BERRY:I have to go. 
-BERRY:I’m sorry.
-Strawberry Sprinkled Donut fled the room.
+Berry:Oh god, I don’t know why I said that. 
+Berry:I have to go. 
+Berry:I’m sorry.
+StrawBerry Sprinkled Donut fled the room.
 [name]:Wait! 
 [name]:Come back!
 JD:Jesus, I’m such a jerk.
@@ -199,4 +199,4 @@ JD:I don’t know how much help I’m going to be.
 backToMain
 mainContinue
 With those parting words, J.D. left me alone in the classroom.
-I should make sure Strawberry Sprinkled Donut is okay.
+I should make sure StrawBerry Sprinkled Donut is okay.

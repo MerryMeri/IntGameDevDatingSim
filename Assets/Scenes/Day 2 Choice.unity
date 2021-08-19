@@ -159,7 +159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.93333334, g: 0.42745098, b: 0.5019608, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -332,6 +332,7 @@ MonoBehaviour:
   JD_scene: 6
   Berry_scene: 7
   Oldie_scene: 8
+  worthPoints: 0
 --- !u!1 &783574461
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,8 +367,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -330.09512, y: 205.9237}
-  m_SizeDelta: {x: -706.324, y: -411.8473}
+  m_AnchoredPosition: {x: -315.36414, y: 205.9237}
+  m_SizeDelta: {x: -676.8621, y: -411.8473}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &783574463
 MonoBehaviour:

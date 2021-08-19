@@ -401,6 +401,7 @@ MonoBehaviour:
   JD_scene: 14
   Berry_scene: 15
   Oldie_scene: 16
+  worthPoints: 0
 --- !u!114 &581760452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1391,7 +1392,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.93333334, g: 0.42745098, b: 0.5019608, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
