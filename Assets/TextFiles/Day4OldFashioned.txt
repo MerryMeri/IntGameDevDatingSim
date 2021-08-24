@@ -23,6 +23,7 @@ startBranch1
 Oldie:Obviously it adds to the experience.
 backToMain
 startBranch2
+affectionPointOldie
 [name]:I see it now.
 [name]:How cute!
 [name]:The shape really. . .shapes my whole experience.
@@ -43,7 +44,8 @@ decisionBranch
 That must’ve been disappointing. 
 But this is still good news. 
 endDecision
-startBranch1		
+startBranch1
+affectionPointOldie
 Oldie:I’m not that upset about it.
 Oldie:I guess it was too much to expect them to be okay with a big change like that.
 Oldie:They can’t print something they don’t think will sell.

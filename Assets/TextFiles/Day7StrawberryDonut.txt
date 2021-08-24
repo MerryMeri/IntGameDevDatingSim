@@ -29,8 +29,8 @@ Berry:You have an opinion?
 [name]:I think you should take it.
 Berry:Why?
 decisionBranch
-Because it’s a great opportunity! -->
-Because it’s your dream. -->
+Because it’s a great opportunity!
+Because it’s your dream.
 endDecision
 startBranch1
 Berry:I don’t really know about that.
@@ -107,3 +107,4 @@ Berry:Really?
 Strawberry Sprinkled Donut looked at me through watery eyes and smiled.
 Berry:You’re a good Donut.
 Strawberry Sprinkled Donut and I spent the night dancing to music and joking around as we cleaned the restaurant.
+endGame

@@ -42,7 +42,6 @@ Oldie:I couldn’t have gotten to the place that I’m in emotionally if it were
 Oldie:I feel like I’ve become a better person ever since you moved in.
 backToMain
 startBranch2
-You’ll do great. -->
 Oldie:Well we’ll have to see about that.
 Oldie:Either way, I have to say thank you.
 Oldie:In another time and place, a development like this probably would’ve destroyed me.
@@ -66,3 +65,4 @@ Oldie:Oh, and some more tea.
 [name]:Old Fashioned Donut, you know the way to my heart.
 [name]:Now get me a fork.
 Old Fashioned Donut and I enjoyed our tea together.
+endGame

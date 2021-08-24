@@ -10,14 +10,13 @@ public class TextImport : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+    }
+
+    public List<string> returnScript() {
         scriptString = script.text;
         splitScript = new List<string>();
         splitScript.AddRange(scriptString.Split("\n"[0]));
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        return splitScript;
     }
 }

@@ -36,6 +36,7 @@ Oldie:Just wait a second.
 Oldie:Please.
 backToMain
 startBranch2
+affectionPointOldie
 Oldie:. . .
 Oldie:No.
 Old Fashioned Donut opened the door just enough that I could see their face.
@@ -45,6 +46,7 @@ backToMain
 mainContinue
 Oldie:You can come in.
 Oldie:Don’t linger in the hallway.
+bgChangeApartment
 [name]:So what’s up?
 Oldie:. . .
 Old Fashioned Donut handed me a folded piece of paper and flopped onto the couch.
@@ -52,7 +54,7 @@ I looked at the paper and started to read.
 [name]:“Thank you for your submission to Bagel Publishing.”
 [name]:“We have reviewed your novel, and we are unable to offer you a contract at this time.”
 [name]:“Please-”
-Oldie: You don’t have to read it outloud, you know.
+Oldie: You don’t have to read it out loud, you know.
 [name]:Sorry.
 [name]:. . .
 [name]:I didn’t know you were trying to get a new novel published.
@@ -81,6 +83,7 @@ startBranch1
 [name]:You should have more confidence in yourself.
 backToMain
 startBranch2
+affectionPointOldie
 [name]:You put everything you have into your work everyday.
 [name]:And even when you have to deal a lot of conflicting voices telling you what to do, you just keep trying harder.
 backToMain

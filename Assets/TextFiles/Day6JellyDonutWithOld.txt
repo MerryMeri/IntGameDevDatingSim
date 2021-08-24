@@ -68,10 +68,11 @@ Oldie:That suits you.
 [name]:Haha, really?
 Oldie:Yeah, you're really mature and self-aware.
 decisionBranch
-No, I’m not all that. -->
-You think so? -->
+No, I’m not all that.
+You think so?
 endDecision	
 startBranch1
+affectionPointJD
 [name]:I’m just being myself.
 Oldie:Donuts like that are really hard to come by.
 Oldie:It’s special, don’t diminish it.
@@ -107,8 +108,8 @@ Oldie:I took psych with your professor when I went here.
 Oldie:They asked me if I’d be interested in participating in the study and I said yes.
 Oldie:Glazed hired me to assist with a couple of research projects back in the day, so I thought this was my chance to give back.
 decisionBranch
-That’s so nice of you! -->
-We really appreciate it! -->
+That’s so nice of you!
+We really appreciate it!
 endDecision
 startBranch1
 Oldie:It seemed like the thing to do.
@@ -119,6 +120,7 @@ Oldie:My book “So Goes Love” actually just got nominated for an award.
 JD:Congrats.
 backToMain
 startBranch2
+affectionPointJD
 [name]:You have no idea how tough the recruitment process was.
 [name]:I guess there aren’t that many donuts willing to put their emotions on public display.
 [name]:Even though the study is anonymous.

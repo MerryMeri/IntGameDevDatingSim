@@ -40,6 +40,7 @@ mainContinue
 JD:Fine, whatever.
 JD:Let’s go to the student center.
 JD:But you can do the heavy lifting.
+bgChangeStudentCenter
 [name]:Oh look, the music club’s performing.
 [name]:I bet we could get some donuts from there.
 JD:Okay, you can.
@@ -79,6 +80,7 @@ JD:Then why did you ask?
 [name]:Please tell me.
 backToMain
 startBranch2
+affectionPointJD
 JD:Okay.
 JD:But I’m telling you, it’s stupid.
 backToMain
@@ -123,6 +125,7 @@ JD:That’s what I thought.
 JD:It’s not like I don’t want to move on.
 backToMain
 startBranch2
+affectionPointJD
 [name]:I mean it’s not that crazy.
 [name]:They still go to school here, don’t they?
 JD:I mean, probably?

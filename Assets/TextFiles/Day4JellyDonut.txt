@@ -47,6 +47,7 @@ JD:I shouldn’t criticize anyone else.
 JD:It’s not that.
 backToMain
 startBranch2
+affectionPointJD
 JD:. . .
 [name]:I say stupid stuff all the time.
 [name]:I appreciate that you apologized.
@@ -60,6 +61,7 @@ I like you.
 You seem nice enough. 
 endDecision
 startBranch1
+affectionPointJD
 JD:. . .
 JD:Really?
 JD:Why?

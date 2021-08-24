@@ -16,6 +16,7 @@ Berry:He’s a bit older and doesn’t need to use it as much,
 Berry:so we share one.
 backToMain
 startBranch2
+affectionPointBerry
 Berry:It’s just what I gotta do.
 Berry:It doesn’t make sense to pay for two cars when we can get by with one.
 backToMain
@@ -26,6 +27,7 @@ Berry:Oh!
 Berry:I didn’t know.
 Berry:This should be fun then!
 Berry:Oh, here it is. //(bus exhaust sound effect)
+bgChangeBus
 decisionBranch
 It’s nice to have company.
 We should get to know each other better.
@@ -99,11 +101,12 @@ Thank you.
 It’s no big deal.
 endDecision
 startBranch1
+affectionPointBerry
 Berry:Of course!
 backToMain
 startBranch2
 Berry:If you say so. 
-I think it’s pretty impressive.
+Berry:I think it’s pretty impressive.
 backToMain
 Berry:So what made you decide to come here?
 decisionBranch

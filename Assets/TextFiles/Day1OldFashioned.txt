@@ -90,6 +90,7 @@ Impressive!
 That’s nice.
 endDecision
 startBranch1
+affectionPointOldie
 [name]:Fresh out of college and you’re already being published?
 [name]:That’s awesome.
 Oldie:I’m not especially talented.
@@ -107,6 +108,7 @@ Sure, that’d be great!
 Eh, maybe.
 endDecision
 startBranch1
+affectionPointOldie
 Oldie:Oh, okay.
 Oldie:Next time I see you then.
 backToMain
