@@ -40,6 +40,7 @@ mainContinue
 JD:Fine, whatever.
 JD:Let’s go to the student center.
 JD:But you can do the heavy lifting.
+bgChangeStudentCenter
 [name]:Oh look, the music club’s performing.
 [name]:I bet we could get some donuts from there.
 JD:Okay, you can.
@@ -57,7 +58,7 @@ JD:. . .
 JD:Are you even taking this seriously?
 [name]:I am.
 [name]:I’m brainstorming, and trying to keep us motivated.
-[anem]:What about you?
+[name]:What about you?
 JD:What?
 JD:I’m helping.
 [name]:What’s going on?
@@ -79,6 +80,7 @@ JD:Then why did you ask?
 [name]:Please tell me.
 backToMain
 startBranch2
+affectionPointJD
 JD:Okay.
 JD:But I’m telling you, it’s stupid.
 backToMain
@@ -123,6 +125,7 @@ JD:That’s what I thought.
 JD:It’s not like I don’t want to move on.
 backToMain
 startBranch2
+affectionPointJD
 [name]:I mean it’s not that crazy.
 [name]:They still go to school here, don’t they?
 JD:I mean, probably?
@@ -152,7 +155,7 @@ JD:Hahah.
 JD:I actually play a little piano.
 [name]:Oh! 
 [name]:Well then, after you.
-J.D. and I spent the rest of the afternoon at the piano.
+backToMain
 startBranch2
 JD:What do you mean?
 [name]:Well,
@@ -167,4 +170,6 @@ JD:I feel like I’m all thought out.
 JD:Hm. . .
 JD:Alright. 
 JD:But please stop me if I’m boring you to death.
-J.D. and I spent the rest of the afternoon talking.
+backToMain
+mainContinue
+J.D. and I spent the rest of the afternoon talking at the piano.

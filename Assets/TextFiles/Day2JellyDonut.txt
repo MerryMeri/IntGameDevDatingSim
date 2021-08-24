@@ -13,6 +13,7 @@ JD:I can get them myself.
 Glazed:They might be buried in there. 
 Glazed:It’d be faster to have two donuts look.
 JD:*sigh* Sure.
+bgChangeSupplyCloset
 JD:God, why is it so dark in here?
 JD:I was at least expecting there to be a lamp.
 JD:. . .
@@ -28,6 +29,7 @@ startBranch1
 JD:Doesn’t matter to me.
 backToMain
 startBranch2
+affectionPointJD
 JD:Knock yourself out.
 backToMain
 mainContinue
@@ -82,6 +84,7 @@ JD:I don’t have to defend myself,
 JD:at least I don’t go around throwing other donuts’ stuff on the floor!
 backToMain
 startBranch2
+affectionPointJD
 JD:You should be! 
 JD:You almost gave me a heart attack. 
 JD:Well not really. 

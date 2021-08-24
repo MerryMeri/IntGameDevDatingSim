@@ -2,6 +2,7 @@ Okay, that’s the last table I needed to clear.
 But it’s getting kind of busy in here.
 Where’s StrawBerry Sprinkled Donut?
 Maybe I should check in the back.
+bgChangeKitchen
 I saw the storeroom’s slightly open door and called out.
 [name]:Hey StrawBerry Sprinkled Donut?
 [name]:Things are getting kind of-
@@ -55,6 +56,7 @@ Berry:No offense, but I can tell that you’re deflecting.
 Berry:You don’t have to pretend, it’s fine.
 backToMain
 startBranch2
+affectionPointBerry
 Berry:You’re not even gonna pretend you didn’t hear?
 Berry:I guess that’s better than lying.
 backToMain
@@ -66,8 +68,8 @@ Berry:It’s just petty, family stuff.
 Berry:I’m sorry you had to hear any of it.
 Berry:I tell them not to call me at work but. . .
 decisionBranch
-We don’t have to talk about it. -->
-It must be hard. -->
+We don’t have to talk about it.
+It must be hard.
 endDecision
 startBranch1
 Berry:It’s okay.
@@ -103,22 +105,23 @@ Berry:Like, I don’t want my relationship with my family to define my entire li
 Berry:I want “fulfillment” and “balance” just like everybody else so, for now I just do what I have to and hope I’ll get there someday.
 Berry:Anyway, thanks for listening.
 Berry:You’re a really nice donut.
-CUSTOMER:Excuse me? 
-CUSTOMER:Is anybody working here?
+Customer:Excuse me? 
+Customer:Is anybody working here?
 Berry:. . .
 [name]:Uh-
 Berry:Wait.
 [name]:What?
 Berry:Sorry, we’re just about to close!
-CUSTOMER:Really? It’s the middle of the day.
+Customer:Really? It’s the middle of the day.
 [name]:I thought we were supposed to be open for another 3 hours?
 Then StrawBerry Sprinkled Donut said something only I could hear.
 Berry:I’m calling a holiday.
 [name]:Can you do that?
 Berry:I’m the manager!
 Berry:What, am I gonna fire myself?
-CUSTOMER:Hello?
+Customer:Hello?
 StrawBerry Sprinkled Donut strode toward the entrance to the dining area and went through the door.
+bgChangeDiner
 Looking over the crowd of new customers, they stood up on a chair behind the counter.
 Berry:Excuse me!
 Berry:So sorry about the inconvenience everyone. 
@@ -127,7 +130,7 @@ The crowd groaned with hungry angst and general confusion.
 Berry:So sorry everyone!
 Berry:Thank you for your understanding.
 As the last of the bewildered customers filed out, I turned to StrawBerry Sprinkled Donut.
-What was that about?
+[name]:What was that about?
 Berry:I don’t know.
 Berry:I guess I felt like doing something impulsive.
 decisionBranch
@@ -139,6 +142,7 @@ Berry:If it was, so be it.
 Berry:I have no regrets.
 backToMain
 startBranch2
+affectionPointBerry
 Berry:You think?
 Berry:It felt pretty awesome doing it.
 backToMain

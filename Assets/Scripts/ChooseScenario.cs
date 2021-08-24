@@ -23,13 +23,13 @@ public class ChooseScenario : MonoBehaviour
 
     void TaskOnClick(int sceneNumber) {
         if (sceneNumber == JD_scene && worthPoints) {
-            PlayerPrefs.SetInt("JDAffection", PlayerPrefs.GetInt("JDAffection") + 1);
+            PlayerPrefs.SetInt("JDAffection", PlayerPrefs.GetInt("JDAffection") + 2);
         }
         else if (sceneNumber == Berry_scene && worthPoints) {
-            PlayerPrefs.SetInt("BerryAffection", PlayerPrefs.GetInt("BerryAffection") + 1);
+            PlayerPrefs.SetInt("BerryAffection", PlayerPrefs.GetInt("BerryAffection") + 2);
         }
         else if (sceneNumber == Oldie_scene && worthPoints) {
-            PlayerPrefs.SetInt("OldieAffection", PlayerPrefs.GetInt("OldieAffection") + 1);
+            PlayerPrefs.SetInt("OldieAffection", PlayerPrefs.GetInt("OldieAffection") + 2);
         }
         SceneManager.LoadScene(sceneNumber);
     }

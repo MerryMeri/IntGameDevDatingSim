@@ -167,10 +167,13 @@ What is your strongest regret?
 endDecision
 mainContinue
 startBranch1
+storeQuestion1
 backToMain
 startBranch2
+storeQuestion2
 backToMain
 startBranch3
+storeQuestion3
 backToMain
 mainContinue
 JD:Um. . .

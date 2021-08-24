@@ -26,6 +26,7 @@ public class TextBehavior : MonoBehaviour
         text.color = color2;
         textbox = gameObject.GetComponent<Image>();
         sound = GetComponent<AudioSource>();
+        sound.priority = 0;
     }
     public void Show(string newText, string newName){
         currentText = newText;

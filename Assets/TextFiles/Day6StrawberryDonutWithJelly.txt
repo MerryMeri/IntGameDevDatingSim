@@ -174,6 +174,7 @@ JD:forgotten.
 Berry:That’s okay!
 backToMain
 startBranch2
+affectionPointBerry
 [name]:When I’m in school-mode I can’t really think about anything else.
 Berry:Oh yeah, no of course!
 backToMain
@@ -196,6 +197,7 @@ Berry:Let’s do it.
 JD:Oh if you don’t want to, that's fine.
 backToMain
 startBranch2
+affectionPointBerry
 Berry:No, we definitely should!
 Berry:It sounds like fun.
 backToMain

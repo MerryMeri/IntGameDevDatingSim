@@ -47,6 +47,7 @@ startBranch1
 Berry:Haha, it can be difficult at times but I get by!
 backToMain
 startBranch2
+affectionPointBerry
 Berry:Aw, you’re so sweet!
 Berry:Usually I don’t have too much hands-on work from day to day, but it’s been a bit tough lately.
 backToMain
@@ -60,6 +61,7 @@ I’ll do my best!
 If I must.
 endDecision
 startBranch1
+affectionPointBerry
 Berry:That’s the spirit!
 Berry:I’ve got a good feeling about you [name].
 backToMain

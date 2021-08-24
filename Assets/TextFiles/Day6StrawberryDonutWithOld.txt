@@ -168,6 +168,7 @@ Oldie:I would’ve remembered.
 Berry:Um don’t worry about it, it’s not important.
 backToMain
 startBranch2
+affectionPointBerry
 [name]:I guess it just never came up.
 Berry:That’s fine, it doesn’t matter.
 backToMain
@@ -217,6 +218,7 @@ Berry:Yeah, okay.
 Berry:I’ll do my best.
 backToMain
 startBranch2
+affectionPointBerry
 Berry:No, we should do it.
 Berry:I don’t mind helping out.
 backToMain

@@ -17,6 +17,7 @@ Berry:I don’t know,
 Berry:I feel like it’s missing something.
 backToMain
 startBranch2
+affectionPointBerry
 Berry:Thanks, I’d appreciate it!
 backToMain
 mainContinue
@@ -117,6 +118,7 @@ That’s very selfless.
 You shouldn’t give up on your dream.
 endDecision
 startBranch1
+affectionPointBerry
 Berry:I don’t know,
 Berry:I don’t really think about it like that.
 Berry:I’m a very practical person.
