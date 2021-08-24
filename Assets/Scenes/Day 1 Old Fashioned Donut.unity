@@ -942,6 +942,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &978260570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 978260572}
+  - component: {fileID: 978260571}
+  m_Layer: 0
+  m_Name: SoundController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &978260571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978260570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd9fdb3e0987e243a4ebbc75ff78fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Paper: {fileID: 8300000, guid: 55081633a1572ac43ba6671a553eb395, type: 3}
+  Thud: {fileID: 8300000, guid: ddf0f0790dac1ab449522e4953a6fe53, type: 3}
+  Crash: {fileID: 8300000, guid: a118a252ae2a009439b27ba91d2ce925, type: 3}
+  Surprise: {fileID: 8300000, guid: deb13823c80c5574b8909e8f0ceede09, type: 3}
+  Band: {fileID: 8300000, guid: d68070ca0f1b2564b8048b1186903e2f, type: 3}
+  Piano: {fileID: 8300000, guid: a8673211e9552b041a77604463bee5fd, type: 3}
+  Exhaust: {fileID: 8300000, guid: 8a85277238031624b810baeb4cc7eebb, type: 3}
+  Shatter: {fileID: 8300000, guid: f5f7fd1dd1f09fc448fc659b28db992b, type: 3}
+--- !u!4 &978260572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978260570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1035043043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,6 +1739,7 @@ MonoBehaviour:
   dialogue: {fileID: 1223041439}
   script: {fileID: 972328158}
   bg: {fileID: 707575541}
+  sc: {fileID: 978260571}
   decisionButton1: {fileID: 1253017332}
   decisionButton2: {fileID: 1035043043}
   decisionButton3: {fileID: 872981706}

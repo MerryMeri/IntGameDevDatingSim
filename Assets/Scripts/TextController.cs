@@ -21,6 +21,7 @@ public class TextController : MonoBehaviour
     public TextBehavior dialogue;
     public TextImport script;
     public BackgroundChange bg;
+    public SoundController sc;
     public GameObject decisionButton1;
     public GameObject decisionButton2;
     public GameObject decisionButton3;
@@ -84,6 +85,17 @@ public class TextController : MonoBehaviour
         if (inputLine.Contains("bgChange")) {
             inputLine = inputLine.Replace("bgChange", "");
             bg.modifyBackground(inputLine);
+            index += 1;
+            inputLine = splitScript[index];
+        }
+        if (inputLine.Contains("stopMusic")) {
+            GetComponent<AudioSource>().Stop();
+            index += 1;
+            inputLine = splitScript[index];
+        }
+        if (inputLine.Contains("playSound")) {
+            inputLine = inputLine.Replace("playSound", "");
+            sc.playSound(inputLine);
             index += 1;
             inputLine = splitScript[index];
         }

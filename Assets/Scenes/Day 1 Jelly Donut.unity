@@ -257,6 +257,57 @@ RectTransform:
   m_AnchoredPosition: {x: 21.4629, y: -38.492886}
   m_SizeDelta: {x: 679.6133, y: 92.823}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &153723810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 153723812}
+  - component: {fileID: 153723811}
+  m_Layer: 0
+  m_Name: SoundController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &153723811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153723810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd9fdb3e0987e243a4ebbc75ff78fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Paper: {fileID: 8300000, guid: 55081633a1572ac43ba6671a553eb395, type: 3}
+  Thud: {fileID: 8300000, guid: ddf0f0790dac1ab449522e4953a6fe53, type: 3}
+  Crash: {fileID: 8300000, guid: a118a252ae2a009439b27ba91d2ce925, type: 3}
+  Surprise: {fileID: 8300000, guid: deb13823c80c5574b8909e8f0ceede09, type: 3}
+  Band: {fileID: 8300000, guid: d68070ca0f1b2564b8048b1186903e2f, type: 3}
+  Piano: {fileID: 8300000, guid: a8673211e9552b041a77604463bee5fd, type: 3}
+  Exhaust: {fileID: 8300000, guid: 8a85277238031624b810baeb4cc7eebb, type: 3}
+  Shatter: {fileID: 8300000, guid: f5f7fd1dd1f09fc448fc659b28db992b, type: 3}
+--- !u!4 &153723812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153723810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &483131781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1550,6 +1601,7 @@ MonoBehaviour:
   dialogue: {fileID: 756021288}
   script: {fileID: 1431218849}
   bg: {fileID: 2050083400}
+  sc: {fileID: 153723811}
   decisionButton1: {fileID: 1120278944}
   decisionButton2: {fileID: 1212702962}
   decisionButton3: {fileID: 2040521569}
