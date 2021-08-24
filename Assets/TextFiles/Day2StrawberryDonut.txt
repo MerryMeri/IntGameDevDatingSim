@@ -26,7 +26,8 @@ mainContinue
 Berry:Oh!
 Berry:I didn’t know.
 Berry:This should be fun then!
-Berry:Oh, here it is. //(bus exhaust sound effect)
+playSoundExhaust
+Berry:Oh, here it is.
 bgChangeBus
 decisionBranch
 It’s nice to have company.

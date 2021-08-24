@@ -1,4 +1,4 @@
-*KNOCK*KNOCK*KNOCK*
+playSoundKnock
 Someone’s at the door.
 Oldie:Hey, can we talk?
 [name]:Yeah, come in.

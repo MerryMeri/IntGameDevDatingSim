@@ -148,7 +148,8 @@ Don’t treat them as data points, right?
 It’s good for science.
 endDecision
 startBranch1
-JD:! //(surprise sound effect)
+playSoundSurprise
+JD:!
 JD:. . .
 JD:Don’t use my words against me.
 backToMain

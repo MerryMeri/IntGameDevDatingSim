@@ -39,17 +39,18 @@ backToMain
 mainContinue
 [name]:So who are we meeting with today?
 JD:A grad student named StrawBerry Sprinkled Donut.
+playSoundSurprise
 [name]:Did you say StrawBerry Sprinkled Donut?!
 JD:Yeah, why? Do you know them? 
 [name]:Is that a conflict of interest?
 JD:We might have to declare it as one.
 JD:But since we’re students interviewing other students, its inevitable we might know some of them,
 JD:so I think it’ll be okay.
-*KNOCK*KNOCK*KNOCK* //(knocking sound effect)
+playSoundKnock
 JD:Oh, I guess they’re here.
 [name]:Oh! Okay! 
 [name]:This’ll be great!
-*KNOCK*KNOCK*KNOCK* //(knocking sound effect)
+playSoundKnock
 JD:I’ll let them in.
 It will be great.
 . . .
