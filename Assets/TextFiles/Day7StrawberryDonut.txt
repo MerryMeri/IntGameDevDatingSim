@@ -78,6 +78,7 @@ Berry:It doesn’t matter how I feel about things if I can’t change them.
 [name]:And they’ll want to be able to make you happy, and feel okay.
 Berry:What does that mean?
 [name]:I care about you.
+playSoundSurprise
 Berry:!
 [name]:And I think that if you want the job, you should take it.
 Berry:. . .

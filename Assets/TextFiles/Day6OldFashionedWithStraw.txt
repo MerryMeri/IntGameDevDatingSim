@@ -31,6 +31,7 @@ Oldie:Can you keep watch here?
 . . .
 I hope this goes well.
 I took a moment to look around the room.
+playSoundSurprise
 [name]:!
 Hold on.
 Is that StrawBerry Sprinkled Donut?

@@ -41,6 +41,8 @@ JD:Fine, whatever.
 JD:Let’s go to the student center.
 JD:But you can do the heavy lifting.
 bgChangeStudentCenter
+stopMusic
+playSoundBand
 [name]:Oh look, the music club’s performing.
 [name]:I bet we could get some donuts from there.
 JD:Okay, you can.

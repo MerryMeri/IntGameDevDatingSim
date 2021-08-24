@@ -60,15 +60,17 @@ JD:could you help me lift this box?
 JD:The one under it says “Proposals”, 
 JD:so that seems promising.
 JD:I just wanna get out of here already.
-JD:. . . //(paper shuffling sound)
-*CLATTER* //(loud clatter sound)
+playSoundPaper
+JD:. . .
+playSoundCrash
 JD:Ah! What was that?
 JD:Oh, something just fell off the shelf. 
 JD:Hahaha . . .
-JD:. . . //(paper shuffling sound)
+playSoundPaper
+JD:. . .
 JD:Okay, this box is finished proposals. 
 JD:We need the blank ones.
-*THUD* //(loud thud sound)
+playSoundThud
 JD:AH!!
 JD:Don’t drop the box so suddenly! 
 JD:What’s your problem?

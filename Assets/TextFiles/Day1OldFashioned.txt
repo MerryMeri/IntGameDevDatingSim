@@ -8,7 +8,9 @@ Oh god I’m dropping it.
 No, I got this!
 I can make it!
 [name]:Oops.
-The box I was carrying slipped out of my grasp and began tumbling down the stairs behind me. (*reuse metal clattering sound effect that we have*)
+playSoundThud
+The box I was carrying slipped out of my grasp and began tumbling down the stairs behind me.
+playSoundCrash
 The box finally crashed into the door at the bottom of the stairs and I ran down after it.
 Oh god that was so loud.
 I hope no one was home.

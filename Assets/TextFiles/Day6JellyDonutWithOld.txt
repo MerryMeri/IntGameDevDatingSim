@@ -39,7 +39,8 @@ backToMain
 mainContinue
 [name]:So who are we meeting with today?
 JD:Someone named Old Fashioned Donut.
-[name]:! //(surprise sound effect)
+playSoundSurprise
+[name]:!
 JD:It doesn’t say they’re a student, 
 JD:but since we only recruited from within the university, I don’t know how that could be right. 
 [name]:Old Fashioned Donut graduated early so they could pursue their career as a writer.
@@ -48,11 +49,11 @@ JD:Oh, you know them?
 JD:We might have to declare it as one.
 JD:But since we’re students interviewing other students, its inevitable we might know some of them,
 JD:so I think it’ll be okay.
-*KNOCK*KNOCK*KNOCK* //(knocking sound effect)
+playSoundKnock
 JD:Oh, I guess they’re here.
 [name]:Oh! Okay! 
 [name]:This’ll be great!
-*KNOCK*KNOCK*KNOCK* //(knocking sound effect)
+playSoundKnock
 JD:I’ll let them in.
 It will be great.
 . . .
@@ -149,8 +150,10 @@ Oldie:Oh.
 Oldie:I see what’s going on.
 [name]:What are you talking about?
 Oldie:Jelly Donut likes you, but they feel threatened by me because they’re too scared to tell you how they feel.
-[name]:! //(surprise sound effect)
-JD:! //(surprise sound effect)
+playSoundSurprise
+[name]:!
+playSoundSurprise
+JD:!
 JD:Are you insane?
 Oldie:Maybe that was too direct.
 Oldie:But it was just exhausting to watch.

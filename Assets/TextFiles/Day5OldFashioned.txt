@@ -1,4 +1,4 @@
-*KNOCK*KNOCK*KNOCK* //(knocking sound effect)
+playSoundKnock
 [name]:Hey Old Fashioned Donut.
 [name]:I haven’t seen you around in a while, so I just wanted to check in and say hi.
 [name]:How’s your writing going?

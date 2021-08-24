@@ -1,7 +1,7 @@
 Well I think that’s all the cleaning I had to do.
 My homework’s done too.
 I guess I can just chill out then.
-*KNOCK*KNOCK* //(knocking sound effect)
+playSoundKnock
 Oh.
 Someone’s at the door?
 Oldie:Are you doing anything right now?
